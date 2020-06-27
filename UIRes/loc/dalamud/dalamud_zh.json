@@ -1,0 +1,326 @@
+{
+  "DalamudUnloadHelp": {
+    "message": "卸载XIVLauncher游戏内加载项。",
+    "description": "Dalamud.SetupCommands"
+  },
+  "DalamudPluginReloadHelp": {
+    "message": "重载全部插件。",
+    "description": "Dalamud.SetupCommands"
+  },
+  "DalamudPrintChatHelp": {
+    "message": "输出到聊天窗口。",
+    "description": "Dalamud.SetupCommands"
+  },
+  "DalamudCmdInfoHelp": {
+    "message": "显示可用命令列表。",
+    "description": "Dalamud.SetupCommands"
+  },
+  "DalamudMuteHelp": {
+    "message": "聊天窗口屏蔽词语或语句。使用方法：/xlmute <词语或语句>",
+    "description": "Dalamud.SetupCommands"
+  },
+  "DalamudMuteListHelp": {
+    "message": "列出已屏蔽词语或语句。",
+    "description": "Dalamud.SetupCommands"
+  },
+  "DalamudUnmuteHelp": {
+    "message": "取消屏蔽词语或语句。使用方法：/xlunmute <词语或语句>",
+    "description": "Dalamud.SetupCommands"
+  },
+  "DalamudLastLinkHelp": {
+    "message": "在默认浏览器中打开最后发布的链接。",
+    "description": "Dalamud.SetupCommands"
+  },
+  "DalamudBotJoinHelp": {
+    "message": "将XIVLauncher Discord机器人添加到您的服务器。",
+    "description": "Dalamud.SetupCommands"
+  },
+  "DalamudBgmSetHelp": {
+    "message": "设置游戏背景音乐。使用方法：/xlbgmset <BGM ID>",
+    "description": "Dalamud.SetupCommands"
+  },
+  "DalamudItemLinkHelp": {
+    "message": "打开一个可以将任何项目链接到聊天的窗口。",
+    "description": "Dalamud.SetupCommands"
+  },
+  "DalamudBonusHelp": {
+    "message": "当随机任务有您指定的参数时通知。输入/xlbonus获取更多信息。使用方法：/xlbonus <随机任务名称> <职业名称>",
+    "description": "Dalamud.SetupCommands"
+  },
+  "DalamudDevMenuHelp": {
+    "message": "显示DEBUG开发者菜单",
+    "description": "Dalamud.SetupCommands"
+  },
+  "DalamudInstallerHelp": {
+    "message": "打开插件安装器",
+    "description": "Dalamud.SetupCommands"
+  },
+  "DalamudCreditsHelp": {
+    "message": "打开Dalamud鸣谢名单。",
+    "description": "Dalamud.SetupCommands"
+  },
+  "DalamudLanguageHelp": {
+    "message": "设置游戏内加载项和插件的语言（支持的）。可用语言：",
+    "description": "Dalamud.SetupCommands"
+  },
+  "DalamudSettingsHelp": {
+    "message": "更改各种游戏内加载项设置，如聊天频道和Discord机器人设置。",
+    "description": "Dalamud.SetupCommands"
+  },
+  "DalamudBugReport": {
+    "message": "上传日志以供我们的专业开发团队进行分析。",
+    "description": "Dalamud.SetupCommands"
+  },
+  "DalamudCmdHelpAvailable": {
+    "message": "可用命令：",
+    "description": "Dalamud.OnHelpCommand"
+  },
+  "DalamudMuteNoArgs": {
+    "message": "请输入一个屏蔽词语。",
+    "description": "Dalamud.OnBadWordsAddCommand"
+  },
+  "DalamudMuted": {
+    "message": "已屏蔽\"{0}\"。",
+    "description": "Dalamud.OnBadWordsAddCommand"
+  },
+  "DalamudNoneMuted": {
+    "message": "无屏蔽词语或语句。",
+    "description": "Dalamud.OnBadWordsListCommand"
+  },
+  "DalamudUnmuted": {
+    "message": "已解除屏蔽\"{0}\"。",
+    "description": "Dalamud.OnBadWordsRemoveCommand"
+  },
+  "DalamudNoLastLink": {
+    "message": "无最新链接...",
+    "description": "Dalamud.OnLastLinkCommand"
+  },
+  "DalamudOpeningLink": {
+    "message": "正在打开{0}",
+    "description": "Dalamud.OnLastLinkCommand"
+  },
+  "DalamudBotNotSetup": {
+    "message": "XIVLauncher discord机器人未正确设置或无法连接到discord。 请检查设置和常见问题解答。",
+    "description": "Dalamud.OnBotJoinCommand"
+  },
+  "DalamudChannelNotSetup": {
+    "message": "您尚未为这些通知设置Discord频道——您只会在聊天中收到通知。 为此，请使用XIVLauncher游戏内设置。",
+    "description": "Dalamud.OnRouletteBonusNotifyCommand"
+  },
+  "DalamudBonusSet": {
+    "message": "将{0}{1}的参数通知设置为{2}",
+    "description": "Dalamud.OnRouletteBonusNotifyCommand"
+  },
+  "DalamudInvalidArguments": {
+    "message": "无法识别参数。",
+    "description": "Dalamud.OnRouletteBonusNotifyCommand"
+  },
+  "DalamudBonusPossibleValues": {
+    "message": "可用的随机任务参数：等级，506070，主要场景任务，行会令，高难度，讨伐歼灭战，导师，团队，普通\n可用的职业参数: 坦克,，dps，治疗，全部，无/重置",
+    "description": "Dalamud.OnRouletteBonusNotifyCommand"
+  },
+  "DalamudLanguageSetTo": {
+    "message": "语言设置为{0}",
+    "description": "Dalamud.OnSetLanguageCommand"
+  },
+  "InstallerHeader": {
+    "message": "插件安装器",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerHint": {
+    "message": "此窗口允许你安装或卸载游戏内插件。\n这些插件由第三方开发者进行开发。",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerLoading": {
+    "message": "正在加载插件...",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerDownloadFailed": {
+    "message": "下载失败。",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerInstalled": {
+    "message": "（已安装）",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerUpdated": {
+    "message": "（已更新）",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerUpdateFailed": {
+    "message": "（更新失败）",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerInProgress": {
+    "message": "正在进行安装...",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerDisable": {
+    "message": "禁用",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerOpenConfig": {
+    "message": "打开设置",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerNoCompatible": {
+    "message": "没有找到兼容的插件 :( 请重新启动游戏并重试。",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerUpdating": {
+    "message": "正在更新...",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerUpdateComplete": {
+    "message": "{0}插件已更新！",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerNoUpdates": {
+    "message": "没有找到更新！",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerUpdatePlugins": {
+    "message": "更新插件",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "Close": {
+    "message": "关闭",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerError": {
+    "message": "安装器失败",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerErrorHint": {
+    "message": "插件安装器出现问题或此插件不兼容。\n请重启游戏并在我们的Discord频道报告此问题。",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerErrorPluginInfo": {
+    "message": "\n\n以下插件导致了这些问题：\n\n{0}\n您可以尝试手动卸载这些插件并重新安装它们。",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "OK": {
+    "message": "确定",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "DalamudSettingsHeader": {
+    "message": "Dalamud设置",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsGeneral": {
+    "message": "通用",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsLanguage": {
+    "message": "语言",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsLanguageHint": {
+    "message": "选择Dalamud的显示语言。",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsChannel": {
+    "message": "通常聊天频道",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsChannelHint": {
+    "message": "选择将用于通常Dalamud消息的聊天频道。",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsFlash": {
+    "message": "任务窗口弹出时闪烁最终幻想XIV窗口",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsFlashHint": {
+    "message": "如果您希望当任务准备就绪时最终幻想XIV窗口在任务栏中闪烁请选择此项。",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsExperimental": {
+    "message": "试验性功能",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsRestartHint": {
+    "message": "更改这些设置后，您需要重新启动游戏。",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsPluginTest": {
+    "message": "获取插件的测试版本",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsPluginTestHint": {
+    "message": "选中此框以接收插件的测试预发行版本。",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingDalamudTest": {
+    "message": "获取Dalamud的测试版本",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingDalamudTestHint": {
+    "message": "选中此框以接收Dalamud的测试预发行版本。",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "Save": {
+    "message": "保存",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "SaveAndClose": {
+    "message": "保存并关闭",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudItemSelectHeader": {
+    "message": "选择一个物品",
+    "description": "ItemSearchWindow.Draw"
+  },
+  "DalamudItemSelect": {
+    "message": "请选择一个物品",
+    "description": "ItemSearchWindow.Draw"
+  },
+  "DalamudItemSearchVerb": {
+    "message": "搜索：",
+    "description": "ItemSearchWindow.Draw"
+  },
+  "DalamudItemSelectAll": {
+    "message": "全部",
+    "description": "ItemSearchWindow.Draw"
+  },
+  "DalamudItemSelectCategory": {
+    "message": "类别：",
+    "description": "ItemSearchWindow.Draw"
+  },
+  "DalamudItemSelectHint": {
+    "message": "输入以开始搜索…",
+    "description": "ItemSearchWindow.Draw"
+  },
+  "DalamudItemSelectLoading": {
+    "message": "正在加载物品列表...",
+    "description": "ItemSearchWindow.Draw"
+  },
+  "Choose": {
+    "message": "选择",
+    "description": "ItemSearchWindow.Draw"
+  },
+  "DalamudItemNotLinkable": {
+    "message": "该物品不可链接。",
+    "description": "ItemSearchWindow.Draw"
+  },
+  "DalamudWelcome": {
+    "message": "已加载Dalamud v{0}。",
+    "description": "ChatHandlers.PrintWelcomeMessage"
+  },
+  "DalamudPluginLoaded": {
+    "message": "已加载    >> {0} v{1}。",
+    "description": "ChatHandlers.PrintWelcomeMessage"
+  },
+  "DalamudUpdated": {
+    "message": "游戏中加载项已更新或成功重新安装！ 请检查Discord以获取完整的变更日志。",
+    "description": "ChatHandlers.PrintWelcomeMessage"
+  },
+  "DalamudPluginUpdateRequired": {
+    "message": "您的一个或多个插件需要更新。 请在游戏中使用/xlplugins命令来更新它们！",
+    "description": "ChatHandlers.PrintWelcomeMessage"
+  },
+  "DalamudPluginUpdateCheckFail": {
+    "message": "无法检查插件更新。",
+    "description": "ChatHandlers.PrintWelcomeMessage"
+  }
+}
