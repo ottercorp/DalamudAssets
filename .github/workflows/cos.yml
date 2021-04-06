@@ -1,0 +1,25 @@
+name: Upload to Tencent COS
+on:
+  push:
+    branches: [ cn ]
+  workflow_dispatch:
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout cn
+        uses: actions/checkout@v2
+        with:
+          ref: cn
+
+      - name: Upload COS
+        uses: Bluefissure/tencent-cos-action@v0.1.1
+        with:
+          args: upload ./UIRes/serveropcode.json /UIRes/ && upload ./asset.ver /
+          secret_id: ${{ secrets.SECRET_ID }}
+          secret_key: ${{ secrets.SECRET_KEY }}
+          bucket: ${{ secrets.BUCKET }}
+          region: ${{ secrets.REGION }}
+          accelerate: true
