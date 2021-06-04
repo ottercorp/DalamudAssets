@@ -1,9 +1,9 @@
 {
-    "ActorControlSelf": 780,
-    "MarketBoardItemRequestStart": 403,
-    "MarketBoardHistory": 301,
-    "MarketBoardOfferings": 949,
-    "MarketTaxRates": 313,
-    "CfPreferredRole": 617,
-    "CfNotifyPop": 689,
+  "ActorControlSelf": 120,
+  "MarketBoardItemRequestStart": 788,
+  "MarketBoardHistory": 353,
+  "MarketBoardOfferings": 278,
+  "MarketTaxRates": 282,
+  "CfPreferredRole": 708,
+  "CfNotifyPop": 429
 }
