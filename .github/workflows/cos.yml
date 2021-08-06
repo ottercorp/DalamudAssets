@@ -17,7 +17,7 @@ jobs:
       - name: Upload COS
         uses: Bluefissure/tencent-cos-action@v0.1.1
         with:
-          args: upload ./UIRes/serveropcode.json /UIRes/ && upload ./asset.ver / && upload ./asset.json /
+          args: upload ./UIRes/serveropcode.json /UIRes/ && upload ./asset.json /
           secret_id: ${{ secrets.SECRET_ID }}
           secret_key: ${{ secrets.SECRET_KEY }}
           bucket: ${{ secrets.BUCKET }}
