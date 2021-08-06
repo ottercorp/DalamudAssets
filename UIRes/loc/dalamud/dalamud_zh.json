@@ -128,7 +128,7 @@
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerHint": {
-    "message": "此窗口允许你安装或卸载游戏内插件。\n这些插件由第三方开发者进行开发。",
+    "message": "此窗口允许你安装或卸载游戏内插件。\n这些插件由第三方开发者进行开发，珍爱生命远离咸鱼小店。",
     "description": "PluginInstallerWindow.Draw"
   },
   "SortDownloadCounts": {
