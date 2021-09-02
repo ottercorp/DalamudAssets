@@ -1,5 +1,5 @@
 {
-   "Version":13,
+   "Version":15,
    "Assets":[
       {
          "Url":"https://dalamudassets-1253720819.cos.ap-nanjing.myqcloud.com/UIRes/serveropcode.json",
@@ -30,6 +30,18 @@
       {
          "Url":"https://dalamudassets-1253720819.cos.ap-nanjing.myqcloud.com/UIRes/Inconsolata-Regular.ttf",
          "FileName":"UIRes/Inconsolata-Regular.ttf",
+      },
+      {
+         "Url":"https://dalamudassets-1253720819.cos.ap-nanjing.myqcloud.com/UIRes/defaultIcon.png",
+         "FileName":"UIRes/defaultIcon.png"
+      },
+      {
+         "Url":"https://dalamudassets-1253720819.cos.ap-nanjing.myqcloud.com/UIRes/troubleIcon.png",
+         "FileName":"UIRes/troubleIcon.png"
+      },
+      {
+         "Url":"https://dalamudassets-1253720819.cos.ap-nanjing.myqcloud.com/UIRes/updateIcon.png",
+         "FileName":"UIRes/updateIcon.png"
       },
       {
          "Url":"https://dalamudassets-1253720819.cos.ap-nanjing.myqcloud.com/UIRes/logo.png",
