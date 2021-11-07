@@ -504,6 +504,26 @@
         "message": "我们对第三方插件和仓库所造成的后果不承担任何责任。\n从不受信任的来源安装第三方插件时请多加注意。",
         "description": "SettingsWindow.DrawCustomReposSection"
     },
+    "DalamudSettingsFuckGFW":
+    {
+        "message": "Fuck GFW 替换",
+        "description": "SettingsWindow.DrawFuckGFWSection"
+    },
+    "DalamudSettingFuckGFWHint":
+    {
+        "message": "添加 Fuck GFW 替换。",
+        "description": "SettingsWindow.DrawFuckGFWSection"
+    },
+    "DalamudSettingFuckGFWWarning":
+    {
+        "message": "我们不会照顾每一种网络状况。\n请自行测试与考虑添加何种镜像与替换。",
+        "description": "SettingsWindow.DrawFuckGFWSection"
+    },
+    "DalamudFuckGFWExists":
+    {
+        "message": "此替换的 Url Regex 已存在。",
+        "description": "SettingsWindow.DrawFuckGFWSection"
+    },
     "DalamudSettingDalamudTest":
     {
         "message": "获取Dalamud的测试版本",
