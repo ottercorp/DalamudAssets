@@ -509,6 +509,11 @@
         "message": "Fuck GFW 替换",
         "description": "SettingsWindow.DrawFuckGFWSection"
     },
+    "DalamudFuckGFWAddDefault":
+    {
+        "message": "添加默认",
+        "description": "SettingsWindow.DrawFuckGFWSection"
+    },
     "DalamudSettingFuckGFWHint":
     {
         "message": "添加 Fuck GFW 替换。",
