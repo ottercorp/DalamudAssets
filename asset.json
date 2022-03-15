@@ -1,5 +1,5 @@
 {
-   "Version":23,
+   "Version":24,
    "Assets":[
       {
          "Url":"https://dalamudassets-1253720819.cos.ap-nanjing.myqcloud.com/UIRes/serveropcode.json",
@@ -49,6 +49,31 @@
          "Hash":"AEFA0F4FB7A15391CE210142015ABFD753D803C9"
       },
       {
+         "Url":"https://dalamudassets-1253720819.cos.ap-nanjing.myqcloud.com/UIRes/tsmShade.png",
+         "FileName":"UIRes/tsmShade.png",
+         "Hash":"C32B342537A80393104408C9A04A362ADEDED590"
+      },
+      {
+         "Url":"https://dalamudassets-1253720819.cos.ap-nanjing.myqcloud.com/UIRes/tsmLogo.png",
+         "FileName":"UIRes/tsmLogo.png",
+         "Hash":"DE459754DB1A8B74D2E021496747D65BEC893795"
+      },
+      {
+         "Url":"https://dalamudassets-1253720819.cos.ap-nanjing.myqcloud.com/UIRes/installedIcon.png",
+         "FileName":"UIRes/installedIcon.png",
+         "Hash":"4533CAD6C29FD2A0D68AF5C4576DC159CB9C4A53"
+      },
+      {
+         "Url":"https://dalamudassets-1253720819.cos.ap-nanjing.myqcloud.com/UIRes/thirdIcon.png",
+         "FileName":"UIRes/thirdIcon.png",
+         "Hash":"F81DC3F9C467E138C25028418593AD99772DB606"
+      },
+      {
+         "Url":"https://dalamudassets-1253720819.cos.ap-nanjing.myqcloud.com/UIRes/thirdInstalledIcon.png",
+         "FileName":"UIRes/thirdInstalledIcon.png",
+         "Hash":"507FF41AE651D15E6A29A09C1B5FD7936CF79CD3"
+      },
+      {
          "Url":"https://dalamudassets-1253720819.cos.ap-nanjing.myqcloud.com/UIRes/loc/dalamud/dalamud_de.json",
          "FileName":"UIRes/loc/dalamud/dalamud_de.json"
       },
@@ -71,6 +96,10 @@
       {
          "Url":"https://dalamudassets-1253720819.cos.ap-nanjing.myqcloud.com/UIRes/loc/dalamud/dalamud_zh.json",
          "FileName":"UIRes/loc/dalamud/dalamud_zh.json"
+      },
+      {
+         "Url":"https://dalamudassets-1253720819.cos.ap-nanjing.myqcloud.com/UIRes/pdb/ffxiv_dx11.pdb",
+         "FileName":"UIRes/pdb/ffxiv_dx11.pdb"
       },
       {
          "Url":"https://dalamudassets-1253720819.cos.ap-nanjing.myqcloud.com/UIRes/gamesym.ttf",
