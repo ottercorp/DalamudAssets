@@ -1,0 +1,15 @@
+[
+    {
+        "date": "2022-03-15T00:00:00",
+        "version": "6.3.0.7",
+        "changes":
+        [
+            {
+                "message": "Dalamud for CN 6.0",
+                "author": "Bluefissure",
+                "sha": "1e65907beb7c0ab9041f1e13d2d121a273a4ec52",
+                "date": "2022-03-15T00:00:00"
+            }
+        ]
+    }
+]

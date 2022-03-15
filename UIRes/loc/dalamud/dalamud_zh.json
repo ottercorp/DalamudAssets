@@ -699,6 +699,16 @@
         "message": "所有插件",
         "description": "Locs.get_Group_Available"
     },
+    "InstallerAllPlugins":
+    {
+        "message": "所有插件",
+        "description": "Locs.get_Group_Available"
+    },
+    "InstallerChangelog":
+    {
+        "message": "更新日志",
+        "description": "Locs.get_Group_Available"
+    },
     "InstallerCategoryAll":
     {
         "message": "全部",
@@ -1243,5 +1253,100 @@
     {
         "message": "自动更新",
         "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
+    },
+    "TSMDalamudPlugins":
+    {
+        "message": "插件管理",
+        "description": "Dalamud.DalamudInterface"
+    },
+    "TSMDalamudSettings":
+    {
+        "message": "卫月设置",
+        "description": "Dalamud.DalamudInterface"
+    },
+    "TSMDalamudDevMenu":
+    {
+        "message": "开发菜单",
+        "description": "Dalamud.DalamudInterface"
+    },
+    "DalamudSettingToggleTsm":
+    {
+        "message": "显示标题界面按钮",
+        "description": "Dalamud.DalamudInterface"
+    },
+    "DalamudSettingToggleTsmHint":
+    {
+        "message": "这使你能够在标题界面访问卫月框架与插件设置",
+        "description": "Dalamud.DalamudInterface"
+    },
+    "DalamudSettingToggleAxisFonts":
+    {
+        "message": "使用 AXIS 作为默认字体",
+        "description": "Dalamud.DalamudInterface"
+    },
+    "DalamudSettingToggleUiAxisFontsHint":
+    {
+        "message": "使用 AXIS 字体（游戏默认字体）作为卫月框架字体",
+        "description": "Dalamud.DalamudInterface"
+    },
+    "DalamudSettingsFontGammaHint":
+    {
+        "message": "更改文字的厚度",
+        "description": "Dalamud.DalamudInterface"
+    },
+    "DalamudSettingsIndividualConfigResetToDefaultValue":
+    {
+        "message": "重置",
+        "description": "Dalamud.DalamudInterface"
+    },
+    "DalamudSettingsFontGamma":
+    {
+        "message": "字体伽马值",
+        "description": "Dalamud.DalamudInterface"
+    },
+    "DalamudSettingsServerInfoBar":
+    {
+        "message": "服务器状态栏",
+        "description": "Dalamud.DalamudInterface"
+    },
+    "DalamudSettingServerInfoBar":
+    {
+        "message": "服务器状态栏设置",
+        "description": "Dalamud.DalamudInterface"
+    },
+    "DalamudSettingServerInfoBarHint":
+    {
+        "message": "插件可以在服务器状态栏（游戏内显示服务器、时间的区域）添加新内容。\n您可以在此处排序或关闭。",
+        "description": "Dalamud.DalamudInterface"
+    },
+    "DalamudSettingServerInfoBarDidNone":
+    {
+        "message": "您没有正在使用此功能的插件",
+        "description": "Dalamud.DalamudInterface"
+    },
+    "DalamudSettingServerInfoBarSpacing":
+    {
+        "message": "服务器状态栏间隔",
+        "description": "Dalamud.DalamudInterface"
+    },
+    "DalamudSettingServerInfoBarSpacingHint":
+    {
+        "message": "调整服务器状态栏间隔的项目间隔",
+        "description": "Dalamud.DalamudInterface"
+    },
+    "DalamudSettingServerInfoBarDirection":
+    {
+        "message": "服务器状态栏方向",
+        "description": "Dalamud.DalamudInterface"
+    },
+    "DalamudSettingServerInfoBarDirectionHint":
+    {
+        "message": "如果勾选，服务器状态栏项目将向右扩展（默认向左）。",
+        "description": "Dalamud.DalamudInterface"
+    },
+    "DalamudSettingServerInfoSwapDirection":
+    {
+        "message": "更改方向",
+        "description": "Dalamud.DalamudInterface"
     }
 }
