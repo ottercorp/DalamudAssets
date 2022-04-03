@@ -38,9 +38,5 @@
   {
     "Name": "PixelPerfectEx",
     "AssemblyVersion": "1.2.0.2"
-  },
-  {
-    "Name": "SonarPlugin",
-    "AssemblyVersion": "0.4.4.0"
   }
 ]
