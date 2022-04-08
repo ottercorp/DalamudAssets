@@ -42,9 +42,5 @@
   {
     "Name": "SonarPlugin",
     "AssemblyVersion": "0.4.4.0"
-  },
-  {
-    "Name": "SonarPlugin",
-    "AssemblyVersion": "0.4.5.1"
   }
 ]
