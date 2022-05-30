@@ -27,7 +27,7 @@ jobs:
       - name: Upload UIRes
         uses: Loskh/onedrive-action@master
         with:
-          folder: Changelog
+          folder: UIRes
           upload_path: /downloads/DalamudAssets/
           redirect_uri: "https://file.ffxiv.wang/"
           client_id: ${{ secrets.CLIENT_ID }}
