@@ -24,22 +24,22 @@ jobs:
           client_secret: ${{ secrets.CLIENT_SECRET }}
           refresh_token: ${{ secrets.REFRESH_TOKEN }}
 
-        - name: Upload UIRes
+      - name: Upload UIRes
+        uses: Loskh/onedrive-action@master
+        with:
+          folder: Changelog
+          upload_path: /downloads/DalamudAssets/
+          redirect_uri: "https://file.ffxiv.wang/"
+          client_id: ${{ secrets.CLIENT_ID }}
+          client_secret: ${{ secrets.CLIENT_SECRET }}
+          refresh_token: ${{ secrets.REFRESH_TOKEN }}
+
+        - name: Upload asset.json
           uses: Loskh/onedrive-action@master
           with:
-            folder: Changelog
+            files: asset.json
             upload_path: /downloads/DalamudAssets/
             redirect_uri: "https://file.ffxiv.wang/"
             client_id: ${{ secrets.CLIENT_ID }}
             client_secret: ${{ secrets.CLIENT_SECRET }}
             refresh_token: ${{ secrets.REFRESH_TOKEN }}
-
-         - name: Upload asset.json
-            uses: Loskh/onedrive-action@master
-            with:
-              files: asset.json
-              upload_path: /downloads/DalamudAssets/
-              redirect_uri: "https://file.ffxiv.wang/"
-              client_id: ${{ secrets.CLIENT_ID }}
-              client_secret: ${{ secrets.CLIENT_SECRET }}
-              refresh_token: ${{ secrets.REFRESH_TOKEN }}
