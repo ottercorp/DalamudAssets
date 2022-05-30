@@ -1,0 +1,45 @@
+name: Upload to FFXIV.Wang
+on:
+  push:
+    branches: [ cn ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout cn
+        uses: actions/checkout@v2
+        with:
+          ref: cn
+
+      - name: Upload Changelog
+        uses: Loskh/onedrive-action@master
+        with:
+          folder: Changelog
+          upload_path: /downloads/DalamudAssets/
+          redirect_uri: "https://file.ffxiv.wang/"
+          client_id: ${{ secrets.CLIENT_ID }}
+          client_secret: ${{ secrets.CLIENT_SECRET }}
+          refresh_token: ${{ secrets.REFRESH_TOKEN }}
+
+        - name: Upload UIRes
+          uses: Loskh/onedrive-action@master
+          with:
+            folder: Changelog
+            upload_path: /downloads/DalamudAssets/
+            redirect_uri: "https://file.ffxiv.wang/"
+            client_id: ${{ secrets.CLIENT_ID }}
+            client_secret: ${{ secrets.CLIENT_SECRET }}
+            refresh_token: ${{ secrets.REFRESH_TOKEN }}
+
+         - name: Upload asset.json
+            uses: Loskh/onedrive-action@master
+            with:
+              files: asset.json
+              upload_path: /downloads/DalamudAssets/
+              redirect_uri: "https://file.ffxiv.wang/"
+              client_id: ${{ secrets.CLIENT_ID }}
+              client_secret: ${{ secrets.CLIENT_SECRET }}
+              refresh_token: ${{ secrets.REFRESH_TOKEN }}
