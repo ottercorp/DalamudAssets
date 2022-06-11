@@ -15,7 +15,7 @@
       },
       {
          "Url": "https://mirrors.tuna.tsinghua.edu.cn/ctan/fonts/notocjksc/NotoSansCJKsc-Medium.otf",
-         "FileName": "UIRes/NotoSansCJKsc-Medium.otf",
+         "FileName": "UIRes/NotoSansCJKsc-Medium.otf"
       },
       {
          "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn//UIRes/FontAwesome5FreeSolid.otf",
