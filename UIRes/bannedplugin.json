@@ -42,5 +42,9 @@
   {
     "Name": "SonarPlugin",
     "AssemblyVersion": "0.4.4.0"
+  },
+  {
+    "Name": "EngageTimer",
+    "AssemblyVersion": "2.2.2.1"
   }
 ]
