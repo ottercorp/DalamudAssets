@@ -35,6 +35,11 @@
          "FileName": "UIRes/defaultIcon.png"
       },
       {
+         "Url":"https://raw.githubusercontent.com/ottercorp/DalamudAssets/master/UIRes/disabledIcon.png",
+         "FileName":"UIRes/disabledIcon.png",
+         "Hash":"3AFC19400A6475198503DCC25314BCBCDC03B929"
+      },
+      {
          "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn//UIRes/troubleIcon.png",
          "FileName": "UIRes/troubleIcon.png"
       },
