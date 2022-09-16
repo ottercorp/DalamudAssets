@@ -1,5 +1,5 @@
 {
-   "Version": 38,
+   "Version": 39,
    "Assets": [
       {
          "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn//UIRes/serveropcode.json",
@@ -11,7 +11,8 @@
       },
       {
          "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn//UIRes/bannedplugin.json",
-         "FileName": "UIRes/bannedplugin.json"
+         "FileName": "UIRes/bannedplugin.json",
+         "Hash": "18F09DC734379E41FF7FFC033AEA6131DDCCED77"
       },
       {
          "Url": "https://mirrors.ustc.edu.cn/CTAN/fonts/notocjksc/NotoSansCJKsc-Medium.otf",
@@ -100,10 +101,6 @@
       {
          "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn//UIRes/loc/dalamud/dalamud_zh.json",
          "FileName": "UIRes/loc/dalamud/dalamud_zh.json"
-      },
-      {
-         "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn//UIRes/pdb/ffxiv_dx11.pdb",
-         "FileName": "UIRes/pdb/ffxiv_dx11.pdb"
       },
       {
          "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn//UIRes/gamesym.ttf",
