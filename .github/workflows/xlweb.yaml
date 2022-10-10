@@ -1,17 +1,21 @@
 name: Refresh Web Services
-on: [push, workflow_dispatch]
+on: 
+  # push:
+  #   branches:
+  #     - cn
+  workflow_dispatch:
 
 jobs:
   generate:
     name: Refresh Web Services
     runs-on: ubuntu-18.04
     steps:
-      - uses: actions/setup-python@v2
-        with:
-            python-version: '3.8'
-      - name: Checkout ${{ github.ref }}
-        uses: actions/checkout@v2
-        with:
-          ref: ${{ github.ref }}
+      # - uses: actions/setup-python@v2
+      #   with:
+      #       python-version: '3.8'
+      # - name: Checkout ${{ github.ref }}
+      #   uses: actions/checkout@v2
+      #   with:
+      #     ref: ${{ github.ref }}
       - name: Clear Web Services cache
         run: curl -X POST --fail https://aonyx.ffxiv.wang/Dalamud/Asset/ClearCache?key=${{ secrets.CACHE_CLEAR_KEY }}
