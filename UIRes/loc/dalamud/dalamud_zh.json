@@ -324,6 +324,11 @@
         "message": "选择用于常规 Dalamud 消息的聊天频道。",
         "description": "SettingsWindow.DrawGeneralTab"
     },
+    "DalamudSettingsWaitForPluginsOnStartup":
+    {
+        "message": "在游戏加载之前等待插件加载",
+        "description": "SettingsWindow.DalamudSettingsWaitForPluginsOnStartup"
+    },
     "DalamudSettingsFlash":
     {
         "message": "在排本成功后闪烁 FFXIV 窗口",
@@ -358,6 +363,16 @@
     {
         "message": "自动更新插件",
         "description": "DalamudSettingsWindow.Draw"
+    },
+    "DalamudSettingDoMbCollect":
+    {
+        "message": "匿名上传市场板数据",
+        "description": "SettingsWindow.DalamudSettingDoMbCollect"
+    },
+    "DalamudSettingDoMbCollectHint":
+    {
+        "message": "在浏览市场板时，匿名向 Universalis 提供有关游戏内经济的数据。 这些数据不会以任何方式追踪到您的游戏角色，但是每个使用 Universalis 的人都会受益！",
+        "description": "SettingsWindow.DalamudSettingDoMbCollectHint"
     },
     "DalamudSettingsAutoUpdatePluginsMsgHint":
     {
@@ -464,6 +479,16 @@
         "message": "更改这些设置后，您需要重新启动游戏。",
         "description": "DalamudSettingsWindow.Draw"
     },
+    "DalamudSettingsPluginCustomizeWaitTime":
+    {
+        "message": "自定义插件卸载的等待时间",
+        "description": "SettingsWindow.DrawExperimentalTab"
+    },
+    "DalamudSettingsPluginCustomizeWaitTimeHint":
+    {
+        "message": "配置停止插件和完全卸载插件之间的等待时间。 如果您在退出游戏时遇到崩溃，请尝试增加此值。",
+        "description": "SettingsWindow.DrawExperimentalTab"
+    },
     "DalamudSettingsPluginTest":
     {
         "message": "获取插件测试版本",
@@ -501,7 +526,17 @@
     },
     "DalamudSettingCustomRepoWarning":
     {
-        "message": "我们对第三方插件和仓库所造成的后果不承担任何责任。\n从不受信任的来源安装第三方插件时请多加注意。",
+        "message": "我们对第三方插件和仓库所造成的后果不承担任何责任。",
+        "description": "SettingsWindow.DrawCustomReposSection"
+    },
+    "DalamudSettingCustomRepoWarning2":
+    {
+        "message": "与任何其他程序一样，插件可以完全控制您的 PC，这可能会造成游戏崩溃，甚至给账号带来安全隐患。",
+        "description": "SettingsWindow.DrawCustomReposSection"
+    },
+    "DalamudSettingCustomRepoWarning3":
+    {
+        "message": "请绝对确保您只安装来自您信任的开发人员的第三方插件。",
         "description": "SettingsWindow.DrawCustomReposSection"
     },
     "DalamudSettingsFuckGFW":
@@ -648,6 +683,16 @@
     {
         "message": " （测试版本）",
         "description": "Locs.get_PluginTitleMod_TestingVersion"
+    },
+    "InstallerTestingExclusive":
+    {
+        "message": " （独家测试）",
+        "description": "Locs.get_PluginTitleMod_TestingExclusive"
+    },
+    "InstallerTestingAvailable":
+    {
+        "message": " （可测试）",
+        "description": "Locs.get_PluginTitleMod_TestingAvailable"
     },
     "InstallerNoInstalled":
     {
@@ -806,7 +851,7 @@
     },
     "InstallerUnloaded":
     {
-        "message": "（已禁用）",
+        "message": "（已卸载）",
         "description": "Locs.get_PluginTitleMod_Unloaded"
     },
     "InstallerHasUpdate":
@@ -831,8 +876,18 @@
     },
     "InstallerBannedError":
     {
-        "message": "（已封禁）",
+        "message": "（自动禁用）",
         "description": "Locs.get_PluginTitleMod_BannedError"
+    },
+    "InstallerOrphanedError":
+    {
+        "message": "（未知仓库）",
+        "description": "Locs.get_PluginTitleMod_OrphanedError"
+    },
+    "InstallerScheduledForDeletion":
+    {
+        "message": "（计划删除）",
+        "description": "Locs.get_PluginTitleMod_ScheduledForDeletion"
     },
     "InstallerNewPlugin ":
     {
@@ -886,7 +941,7 @@
     },
     "InstallerDevPlugin":
     {
-        "message": " 此插件已被上传至插件仓库，你可以在 devPlugins 文件夹中删除它了。",
+        "message": " （开发版）",
         "description": "Locs.get_PluginBody_AvailableDevPlugin"
     },
     "InstallerDeleteDevPlugin ":
