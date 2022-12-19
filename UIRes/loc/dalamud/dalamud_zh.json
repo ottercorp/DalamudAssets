@@ -1,326 +1,261 @@
 {
-    "DalamudUnloadHelp":
-    {
+    "DalamudUnloadHelp": {
         "message": "卸载游戏中的 XIVLauncher 插件。",
         "description": "DalamudCommands.SetupCommands"
     },
-    "DalamudPluginReloadHelp":
-    {
+    "DalamudPluginReloadHelp": {
         "message": "重新加载所有插件。",
         "description": "DalamudCommands.SetupCommands"
     },
-    "DalamudPrintChatHelp":
-    {
+    "DalamudPrintChatHelp": {
         "message": "输出到聊天窗口。",
         "description": "Dalamud.SetupCommands"
     },
-    "DalamudCmdInfoHelp":
-    {
+    "DalamudCmdInfoHelp": {
         "message": "显示可用命令列表。",
         "description": "Dalamud.SetupCommands"
     },
-    "DalamudMuteHelp":
-    {
+    "DalamudMuteHelp": {
         "message": "屏蔽聊天里出现的单词或句子。用法：/xlmute <单词或句子>",
         "description": "DalamudCommands.SetupCommands"
     },
-    "DalamudMuteListHelp":
-    {
+    "DalamudMuteListHelp": {
         "message": "列出屏蔽单词或句子。",
         "description": "DalamudCommands.SetupCommands"
     },
-    "DalamudUnmuteHelp":
-    {
+    "DalamudUnmuteHelp": {
         "message": "取消屏蔽单词或句子。用法：/xlunmute <单词或句子>",
         "description": "DalamudCommands.SetupCommands"
     },
-    "DalamudLastLinkHelp":
-    {
+    "DalamudLastLinkHelp": {
         "message": "在您的默认浏览器中打开上次接收到的链接。",
         "description": "DalamudCommands.SetupCommands"
     },
-    "DalamudBotJoinHelp":
-    {
+    "DalamudBotJoinHelp": {
         "message": "将XIVLauncher Discord机器人添加到您的服务器。",
         "description": "Dalamud.SetupCommands"
     },
-    "DalamudBgmSetHelp":
-    {
+    "DalamudBgmSetHelp": {
         "message": "设置游戏背景音乐。用法：/xlbgmset <BGM ID>",
         "description": "DalamudCommands.SetupCommands"
     },
-    "DalamudItemLinkHelp":
-    {
+    "DalamudItemLinkHelp": {
         "message": "打开一个可以将任何项目链接到聊天的窗口。",
         "description": "Dalamud.SetupCommands"
     },
-    "DalamudBonusHelp":
-    {
+    "DalamudBonusHelp": {
         "message": "当随机任务有您指定的参数时通知。输入 /xlbonus 获取更多信息。使用方法：/xlbonus <随机任务名称> <职业名称>",
         "description": "Dalamud.SetupCommands"
     },
-    "DalamudDevMenuHelp":
-    {
+    "DalamudDevMenuHelp": {
         "message": "绘制开发菜单 DEBUG",
         "description": "DalamudCommands.SetupCommands"
     },
-    "DalamudInstallerHelp":
-    {
+    "DalamudInstallerHelp": {
         "message": "打开插件安装器",
         "description": "Dalamud.SetupCommands"
     },
-    "DalamudCreditsHelp":
-    {
+    "DalamudCreditsHelp": {
         "message": "打开 Dalamud 的制作人表。",
         "description": "DalamudCommands.SetupCommands"
     },
-    "DalamudLanguageHelp":
-    {
+    "DalamudLanguageHelp": {
         "message": "设置游戏内附加组件和支持它的插件的语言。可用的语言： ",
         "description": "DalamudCommands.SetupCommands"
     },
-    "DalamudSettingsHelp":
-    {
+    "DalamudSettingsHelp": {
         "message": "更改不同的游戏内附加组件设置，如聊天频道和 Discord 机器人设置。",
         "description": "DalamudCommands.SetupCommands"
     },
-    "DalamudBugReport":
-    {
+    "DalamudBugReport": {
         "message": "上传日志以供我们的专业开发团队进行分析。",
         "description": "Dalamud.SetupCommands"
     },
-    "DalamudCmdHelpAvailable":
-    {
+    "DalamudCmdHelpAvailable": {
         "message": "可用命令:",
         "description": "DalamudCommands.OnHelpCommand"
     },
-    "DalamudMuteNoArgs":
-    {
+    "DalamudMuteNoArgs": {
         "message": "请提供一个单词来屏蔽。",
         "description": "DalamudCommands.OnBadWordsAddCommand"
     },
-    "DalamudMuted":
-    {
+    "DalamudMuted": {
         "message": "已屏蔽 \"{0}\"。",
         "description": "DalamudCommands.OnBadWordsAddCommand"
     },
-    "DalamudNoneMuted":
-    {
+    "DalamudNoneMuted": {
         "message": "没有已屏蔽的单词或句子。",
         "description": "DalamudCommands.OnBadWordsListCommand"
     },
-    "DalamudUnmuted":
-    {
+    "DalamudUnmuted": {
         "message": "已取消屏蔽 \"{0}\"。",
         "description": "DalamudCommands.OnBadWordsRemoveCommand"
     },
-    "DalamudNoLastLink":
-    {
+    "DalamudNoLastLink": {
         "message": "没有最后一个链接...",
         "description": "DalamudCommands.OnLastLinkCommand"
     },
-    "DalamudOpeningLink":
-    {
+    "DalamudOpeningLink": {
         "message": "正在打开 {0}",
         "description": "DalamudCommands.OnLastLinkCommand"
     },
-    "DalamudBotNotSetup":
-    {
+    "DalamudBotNotSetup": {
         "message": "XIVLauncher discord机器人未正确设置或无法连接到discord。 请检查设置和常见问题解答。",
         "description": "Dalamud.OnBotJoinCommand"
     },
-    "DalamudChannelNotSetup":
-    {
+    "DalamudChannelNotSetup": {
         "message": "您尚未为这些通知设置Discord频道——您只会在聊天中收到通知。 为此，请使用 XIVLauncher 游戏内设置。",
         "description": "Dalamud.OnRouletteBonusNotifyCommand"
     },
-    "DalamudBonusSet":
-    {
+    "DalamudBonusSet": {
         "message": "将{0}{1}的参数通知设置为{2}",
         "description": "Dalamud.OnRouletteBonusNotifyCommand"
     },
-    "DalamudInvalidArguments":
-    {
+    "DalamudInvalidArguments": {
         "message": "无法识别参数。",
         "description": "Dalamud.OnRouletteBonusNotifyCommand"
     },
-    "DalamudBonusPossibleValues":
-    {
+    "DalamudBonusPossibleValues": {
         "message": "可用的随机任务参数：等级，506070，主要场景任务，行会令，高难度，讨伐歼灭战，导师，团队，普通\n可用的职业参数: 坦克，dps，治疗，全部，无/重置",
         "description": "Dalamud.OnRouletteBonusNotifyCommand"
     },
-    "DalamudLanguageSetTo":
-    {
+    "DalamudLanguageSetTo": {
         "message": "语言设置为 {0}",
         "description": "DalamudCommands.OnSetLanguageCommand"
     },
-    "InstallerHeader":
-    {
+    "InstallerHeader": {
         "message": "插件安装器",
         "description": "PluginInstallerWindow.Draw"
     },
-    "InstallerHint":
-    {
+    "InstallerHint": {
         "message": "此窗口允许您安装和移除游戏内插件。\n这些插件是由第三方开发者制作的，珍爱生命远离咸鱼小店。",
         "description": "Locs.get_Header_Hint"
     },
-    "SortDownloadCounts":
-    {
+    "SortDownloadCounts": {
         "message": "下载量",
         "description": "PluginInstallerWindow.Draw"
     },
-    "PluginSort":
-    {
+    "PluginSort": {
         "message": "排序",
         "description": "PluginInstallerWindow.Draw"
     },
-    "InstallerSearch":
-    {
+    "InstallerSearch": {
         "message": "搜索",
         "description": "PluginInstallerWindow.Draw"
     },
-    "InstallerLoading":
-    {
+    "InstallerLoading": {
         "message": "正在载入插件……",
         "description": "Locs.get_TabBody_LoadingPlugins"
     },
-    "InstallerDownloadFailed":
-    {
+    "InstallerDownloadFailed": {
         "message": "下载失败。",
         "description": "PluginInstallerWindow.Draw"
     },
-    "InstallerDownloadFailedThird":
-    {
+    "InstallerDownloadFailedThird": {
         "message": "某第三方插件库无法访问或网络连接中断。",
         "description": "PluginInstallerWindow.Draw"
     },
-    "InstallerInstalled":
-    {
+    "InstallerInstalled": {
         "message": " （已安装）",
         "description": "Locs.get_PluginTitleMod_Installed"
     },
-    "InstallerUpdated":
-    {
+    "InstallerUpdated": {
         "message": " （已更新）",
         "description": "Locs.get_PluginTitleMod_Updated"
     },
-    "InstallerUpdateFailed":
-    {
+    "InstallerUpdateFailed": {
         "message": " （更新失败）",
         "description": "Locs.get_PluginTitleMod_UpdateFailed"
     },
-    "InstallerInProgress":
-    {
+    "InstallerInProgress": {
         "message": "正在安装...",
         "description": "Locs.get_FooterButton_InProgress"
     },
-    "InstallerDisable":
-    {
+    "InstallerDisable": {
         "message": "禁用",
         "description": "PluginInstallerWindow.DrawPluginList"
     },
-    "InstallerOpenConfig":
-    {
+    "InstallerOpenConfig": {
         "message": "打开配置",
         "description": "Locs.get_PluginButtonToolTip_OpenConfiguration"
     },
-    "InstallerNoCompatible":
-    {
+    "InstallerNoCompatible": {
         "message": "找不到兼容的插件 :( 请重启你的游戏并重试。",
         "description": "Locs.get_TabBody_SearchNoCompatible"
     },
-    "InstallerUpdating":
-    {
+    "InstallerUpdating": {
         "message": "正在更新...",
         "description": "PluginInstallerWindow.Draw"
     },
-    "InstallerUpdateComplete":
-    {
+    "InstallerUpdateComplete": {
         "message": "{0} 个插件已更新！",
         "description": "Locs.FooterButton_UpdateComplete"
     },
-    "InstallerNoUpdates":
-    {
+    "InstallerNoUpdates": {
         "message": "未找到更新！",
         "description": "Locs.get_FooterButton_NoUpdates"
     },
-    "InstallerUpdatePlugins":
-    {
+    "InstallerUpdatePlugins": {
         "message": "更新插件",
         "description": "PluginInstallerWindow.Draw"
     },
-    "SettingsInstaller":
-    {
+    "SettingsInstaller": {
         "message": "卫月设置",
         "description": "PluginInstallerWindow.Draw"
     },
-    "DalamudPluginUpdates":
-    {
+    "DalamudPluginUpdates": {
         "message": "更新：",
         "description": "Locs.get_PluginUpdateHeader_Chatbox"
     },
-    "DalamudPluginUpdateSuccessful":
-    {
+    "DalamudPluginUpdateSuccessful": {
         "message": "    》 {0} 已更新至 v{1}.",
         "description": "Locs.DalamudPluginUpdateSuccessful"
     },
-    "DalamudPluginUpdateFailed":
-    {
+    "DalamudPluginUpdateFailed": {
         "message": "    》 {0} 在尝试更新至 v{1} 时失败。",
         "description": "Locs.DalamudPluginUpdateFailed"
     },
-    "Close":
-    {
+    "Close": {
         "message": "关闭",
         "description": "PluginInstallerWindow.Draw"
     },
-    "InstallerError":
-    {
+    "InstallerError": {
         "message": "安装程序错误",
         "description": "Locs.get_ErrorModal_Title"
     },
-    "InstallerErrorHint":
-    {
+    "InstallerErrorHint": {
         "message": "插件安装器出现问题或此插件不兼容。\n请重启游戏并在我们的Discord频道报告此问题。",
         "description": "PluginInstallerWindow.Draw"
     },
-    "InstallerErrorPluginInfo":
-    {
+    "InstallerErrorPluginInfo": {
         "message": "\n\n下列插件引起了这些问题：\n\n{0}\n您可以尝试手动移除这些插件并重新安装它们。",
         "description": "Locs.ErrorModal_HintBlame"
     },
-    "OK":
-    {
+    "OK": {
         "message": "确定",
         "description": "PluginInstallerWindow.Draw"
     },
-    "DalamudSettingsHeader":
-    {
+    "DalamudSettingsHeader": {
         "message": "Dalamud 设置",
         "description": "DalamudSettingsWindow.Draw"
     },
-    "DalamudSettingsGeneral":
-    {
+    "DalamudSettingsGeneral": {
         "message": "基本配置",
         "description": "SettingsWindow.Draw"
     },
-    "DalamudSettingsLanguage":
-    {
+    "DalamudSettingsLanguage": {
         "message": "语言",
         "description": "DalamudSettingsWindow.Draw"
     },
-    "DalamudSettingsLanguageHint":
-    {
+    "DalamudSettingsLanguageHint": {
         "message": "选择 Dalamud 显示语言。",
         "description": "SettingsWindow.DrawGeneralTab"
     },
-    "DalamudSettingsChannel":
-    {
+    "DalamudSettingsChannel": {
         "message": "通用聊天频道",
         "description": "SettingsWindow.DrawGeneralTab"
     },
-    "DalamudSettingsChannelHint":
-    {
+    "DalamudSettingsChannelHint": {
         "message": "选择用于常规 Dalamud 消息的聊天频道。",
         "description": "SettingsWindow.DrawGeneralTab"
     },
@@ -334,33 +269,27 @@
         "message": "在排本成功后闪烁 FFXIV 窗口",
         "description": "SettingsWindow.DrawGeneralTab"
     },
-    "DalamudSettingsFlashHint":
-    {
+    "DalamudSettingsFlashHint": {
         "message": "若选中，当任务准备进行时，FFXIV窗口将会在您的任务栏中闪烁。",
         "description": "SettingsWindow.DrawGeneralTab"
     },
-    "DalamudSettingsDutyFinderMessage":
-    {
+    "DalamudSettingsDutyFinderMessage": {
         "message": "任务搜索器上的聊天信息",
         "description": "SettingsWindow.DrawGeneralTab"
     },
-    "DalamudSettingsDutyFinderMessageHint":
-    {
+    "DalamudSettingsDutyFinderMessageHint": {
         "message": "若选中，当任务准备进行时，将会在 FFXIV 聊天中发送消息。",
         "description": "SettingsWindow.DrawGeneralTab"
     },
-    "DalamudSettingsPrintPluginsWelcomeMsg":
-    {
+    "DalamudSettingsPrintPluginsWelcomeMsg": {
         "message": "在欢迎消息中显示已加载的插件",
         "description": "SettingsWindow.DrawGeneralTab"
     },
-    "DalamudSettingsPrintPluginsWelcomeMsgHint":
-    {
+    "DalamudSettingsPrintPluginsWelcomeMsgHint": {
         "message": "在角色登入时显示已加载的插件。",
         "description": "SettingsWindow.DrawGeneralTab"
     },
-    "DalamudSettingsAutoUpdatePlugins":
-    {
+    "DalamudSettingsAutoUpdatePlugins": {
         "message": "自动更新插件",
         "description": "DalamudSettingsWindow.Draw"
     },
@@ -379,103 +308,83 @@
         "message": "在角色登入时自动更新插件。",
         "description": "SettingsWindow.DrawGeneralTab"
     },
-    "DalamudSettingsSystemMenu":
-    {
+    "DalamudSettingsSystemMenu": {
         "message": "显示 Dalamud 快捷菜单",
         "description": "SettingsWindow.DrawGeneralTab"
     },
-    "DalamudSettingsSystemMenuMsgHint":
-    {
+    "DalamudSettingsSystemMenuMsgHint": {
         "message": "在系统菜单中显示 Dalamud 插件菜单及设置按钮。",
         "description": "SettingsWindow.DrawGeneralTab"
     },
-    "DalamudSettingsVisual":
-    {
+    "DalamudSettingsVisual": {
         "message": "界面外观",
         "description": "SettingsWindow.Draw"
     },
-    "DalamudSettingsGlobalUiScale":
-    {
+    "DalamudSettingsGlobalUiScale": {
         "message": "全局界面缩放",
         "description": "SettingsWindow.DrawLookAndFeelTab"
     },
-    "DalamudSettingsGlobalUiScaleHint":
-    {
+    "DalamudSettingsGlobalUiScaleHint": {
         "message": "缩放所有 XIVLauncher 界面元素 - 适用于 4K 显示。",
         "description": "SettingsWindow.DrawLookAndFeelTab"
     },
-    "DalamudSettingToggleUiHideOptOutNote":
-    {
+    "DalamudSettingToggleUiHideOptOutNote": {
         "message": "部分插件会忽略下列设置。",
         "description": "SettingsWindow.DrawLookAndFeelTab"
     },
-    "DalamudSettingToggleUiHide":
-    {
+    "DalamudSettingToggleUiHide": {
         "message": "当游戏界面隐藏时隐藏插件界面",
         "description": "SettingsWindow.DrawLookAndFeelTab"
     },
-    "DalamudSettingToggleUiHideHint":
-    {
+    "DalamudSettingToggleUiHideHint": {
         "message": "勾选此框以在切换游戏悬浮窗时隐藏任何插件打开的窗口。",
         "description": "SettingsWindow.DrawLookAndFeelTab"
     },
-    "DalamudSettingToggleUiHideDuringCutscenes":
-    {
+    "DalamudSettingToggleUiHideDuringCutscenes": {
         "message": "播放过场动画时隐藏插件 UI",
         "description": "SettingsWindow.DrawLookAndFeelTab"
     },
-    "DalamudSettingToggleUiHideDuringCutscenesHint":
-    {
+    "DalamudSettingToggleUiHideDuringCutscenesHint": {
         "message": "在播放过场动画时隐藏所有插件窗口。",
         "description": "SettingsWindow.DrawLookAndFeelTab"
     },
-    "DalamudSettingToggleUiHideDuringGpose":
-    {
+    "DalamudSettingToggleUiHideDuringGpose": {
         "message": "激活 GPose 时隐藏插件 UI",
         "description": "SettingsWindow.DrawLookAndFeelTab"
     },
-    "DalamudSettingToggleUiHideDuringGposeHint":
-    {
+    "DalamudSettingToggleUiHideDuringGposeHint": {
         "message": "在激活 GPose 时隐藏所有插件窗口。",
         "description": "SettingsWindow.DrawLookAndFeelTab"
     },
-    "DalamudSettingToggleViewports":
-    {
+    "DalamudSettingToggleViewports": {
         "message": "启用多屏模式",
         "description": "SettingsWindow.DrawLookAndFeelTab"
     },
-    "DalamudSettingToggleViewportsHint":
-    {
+    "DalamudSettingToggleViewportsHint": {
         "message": "这将允许你将插件窗口移动到其他显示器。\n只在无边框窗口或窗口模式下有效。",
         "description": "SettingsWindow.DrawLookAndFeelTab"
     },
-    "DalamudSettingToggleDocking":
-    {
+    "DalamudSettingToggleDocking": {
         "message": "启用窗口合并",
         "description": "SettingsWindow.DrawLookAndFeelTab"
     },
-    "DalamudSettingToggleDockingHint":
-    {
+    "DalamudSettingToggleDockingHint": {
         "message": "这允许你将多个插件窗口合并到同一窗口中，并通过选项卡分割它们。",
         "description": "SettingsWindow.DrawLookAndFeelTab"
     },
-    "DalamudSettingToggleGamepadNavigation":
-    {
+    "DalamudSettingToggleGamepadNavigation": {
         "message": "启用手柄模式",
         "description": "SettingsWindow.DrawLookAndFeelTab"
     },
-    "DalamudSettingToggleGamepadNavigationHint":
-    {
+    "DalamudSettingToggleGamepadNavigationHint": {
         "message": "你将可以使用 L1+L3 来切换游戏和插件界面。\n如果你正在使用 ImGui，则可以通过 R3 来切换插件管理器窗口。",
         "description": "SettingsWindow.DrawLookAndFeelTab"
     },
-    "DalamudSettingsExperimental":
-    {
+    "DalamudSettingsExperimental": {
         "message": "测试版",
         "description": "SettingsWindow.Draw"
     },
-    "DalamudSettingsRestartHint":
-    {
+    "DalamudSettingsRestartHint": {
         "message": "更改这些设置后，您需要重新启动游戏。",
         "description": "DalamudSettingsWindow.Draw"
     },
@@ -494,33 +403,27 @@
         "message": "获取插件测试版本",
         "description": "SettingsWindow.DrawExperimentalTab"
     },
-    "DalamudSettingsPluginTestHint":
-    {
+    "DalamudSettingsPluginTestHint": {
         "message": "选中此框以接收插件预发布的测试。",
         "description": "SettingsWindow.DrawExperimentalTab"
     },
-    "DalamudSettingsPluginTestWarning":
-    {
+    "DalamudSettingsPluginTestWarning": {
         "message": "测试插件在发布前不一定经过了测试和审核。您需要自行承担使用可能带来的风险。",
         "description": "SettingsWindow.DrawExperimentalTab"
     },
-    "DalamudSettingsClearHidden":
-    {
+    "DalamudSettingsClearHidden": {
         "message": "清除隐藏插件",
         "description": "DalamudSettingsWindow.Draw"
     },
-    "DalamudSettingsClearHiddenHint":
-    {
+    "DalamudSettingsClearHiddenHint": {
         "message": "从插件安装器中取消隐藏所有插件。",
         "description": "SettingsWindow.DrawExperimentalTab"
     },
-    "DalamudSettingsCustomRepo":
-    {
+    "DalamudSettingsCustomRepo": {
         "message": "自定义插件仓库",
         "description": "SettingsWindow.DrawCustomReposSection"
     },
-    "DalamudSettingCustomRepoHint":
-    {
+    "DalamudSettingCustomRepoHint": {
         "message": "添加自定义插件仓库。",
         "description": "SettingsWindow.DrawCustomReposSection"
     },
@@ -539,148 +442,119 @@
         "message": "请绝对确保您只安装来自您信任的开发人员的第三方插件。",
         "description": "SettingsWindow.DrawCustomReposSection"
     },
-    "DalamudSettingsFuckGFW":
-    {
+    "DalamudSettingsFuckGFW": {
         "message": "Fuck GFW 替换",
         "description": "SettingsWindow.DrawFuckGFWSection"
     },
-    "DalamudFuckGFWAddDefault":
-    {
+    "DalamudFuckGFWAddDefault": {
         "message": "添加默认",
         "description": "SettingsWindow.DrawFuckGFWSection"
     },
-    "DalamudSettingFuckGFWHint":
-    {
+    "DalamudSettingFuckGFWHint": {
         "message": "添加 Fuck GFW 替换。",
         "description": "SettingsWindow.DrawFuckGFWSection"
     },
-    "DalamudSettingFuckGFWWarning":
-    {
+    "DalamudSettingFuckGFWWarning": {
         "message": "我们不会照顾每一种网络状况。\n请自行测试与考虑添加何种镜像与替换。",
         "description": "SettingsWindow.DrawFuckGFWSection"
     },
-    "DalamudFuckGFWExists":
-    {
+    "DalamudFuckGFWExists": {
         "message": "此替换的 Url Regex 已存在。",
         "description": "SettingsWindow.DrawFuckGFWSection"
     },
-    "DalamudSettingDalamudTest":
-    {
+    "DalamudSettingDalamudTest": {
         "message": "获取Dalamud的测试版本",
         "description": "DalamudSettingsWindow.Draw"
     },
-    "DalamudSettingDalamudTestHint":
-    {
+    "DalamudSettingDalamudTestHint": {
         "message": "选中此框以接收Dalamud的测试预发行版本。",
         "description": "DalamudSettingsWindow.Draw"
     },
-    "Save":
-    {
+    "Save": {
         "message": "保存",
         "description": "DalamudSettingsWindow.Draw"
     },
-    "SaveAndClose":
-    {
+    "SaveAndClose": {
         "message": "保存并关闭",
         "description": "DalamudSettingsWindow.Draw"
     },
-    "DalamudItemSelectHeader":
-    {
+    "DalamudItemSelectHeader": {
         "message": "选择一个物品",
         "description": "ItemSearchWindow.Draw"
     },
-    "DalamudItemSelect":
-    {
+    "DalamudItemSelect": {
         "message": "请选择一个物品",
         "description": "ItemSearchWindow.Draw"
     },
-    "DalamudItemSearchVerb":
-    {
+    "DalamudItemSearchVerb": {
         "message": "搜索：",
         "description": "ItemSearchWindow.Draw"
     },
-    "DalamudItemSelectAll":
-    {
+    "DalamudItemSelectAll": {
         "message": "全部",
         "description": "ItemSearchWindow.Draw"
     },
-    "DalamudItemSelectCategory":
-    {
+    "DalamudItemSelectCategory": {
         "message": "类别：",
         "description": "ItemSearchWindow.Draw"
     },
-    "DalamudItemSelectHint":
-    {
+    "DalamudItemSelectHint": {
         "message": "输入以开始搜索…",
         "description": "ItemSearchWindow.Draw"
     },
-    "DalamudItemSelectLoading":
-    {
+    "DalamudItemSelectLoading": {
         "message": "正在加载物品列表...",
         "description": "ItemSearchWindow.Draw"
     },
-    "Choose":
-    {
+    "Choose": {
         "message": "选择",
         "description": "ItemSearchWindow.Draw"
     },
-    "DalamudItemNotLinkable":
-    {
+    "DalamudItemNotLinkable": {
         "message": "该物品不可链接。",
         "description": "ItemSearchWindow.Draw"
     },
-    "DalamudWelcome":
-    {
+    "DalamudWelcome": {
         "message": "Dalamud vD{0} 已加载。",
         "description": "ChatHandlers.PrintWelcomeMessage"
     },
-    "DalamudPluginLoaded":
-    {
+    "DalamudPluginLoaded": {
         "message": "    》 {0} v{1} 已加载。",
         "description": "ChatHandlers.PrintWelcomeMessage"
     },
-    "DalamudUpdated":
-    {
+    "DalamudUpdated": {
         "message": "游戏内插件已更新或重新安装成功！请检查 Discord 来查看完整的更新日志。",
         "description": "ChatHandlers.PrintWelcomeMessage"
     },
-    "DalamudPluginUpdateRequired":
-    {
+    "DalamudPluginUpdateRequired": {
         "message": "您需要更新一个或多个插件。请使用游戏中的 /xlplugins 命令来更新它们！",
         "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
     },
-    "DalamudPluginUpdateCheckFail":
-    {
+    "DalamudPluginUpdateCheckFail": {
         "message": "无法检查插件更新。",
         "description": "ChatHandlers.PrintWelcomeMessage"
     },
-    "SystemMenuPlugins":
-    {
+    "SystemMenuPlugins": {
         "message": "插件中心",
         "description": "DalamudAtkTweaks.AgentHudOpenSystemMenuDetour"
     },
-    "SystemMenuSettings":
-    {
+    "SystemMenuSettings": {
         "message": "卫月设置",
         "description": "DalamudSystemMenu.AgentHudOpenSystemMenuDetour"
     },
-    "InstallerInstalledPluginList":
-    {
+    "InstallerInstalledPluginList": {
         "message": "已安装插件",
         "description": "PluginInstallerWindow.DrawTab"
     },
-    "InstallerAvailablePluginList":
-    {
+    "InstallerAvailablePluginList": {
         "message": "可安装插件",
         "description": "PluginInstallerWindow.DrawTab"
     },
-    "InstallerDisabled":
-    {
+    "InstallerDisabled": {
         "message": " （已禁用）",
         "description": "Locs.get_PluginTitleMod_Disabled"
     },
-    "InstallerTestingVersion":
-    {
+    "InstallerTestingVersion": {
         "message": " （测试版本）",
         "description": "Locs.get_PluginTitleMod_TestingVersion"
     },
@@ -699,153 +573,131 @@
         "message": "您还没有安装任何插件。您可以在「可用插件」选项卡中进行安装。",
         "description": "Locs.get_TabBody_SearchNoInstalled"
     },
-    "InstallNoMatching":
-    {
+    "InstallNoMatching": {
         "message": "没有找到与搜索相匹配的插件。",
         "description": "PluginInstallerWindow.DrawPluginList"
     },
-    "SortAlphabetical":
-    {
+    "SortAlphabetical": {
         "message": "字母顺序",
         "description": "PluginInstallerWindow.Draw"
     },
-    "SortLastUpdate":
-    {
+    "SortLastUpdate": {
         "message": "最后更新",
         "description": "PluginInstallerWindow.Draw"
     },
-    "DalamudDevDataMenuHelp":
-    {
+    "DalamudDevDataMenuHelp": {
         "message": "绘制调试数据菜单。用法： /xldata [数据下拉类型]",
         "description": "DalamudCommands.SetupCommands"
     },
-    "DalamudIMEPanelHelp":
-    {
+    "DalamudIMEPanelHelp": {
         "message": "绘制输入法界面",
         "description": "DalamudCommands.SetupCommands"
     },
-    "DalamudDevLogHelp":
-    {
+    "DalamudDevLogHelp": {
         "message": "打开开发者日志 DEBUG",
         "description": "DalamudCommands.SetupCommands"
     },
-    "InstallerDevTools":
-    {
+    "InstallerDevTools": {
         "message": "开发工具",
         "description": "Locs.get_Group_DevTools"
     },
-    "InstallerInstalledPlugins":
-    {
+    "InstallerInstalledPlugins": {
         "message": "已安装",
         "description": "Locs.get_Group_Installed"
     },
-    "InstallerAvailablePlugins":
-    {
+    "InstallerAvailablePlugins": {
         "message": "所有插件",
         "description": "Locs.get_Group_Available"
     },
-    "InstallerAllPlugins":
-    {
+    "InstallerAllPlugins": {
         "message": "所有插件",
         "description": "Locs.get_Group_Available"
     },
-    "InstallerChangelog":
-    {
+    "InstallerChangelog": {
         "message": "更新日志",
         "description": "Locs.get_Group_Available"
     },
-    "InstallerCategoryAll":
-    {
+    "InstallerCategoryAll": {
         "message": "全部",
         "description": "Locs.get_Category_All"
     },
-    "InstallerInstalledDevPlugins":
-    {
-        "message": "开发版插件",
+    "InstallerCategoryIsTesting": {
+        "message": "正在测试",
+        "description": "Locs.get_Category_IsTesting"
+    },
+    "InstallerCategoryAvailableForTesting": {
+        "message": "可用测试",
+        "description": "Locs.get_Category_AvailableForTesting"
+    },
+    "InstallerInstalledDevPlugins": {
+        "message": "开发版",
         "description": "Locs.get_Category_DevInstalled"
     },
-    "InstallerCategoryOther":
-    {
+    "InstallerCategoryOther": {
         "message": "其他",
         "description": "Locs.get_Category_Other"
     },
-    "InstallerCategoryJobs":
-    {
+    "InstallerCategoryJobs": {
         "message": "职业相关",
         "description": "Locs.get_Category_Jobs"
     },
-    "InstallerCategoryUI":
-    {
+    "InstallerCategoryUI": {
         "message": "界面外观",
         "description": "Locs.get_Category_UI"
     },
-    "InstallerCategoryMiniGames":
-    {
+    "InstallerCategoryMiniGames": {
         "message": "小游戏",
         "description": "Locs.get_Category_MiniGames"
     },
-    "InstallerCategoryInventory":
-    {
+    "InstallerCategoryInventory": {
         "message": "背包",
         "description": "Locs.get_Category_Inventory"
     },
-    "InstallerCategorySound":
-    {
+    "InstallerCategorySound": {
         "message": "音效",
         "description": "Locs.get_Category_Sound"
     },
-    "InstallerCategorySocial":
-    {
+    "InstallerCategorySocial": {
         "message": "社交",
         "description": "Locs.get_Category_Social"
     },
-    "InstallerCategoryUtility":
-    {
+    "InstallerCategoryUtility": {
         "message": "工具",
         "description": "Locs.get_Category_Utility"
     },
-    "DalamudGamepadModeNotifierText":
-    {
+    "DalamudGamepadModeNotifierText": {
         "message": "当前处于手柄模式。按 L1+L3 以禁用，按 R3 打开插件菜单。",
         "description": "GamepadModeNotifierWindow.Draw"
     },
-    "InstallerHeaderTesting":
-    {
+    "InstallerHeaderTesting": {
         "message": "（测试）",
         "description": "Locs.get_WindowTitleMod_Testing"
     },
-    "InstallerAlphabetical":
-    {
+    "InstallerAlphabetical": {
         "message": "字母顺序",
         "description": "Locs.get_SortBy_Alphabetical"
     },
-    "InstallerDownloadCount":
-    {
+    "InstallerDownloadCount": {
         "message": "下载次数",
         "description": "Locs.get_SortBy_DownloadCounts"
     },
-    "InstallerLastUpdate":
-    {
+    "InstallerLastUpdate": {
         "message": "更新时间",
         "description": "Locs.get_SortBy_LastUpdate"
     },
-    "InstallerNewOrNot":
-    {
+    "InstallerNewOrNot": {
         "message": "New or not",
         "description": "Locs.get_SortBy_NewOrNot"
     },
-    "InstallerSortBy":
-    {
+    "InstallerSortBy": {
         "message": "排序方式",
         "description": "Locs.get_SortBy_Label"
     },
-    "InstallerSafeMode":
-    {
+    "InstallerSafeMode": {
         "message": "安全模式已启用，重启以激活插件。",
         "description": "Locs.get_TabBody_SafeMode"
     },
-    "InstallerNoMatching":
-    {
+    "InstallerNoMatching": {
         "message": "你寻找的插件不存在。",
         "description": "Locs.get_TabBody_SearchNoMatching"
     },
@@ -854,23 +706,19 @@
         "message": "（已卸载）",
         "description": "Locs.get_PluginTitleMod_Unloaded"
     },
-    "InstallerHasUpdate":
-    {
+    "InstallerHasUpdate": {
         "message": "（需要更新）",
         "description": "Locs.get_PluginTitleMod_HasUpdate"
     },
-    "InstallerLoadError":
-    {
+    "InstallerLoadError": {
         "message": "（加载错误）",
         "description": "Locs.get_PluginTitleMod_LoadError"
     },
-    "InstallerUnloadError":
-    {
+    "InstallerUnloadError": {
         "message": "（卸载错误）",
         "description": "Locs.get_PluginTitleMod_UnloadError"
     },
-    "InstallerOutdatedError":
-    {
+    "InstallerOutdatedError": {
         "message": "（不兼容）",
         "description": "Locs.get_PluginTitleMod_OutdatedError"
     },
@@ -894,48 +742,39 @@
         "message": " 新品！",
         "description": "Locs.get_PluginTitleMod_New"
     },
-    "InstallerMarkAllSeen":
-    {
+    "InstallerMarkAllSeen": {
         "message": "全部已阅",
         "description": "Locs.get_PluginContext_MarkAllSeen"
     },
-    "InstallerHidePlugin":
-    {
+    "InstallerHidePlugin": {
         "message": "隐藏",
         "description": "Locs.get_PluginContext_HidePlugin"
     },
-    "InstallerDeletePluginConfig":
-    {
+    "InstallerDeletePluginConfig": {
         "message": "重置",
         "description": "Locs.get_PluginContext_DeletePluginConfig"
     },
-    "InstallerDeletePluginConfigReload":
-    {
+    "InstallerDeletePluginConfigReload": {
         "message": "重置并重新加载",
         "description": "Locs.get_PluginContext_DeletePluginConfigReload"
     },
-    "InstallerAuthorWithoutDownloadCount":
-    {
+    "InstallerAuthorWithoutDownloadCount": {
         "message": " 作者：{0}",
         "description": "Locs.PluginBody_AuthorWithoutDownloadCount"
     },
-    "InstallerAuthorWithDownloadCount":
-    {
+    "InstallerAuthorWithDownloadCount": {
         "message": " 作者：{0}   下载次数：{1}",
         "description": "Locs.PluginBody_AuthorWithDownloadCount"
     },
-    "InstallerAuthorWithDownloadCountUnavailable":
-    {
+    "InstallerAuthorWithDownloadCountUnavailable": {
         "message": " 作者：{0}   下载次数：未知",
         "description": "Locs.PluginBody_AuthorWithDownloadCountUnavailable"
     },
-    "InstallerDevPluginPath":
-    {
+    "InstallerDevPluginPath": {
         "message": "插件路径：{0}",
         "description": "Locs.PluginBody_DevPluginPath"
     },
-    "InstallerPlugin3rdPartyRepo":
-    {
+    "InstallerPlugin3rdPartyRepo": {
         "message": "插件仓库：{0}",
         "description": "Locs.PluginBody_Plugin3rdPartyRepo"
     },
@@ -944,463 +783,371 @@
         "message": " （开发版）",
         "description": "Locs.get_PluginBody_AvailableDevPlugin"
     },
-    "InstallerDeleteDevPlugin ":
-    {
+    "InstallerDeleteDevPlugin ": {
         "message": " 你需要手动在 devPlugins 文件夹删除此插件。",
         "description": "Locs.get_PluginBody_DeleteDevPlugin"
     },
-    "InstallerOutdatedPluginBody ":
-    {
+    "InstallerOutdatedPluginBody ": {
         "message": "此插件年代过于久远，无法与当前版本的框架兼容。请等待其作者更新。",
         "description": "Locs.get_PluginBody_Outdated"
     },
-    "InstallerBannedPluginBody ":
-    {
+    "InstallerBannedPluginBody ": {
         "message": "由于此插件版本暂不兼容本框架，因此不提供下载。请等待作者更新。",
         "description": "Locs.get_PluginBody_Banned"
     },
-    "InstallerInstall":
-    {
+    "InstallerInstall": {
         "message": "安装 v{0}",
         "description": "Locs.PluginButton_InstallVersion"
     },
-    "InstallerWorking":
-    {
+    "InstallerWorking": {
         "message": "状态良好",
         "description": "Locs.get_PluginButton_Working"
     },
-    "InstallerLoad":
-    {
+    "InstallerLoad": {
         "message": "加载",
         "description": "Locs.get_PluginButton_Load"
     },
-    "InstallerUnload":
-    {
+    "InstallerUnload": {
         "message": "卸载",
         "description": "Locs.get_PluginButton_Unload"
     },
-    "InstallerStartOnBoot":
-    {
+    "InstallerStartOnBoot": {
         "message": "自启动",
         "description": "Locs.get_PluginButtonToolTip_StartOnBoot"
     },
-    "InstallerAutomaticReloading":
-    {
+    "InstallerAutomaticReloading": {
         "message": "自动重载中",
         "description": "Locs.get_PluginButtonToolTip_AutomaticReloading"
     },
-    "InstallerDeletePlugin ":
-    {
+    "InstallerDeletePlugin ": {
         "message": "删除",
         "description": "Locs.get_PluginButtonToolTip_DeletePlugin"
     },
-    "InstallerVisitPluginUrl":
-    {
+    "InstallerVisitPluginUrl": {
         "message": "浏览插件主页",
         "description": "Locs.get_PluginButtonToolTip_VisitPluginUrl"
     },
-    "InstallerUpdateSingle":
-    {
+    "InstallerUpdateSingle": {
         "message": "更新至 {0}",
         "description": "Locs.PluginButtonToolTip_UpdateSingle"
     },
-    "InstallerUnloadFailedTooltip":
-    {
+    "InstallerUnloadFailedTooltip": {
         "message": "插件卸载失败，请重启游戏后再试。",
         "description": "Locs.get_PluginButtonToolTip_UnloadFailed"
     },
-    "NotificationsPluginInstalledTitle":
-    {
+    "NotificationsPluginInstalledTitle": {
         "message": "插件安装完成",
         "description": "Locs.get_Notifications_PluginInstalledTitle"
     },
-    "NotificationsPluginInstalled":
-    {
+    "NotificationsPluginInstalled": {
         "message": "「{0}」已成功安装并启用。",
         "description": "Locs.Notifications_PluginInstalled"
     },
-    "NotificationsPluginNotInstalledTitle":
-    {
+    "NotificationsPluginNotInstalledTitle": {
         "message": "Plugin not installed!",
         "description": "Locs.get_Notifications_PluginNotInstalledTitle"
     },
-    "NotificationsPluginNotInstalled":
-    {
+    "NotificationsPluginNotInstalled": {
         "message": "「{0}」安装失败。",
         "description": "Locs.Notifications_PluginNotInstalled"
     },
-    "NotificationsNoUpdatesFoundTitle":
-    {
+    "NotificationsNoUpdatesFoundTitle": {
         "message": "更新检查完成",
         "description": "Locs.get_Notifications_NoUpdatesFoundTitle"
     },
-    "NotificationsNoUpdatesFound":
-    {
+    "NotificationsNoUpdatesFound": {
         "message": "无可用更新。",
         "description": "Locs.get_Notifications_NoUpdatesFound"
     },
-    "NotificationsUpdatesInstalledTitle":
-    {
+    "NotificationsUpdatesInstalledTitle": {
         "message": "更新检查完成",
         "description": "Locs.get_Notifications_UpdatesInstalledTitle"
     },
-    "NotificationsUpdatesInstalled":
-    {
+    "NotificationsUpdatesInstalled": {
         "message": "已更新 {0} 个插件。",
         "description": "Locs.Notifications_UpdatesInstalled"
     },
-    "NotificationsPluginDisabledTitle":
-    {
+    "NotificationsPluginDisabledTitle": {
         "message": "插件禁用完成",
         "description": "Locs.get_Notifications_PluginDisabledTitle"
     },
-    "NotificationsPluginDisabled":
-    {
+    "NotificationsPluginDisabled": {
         "message": "「{0}」已禁用。",
         "description": "Locs.Notifications_PluginDisabled"
     },
-    "InstallerSettings":
-    {
+    "InstallerSettings": {
         "message": "设置",
         "description": "Locs.get_FooterButton_Settings"
     },
-    "InstallerScanDevPlugins":
-    {
+    "InstallerScanDevPlugins": {
         "message": "扫描开发版插件",
         "description": "Locs.get_FooterButton_ScanDevPlugins"
     },
-    "InstallerClose":
-    {
+    "InstallerClose": {
         "message": "关闭",
         "description": "Locs.get_FooterButton_Close"
     },
-    "InstallerContactAuthor":
-    {
+    "InstallerContactAuthor": {
         "message": "请重启游戏后再试一次。如果错误依然存在，请联系插件作者。",
         "description": "Locs.get_ErrorModal_InstallContactAuthor"
     },
-    "InstallerInstallFail":
-    {
+    "InstallerInstallFail": {
         "message": "插件 {0} 安装失败。\n{1}",
         "description": "Locs.ErrorModal_InstallFail"
     },
-    "InstallerSingleUpdateFail":
-    {
+    "InstallerSingleUpdateFail": {
         "message": "插件 {0} 更新失败。\n{1}",
         "description": "Locs.ErrorModal_SingleUpdateFail"
     },
-    "InstallerDeleteConfigFail":
-    {
+    "InstallerDeleteConfigFail": {
         "message": "插件 {0} 重置失败。\n\n该插件可能尚未支持此操作。你可以在游戏关闭后手动删除配置文件，详细操作请参阅常见问题页面。",
         "description": "Locs.ErrorModal_DeleteConfigFail"
     },
-    "InstallerEnableFail":
-    {
+    "InstallerEnableFail": {
         "message": "插件 {0} 启用失败。\n{1}",
         "description": "Locs.ErrorModal_EnableFail"
     },
-    "InstallerDisableFail":
-    {
+    "InstallerDisableFail": {
         "message": "插件 {0} 禁用失败。\n{1}",
         "description": "Locs.ErrorModal_DisableFail"
     },
-    "InstallerUnloadFail":
-    {
+    "InstallerUnloadFail": {
         "message": "插件 {0} 卸载失败。\n{1}",
         "description": "Locs.ErrorModal_UnloadFail"
     },
-    "InstallerLoadFail":
-    {
+    "InstallerLoadFail": {
         "message": "插件 {0} 加载失败。\n{1}",
         "description": "Locs.ErrorModal_LoadFail"
     },
-    "InstallerDeleteFail":
-    {
+    "InstallerDeleteFail": {
         "message": "插件 {0} 删除失败。\n{1}",
         "description": "Locs.ErrorModal_DeleteFail"
     },
-    "InstallerUpdaterFatal":
-    {
+    "InstallerUpdaterFatal": {
         "message": "插件更新失败。\n请重启游戏后再试一次。如果问题依然存在，请向我们报告。",
         "description": "Locs.get_ErrorModal_UpdaterFatal"
     },
-    "InstallerUpdaterFail":
-    {
+    "InstallerUpdaterFail": {
         "message": "{0} 个插件更新失败。\n请重启游戏后再试一次。如果问题依然存在，请向我们报告。",
         "description": "Locs.ErrorModal_UpdaterFail"
     },
-    "InstallerUpdaterFailPartial":
-    {
+    "InstallerUpdaterFailPartial": {
         "message": "{0} 个插件更新成功，{1} 个更新失败。\n请重启游戏后再试一次。如果问题依然存在，请向我们报告。",
         "description": "Locs.ErrorModal_UpdaterFailPartial"
     },
-    "InstallerFeedback":
-    {
+    "InstallerFeedback": {
         "message": "反馈意见",
         "description": "Locs.get_FeedbackModal_Title"
     },
-    "InstallerFeedbackInfo":
-    {
+    "InstallerFeedbackInfo": {
         "message": "你可以向「{0}」的开发者发送意见。\n请附上你的 Discord ID 或邮箱地址以接收开发者的回应。",
         "description": "Locs.FeedbackModal_Text"
     },
-    "InstallerFeedbackContactInfo":
-    {
+    "InstallerFeedbackContactInfo": {
         "message": "联系信息",
         "description": "Locs.get_FeedbackModal_ContactInformation"
     },
-    "InstallerFeedbackIncludeLastError":
-    {
+    "InstallerFeedbackIncludeLastError": {
         "message": "包含最后一次报错信息",
         "description": "Locs.get_FeedbackModal_IncludeLastError"
     },
-    "InstallerFeedbackIncludeLastErrorHint":
-    {
+    "InstallerFeedbackIncludeLastErrorHint": {
         "message": "这有助于开发者确定问题的来源。",
         "description": "Locs.get_FeedbackModal_IncludeLastErrorHint"
     },
-    "InstallerFeedbackHint":
-    {
+    "InstallerFeedbackHint": {
         "message": "所有插件开发者都可以看到你的反馈。\n请不要在其中包含个人资料或敏感内容。\n如果你选择了附上最后一次错误信息，你的 Windows 用户名也可能会包含在内。\n\n我们收集的反馈将会立即转发至 Discord，并不会在服务端储存。",
         "description": "Locs.get_FeedbackModal_Hint"
     },
-    "InstallerFeedbackNotificationSuccess":
-    {
+    "InstallerFeedbackNotificationSuccess": {
         "message": "反馈发送成功！",
         "description": "Locs.get_FeedbackModal_NotificationSuccess"
     },
-    "InstallerFeedbackNotificationError":
-    {
+    "InstallerFeedbackNotificationError": {
         "message": "反馈发送失败。",
         "description": "Locs.get_FeedbackModal_NotificationError"
     },
-    "DalamudSettingsDisableRmtFiltering":
-    {
+    "DalamudSettingsDisableRmtFiltering": {
         "message": "禁用 RMT 过滤",
         "description": "SettingsWindow.DrawGeneralTab"
     },
-    "DalamudSettingsDisableRmtFilteringMsgHint":
-    {
+    "DalamudSettingsDisableRmtFilteringMsgHint": {
         "message": "禁用 Dalamud 内置的 RMT 广告过滤。",
         "description": "SettingsWindow.DrawGeneralTab"
     },
-    "DalamudSettingsOpenStyleEditor":
-    {
+    "DalamudSettingsOpenStyleEditor": {
         "message": "打开样式编辑器",
         "description": "SettingsWindow.DrawLookAndFeelTab"
     },
-    "DalamudSettingsStyleEditorHint":
-    {
+    "DalamudSettingsStyleEditorHint": {
         "message": "修改 Dalamud 窗口的外观。",
         "description": "SettingsWindow.DrawLookAndFeelTab"
     },
-    "DalamudSettingToggleFocusManagement":
-    {
+    "DalamudSettingToggleFocusManagement": {
         "message": "使用 ESC 关闭 Dalamud 窗口",
         "description": "SettingsWindow.DrawLookAndFeelTab"
     },
-    "DalamudSettingToggleFocusManagementHint":
-    {
+    "DalamudSettingToggleFocusManagementHint": {
         "message": "这会让 Dalamud 窗口和游戏窗口一样，在按下 ESC 键时关闭。\n它们会逐个关闭。但可能不适用于所有插件。",
         "description": "SettingsWindow.DrawLookAndFeelTab"
     },
-    "DalamudSettingsChanged":
-    {
+    "DalamudSettingsChanged": {
         "message": "（修改）",
         "description": "SettingsWindow.DrawCustomReposSection"
     },
-    "DalamudThirdRepoExists":
-    {
+    "DalamudThirdRepoExists": {
         "message": "仓库已经存在。",
         "description": "SettingsWindow.DrawCustomReposSection"
     },
-    "DalamudSettingsDevPluginLocation":
-    {
+    "DalamudSettingsDevPluginLocation": {
         "message": "开发版插件位置",
         "description": "SettingsWindow.DrawDevPluginLocationsSection"
     },
-    "DalamudSettingsDevPluginLocationsHint":
-    {
+    "DalamudSettingsDevPluginLocationsHint": {
         "message": "添加额外的开发版插件加载位置。\n支持目录或 DLL 路径。",
         "description": "SettingsWindow.DrawDevPluginLocationsSection"
     },
-    "DalamudDevPluginLocationExists":
-    {
+    "DalamudDevPluginLocationExists": {
         "message": "位置已经存在。",
         "description": "SettingsWindow.DrawDevPluginLocationsSection"
     },
-    "RenameStyleModalTitle":
-    {
+    "RenameStyleModalTitle": {
         "message": "重命名样式",
         "description": "StyleEditorWindow.Draw"
     },
-    "StyleEditorChooseStyle":
-    {
+    "StyleEditorChooseStyle": {
         "message": "选择样式：",
         "description": "StyleEditorWindow.Draw"
     },
-    "StyleEditorAddNew":
-    {
+    "StyleEditorAddNew": {
         "message": "增加新样式",
         "description": "StyleEditorWindow.Draw"
     },
-    "StyleEditorDeleteStyle":
-    {
+    "StyleEditorDeleteStyle": {
         "message": "删除当前样式",
         "description": "StyleEditorWindow.Draw"
     },
-    "StyleEditorRenameStyle":
-    {
+    "StyleEditorRenameStyle": {
         "message": "重命名样式",
         "description": "StyleEditorWindow.Draw"
     },
-    "StyleEditorCopy":
-    {
+    "StyleEditorCopy": {
         "message": "导出样式至剪贴板",
         "description": "StyleEditorWindow.Draw"
     },
-    "StyleEditorImport":
-    {
+    "StyleEditorImport": {
         "message": "从剪贴板导入样式",
         "description": "StyleEditorWindow.Draw"
     },
-    "StyleEditorNotAllowed":
-    {
+    "StyleEditorNotAllowed": {
         "message": "内置样式无法被编辑。请先增加一个新样式。",
         "description": "StyleEditorWindow.Draw"
     },
-    "StyleEditorApplying":
-    {
+    "StyleEditorApplying": {
         "message": "正在应用样式...",
         "description": "StyleEditorWindow.Draw"
     },
-    "StyleEditorVariables":
-    {
+    "StyleEditorVariables": {
         "message": "变量",
         "description": "StyleEditorWindow.Draw"
     },
-    "StyleEditorColors":
-    {
+    "StyleEditorColors": {
         "message": "配色",
         "description": "StyleEditorWindow.Draw"
     },
-    "StyleEditorEnterName":
-    {
+    "StyleEditorEnterName": {
         "message": "请输入新的样式名称。",
         "description": "StyleEditorWindow.Draw"
     },
-    "PluginsWelcome":
-    {
+    "PluginsWelcome": {
         "message": " 已加载 {0} 个插件。",
         "description": "ChatHandlers.PrintWelcomeMessage"
     },
-    "DalamudPluginAutoUpdate":
-    {
+    "DalamudPluginAutoUpdate": {
         "message": "自动更新：",
         "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
     },
-    "NotificationUpdatedPlugins":
-    {
+    "NotificationUpdatedPlugins": {
         "message": "{0} 个插件更新成功。",
         "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
     },
-    "NotificationAutoUpdate":
-    {
+    "NotificationAutoUpdate": {
         "message": "自动更新",
         "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
     },
-    "TSMDalamudPlugins":
-    {
+    "TSMDalamudPlugins": {
         "message": "插件管理",
         "description": "Dalamud.DalamudInterface"
     },
-    "TSMDalamudSettings":
-    {
+    "TSMDalamudSettings": {
         "message": "卫月设置",
         "description": "Dalamud.DalamudInterface"
     },
-    "TSMDalamudDevMenu":
-    {
+    "TSMDalamudDevMenu": {
         "message": "开发菜单",
         "description": "Dalamud.DalamudInterface"
     },
-    "DalamudSettingToggleTsm":
-    {
+    "DalamudSettingToggleTsm": {
         "message": "显示标题界面按钮",
         "description": "Dalamud.DalamudInterface"
     },
-    "DalamudSettingToggleTsmHint":
-    {
+    "DalamudSettingToggleTsmHint": {
         "message": "这使你能够在标题界面访问卫月框架与插件设置",
         "description": "Dalamud.DalamudInterface"
     },
-    "DalamudSettingToggleAxisFonts":
-    {
+    "DalamudSettingToggleAxisFonts": {
         "message": "使用 AXIS 作为默认字体",
         "description": "Dalamud.DalamudInterface"
     },
-    "DalamudSettingToggleUiAxisFontsHint":
-    {
+    "DalamudSettingToggleUiAxisFontsHint": {
         "message": "使用 AXIS 字体（游戏默认字体）作为卫月框架字体",
         "description": "Dalamud.DalamudInterface"
     },
-    "DalamudSettingsFontGammaHint":
-    {
+    "DalamudSettingsFontGammaHint": {
         "message": "更改文字的厚度",
         "description": "Dalamud.DalamudInterface"
     },
-    "DalamudSettingsIndividualConfigResetToDefaultValue":
-    {
+    "DalamudSettingsIndividualConfigResetToDefaultValue": {
         "message": "重置",
         "description": "Dalamud.DalamudInterface"
     },
-    "DalamudSettingsFontGamma":
-    {
+    "DalamudSettingsFontGamma": {
         "message": "字体伽马值",
         "description": "Dalamud.DalamudInterface"
     },
-    "DalamudSettingsServerInfoBar":
-    {
+    "DalamudSettingsServerInfoBar": {
         "message": "服务器状态栏",
         "description": "Dalamud.DalamudInterface"
     },
-    "DalamudSettingServerInfoBar":
-    {
+    "DalamudSettingServerInfoBar": {
         "message": "服务器状态栏设置",
         "description": "Dalamud.DalamudInterface"
     },
-    "DalamudSettingServerInfoBarHint":
-    {
+    "DalamudSettingServerInfoBarHint": {
         "message": "插件可以在服务器状态栏（游戏内显示服务器、时间的区域）添加新内容。\n您可以在此处排序或关闭。",
         "description": "Dalamud.DalamudInterface"
     },
-    "DalamudSettingServerInfoBarDidNone":
-    {
+    "DalamudSettingServerInfoBarDidNone": {
         "message": "您没有正在使用此功能的插件",
         "description": "Dalamud.DalamudInterface"
     },
-    "DalamudSettingServerInfoBarSpacing":
-    {
+    "DalamudSettingServerInfoBarSpacing": {
         "message": "服务器状态栏间隔",
         "description": "Dalamud.DalamudInterface"
     },
-    "DalamudSettingServerInfoBarSpacingHint":
-    {
+    "DalamudSettingServerInfoBarSpacingHint": {
         "message": "调整服务器状态栏间隔的项目间隔",
         "description": "Dalamud.DalamudInterface"
     },
-    "DalamudSettingServerInfoBarDirection":
-    {
+    "DalamudSettingServerInfoBarDirection": {
         "message": "服务器状态栏方向",
         "description": "Dalamud.DalamudInterface"
     },
-    "DalamudSettingServerInfoBarDirectionHint":
-    {
+    "DalamudSettingServerInfoBarDirectionHint": {
         "message": "如果勾选，服务器状态栏项目将向右扩展（默认向左）。",
         "description": "Dalamud.DalamudInterface"
     },
-    "DalamudSettingServerInfoSwapDirection":
-    {
+    "DalamudSettingServerInfoSwapDirection": {
         "message": "更改方向",
         "description": "Dalamud.DalamudInterface"
     }

@@ -1,0 +1,36 @@
+name: Rehash Assets
+on: 
+  push:
+    branches:
+      - cn
+  workflow_dispatch:
+
+jobs:
+  generate:
+    name: Rehash Assets
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/setup-python@v2
+        with:
+            python-version: '3.10'
+      - name: Checkout ${{ github.ref }}
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.ref }}
+      - name: Hash asset.json
+        run: python hash.py
+      - name: Commit files
+        continue-on-error: true
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Rehash Assets"
+      - name: Push changes
+        continue-on-error: false
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
+      - name: Clear Web Services cache
+        run: curl -X POST --fail https://aonyx.ffxiv.wang/Dalamud/Asset/ClearCache?key=${{ secrets.CACHE_CLEAR_KEY }}
