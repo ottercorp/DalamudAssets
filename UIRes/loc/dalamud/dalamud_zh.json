@@ -560,7 +560,7 @@
     },
     "InstallerTestingExclusive":
     {
-        "message": " （独家测试）",
+        "message": " （独占测试）",
         "description": "Locs.get_PluginTitleMod_TestingExclusive"
     },
     "InstallerTestingAvailable":
