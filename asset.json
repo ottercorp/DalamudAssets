@@ -47,9 +47,9 @@
             "Hash": "3AFC19400A6475198503DCC25314BCBCDC03B929"
         },
         {
-         "Url":"https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/outdatedInstallableIcon.png",
-         "FileName":"UIRes/outdatedInstallableIcon.png",
-         "Hash":"D3B26CA713D1B4FFC9FC4FD08846DD462BEFC082"
+            "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/outdatedInstallableIcon.png",
+            "FileName": "UIRes/outdatedInstallableIcon.png",
+            "Hash": "BA96E817FE8EE2FCC976DEC986973C78BE3A37AE"
         },
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/troubleIcon.png",
