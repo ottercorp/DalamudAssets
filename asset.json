@@ -4,12 +4,12 @@
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/serveropcode.json",
             "FileName": "UIRes/serveropcode.json",
-            "Hash": "7329B62835199B434C0C670198B286EB77F024E5"
+            "Hash": "C0C0971631BA10D2BFBB7B6A9D2A9ED4405002C9"
         },
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/clientopcode.json",
             "FileName": "UIRes/clientopcode.json",
-            "Hash": "7B8C7E410C5F9AB90E8139D7BCEF30EF7D626126"
+            "Hash": "1A41D59FC72C5925209B3F771482D5E31DD2B423"
         },
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/bannedplugin.json",
