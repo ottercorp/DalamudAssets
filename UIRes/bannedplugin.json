@@ -55,4 +55,12 @@
     "Name": "SonarPlugin",
     "AssemblyVersion": "0.4.9.1"
   },
+  {
+    "Name": "XIVAutoAttack",
+    "AssemblyVersion": "2147483647.2147483647.2147483647.2147483647"
+  },
+  {
+    "Name": "AutoAction_CN",
+    "AssemblyVersion": "2147483647.2147483647.2147483647.2147483647"
+  },
 ]
