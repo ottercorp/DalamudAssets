@@ -134,12 +134,12 @@
         {
             "Url": "https://github.com/ottercorp/DalamudAssets/raw/cn/UIRes/XIVLauncher.Common.dll",
             "FileName": "UIRes/XIVLauncher.Common.dll",
-            "Hash": ""
+            "Hash": "CDCD66898E9C382401876BE2636C00A47E3B4D1A"
         },
         {
             "Url": "https://github.com/ottercorp/DalamudAssets/raw/cn/UIRes/XIVLauncherCN.exe.config",
             "FileName": "UIRes/XIVLauncherCN.exe.config",
-            "Hash": ""
+            "Hash": "8A6BCED5248CE4A8C53DD5B8778935F2C24D81D5"
         }
     ]
 }
