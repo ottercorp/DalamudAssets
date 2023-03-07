@@ -1,5 +1,5 @@
 {
-    "Version": 53,
+    "Version": 54,
     "Assets": [
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/serveropcode.json",
@@ -125,11 +125,6 @@
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/gamesym.ttf",
             "FileName": "UIRes/gamesym.ttf",
             "Hash": "89BC6B5015EF0EDFA5AE272B3A406B54CF61C6F1"
-        },
-        {
-            "Url": "https://github.com/ottercorp/DalamudAssets/raw/cn/UIRes/SharpCompress.dll",
-            "FileName": "UIRes/SharpCompress.dll",
-            "Hash": "CD30BA0C9B94B2D8453E94614BAC8F9943F6E01C"
         }
     ]
 }
