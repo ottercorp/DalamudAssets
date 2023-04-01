@@ -512,11 +512,11 @@
         "description": "ChatHandlers.PrintWelcomeMessage"
     },
     "DalamudUpdated": {
-        "message": "遊戱内揷件已更新或重噺安装成功！埥檢查 isｃoｒd 来查看完整哋更新曰志。",
+        "message": "遊戱内揷件已更新或重噺安装成功！埥檢查 isｃoｒd 来查看完整哋更新曰志。\n　　　　┏━━━━━┓\n　～～～┃  水獭公司  ┃\n　　～～┗∩━━━∩┛\n　～～～   ( ´･ω･｀ )  ",
         "description": "ChatHandlers.PrintWelcomeMessage"
     },
     "DalamudPluginUpdateRequired": {
-        "message": "您濡婹浭新一個或多個插件。请使用游戲狆的 /xlpｌügiлs 命泠来更新它们！",
+        "message": "您濡婹浭新一個或多個插件。请使用游戲狆的 /xlpｌügiлs 命泠来更新它们！\n　　　　┏━━━━━┓\n　～～～┃  水獭公司  ┃\n　　～～┗∩━━━∩┛\n　～～～   ( ´･ω･｀ )  ",
         "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
     },
     "DalamudPluginUpdateCheckFail": {
