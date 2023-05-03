@@ -92,21 +92,6 @@
             "Hash": "544DA1125ADC03D63610127DC76E1FC5175615D3"
         },
         {
-            "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/logo.png",
-            "FileName": "UIRes/logo.png",
-            "Hash": "0F6323DDFA3665639142252281D22C675D8CD617"
-        },
-        {
-            "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/tsmShade.png",
-            "FileName": "UIRes/tsmShade.png",
-            "Hash": "AB7EE2E20955CDC4B98886BE7AEE962A98105D4B"
-        },
-        {
-            "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/tsmLogo.png",
-            "FileName": "UIRes/tsmLogo.png",
-            "Hash": "DAC17EE20C63A0CD0C5040A8A900E3CA1B67C5CC"
-        },
-        {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/installedIcon.png",
             "FileName": "UIRes/installedIcon.png",
             "Hash": "F9A7E334CB719CF36B265A212B3D32A4578429B4"
