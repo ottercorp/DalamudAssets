@@ -916,7 +916,7 @@
     "description": "Locs.get_FeedbackModal_Title"
   },
   "InstallerFeedbackInfo": {
-    "message": "您可以在这里向「{0}」的开发者发送反馈。\n如果您希望他们回答您，您可以提供您的 Discord 标签或电子邮件地址。\n\n如果您想报告一个错误，我们建议您加入 XIVLauncher 的 Discord 服务器。",
+    "message": "您可以在这里向「{0}」的开发者发送反馈。\n如果您希望他们回答您，您可以提供您的QQ号或电子邮件地址。\n\n如果您想报告一个错误，我们建议您加入獭爹的QQ频道。",
     "description": "Locs.FeedbackModal_Text"
   },
   "InstallerFeedbackHasUpdate": {
@@ -936,7 +936,7 @@
     "description": "Locs.get_FeedbackModal_IncludeLastErrorHint"
   },
   "InstallerFeedbackHint": {
-    "message": "所有插件开发者都可以看到你的反馈。\n请不要在其中包含个人资料或敏感内容。\n如果你选择了附上最后一次错误信息，你的 Windows 用户名也可能会包含在内。\n\n我们收集的反馈将会立即转发至 Discord，并不会在服务端储存。",
+    "message": "所有水獭公司成员都可以看到你的反馈。\n请不要在其中包含个人资料或敏感内容。\n如果你选择了附上最后一次错误信息，你的 Windows 用户名也可能会包含在内。\n\n我们收集的反馈将会立即转发至服务器，并不会在本地储存。",
     "description": "Locs.get_FeedbackModal_Hint"
   },
   "InstallerFeedbackNotificationSuccess": {
