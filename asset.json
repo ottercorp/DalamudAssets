@@ -1,15 +1,15 @@
 {
-    "Version": 59,
+    "Version": 60,
     "Assets": [
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/serveropcode.json",
             "FileName": "UIRes/serveropcode.json",
-            "Hash": "F12D2F24A977CCDE8767F02B5D1E23BC79962963"
+            "Hash": "FBEC8A5FF7AF648FD4B1ACF23D5C4631E00C0879"
         },
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/clientopcode.json",
             "FileName": "UIRes/clientopcode.json",
-            "Hash": "4B312F1B95473D9D2373C90C713E8140EB6A1C25"
+            "Hash": "AB14069FF41CC8F2495AD6C516C11E5689F3304C"
         },
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/bannedplugin.json",
@@ -149,7 +149,7 @@
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/loc/dalamud/dalamud_zh.json",
             "FileName": "UIRes/loc/dalamud/dalamud_zh.json",
-            "Hash": "876C16F2AFA26D79B107BC071CBBB01FBCC60147"
+            "Hash": "1AF2B5EA18DD7C0CFA2BFA5CF209C3EE71B43EC6"
         },
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/loc/dalamud/dalamud_tw.json",
