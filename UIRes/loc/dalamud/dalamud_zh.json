@@ -612,7 +612,7 @@
     "description": "Locs.get_TabBody_LoadingPlugins"
   },
   "InstallerDownloadFailed": {
-    "message": "下载失败。",
+    "message": "无法访问，请检查网络连接和代理设置。",
     "description": "Locs.get_TabBody_DownloadFailed"
   },
   "InstallerSafeMode": {
