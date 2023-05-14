@@ -63,4 +63,14 @@
     "Name": "AutoAction_CN",
     "AssemblyVersion": "2147483647.2147483647.2147483647.2147483647"
   },
+  {
+    "Name": "PingPlugin",
+    "AssemblyVersion": "2.5.1.0",
+    "Reason": "请更新插件版本."
+  },
+  {
+    "Name": "EngageTimer",
+    "AssemblyVersion": "2.2.5.2",
+    "Reason": "请更新插件版本."
+  }
 ]

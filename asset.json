@@ -1,5 +1,5 @@
 {
-    "Version": 60,
+    "Version": 62,
     "Assets": [
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/serveropcode.json",
@@ -14,17 +14,12 @@
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/bannedplugin.json",
             "FileName": "UIRes/bannedplugin.json",
-            "Hash": "B011A0C99DEB1D485D44246825F1F18FACFA66E1"
+            "Hash": "2CDDAACFA37776B84546849609D30EE2A6DEED3E"
         },
         {
             "Url": "https://mirrors.ustc.edu.cn/CTAN/fonts/notocjksc/NotoSansCJKsc-Medium.otf",
             "FileName": "UIRes/NotoSansCJKsc-Medium.otf",
             "Hash": "C8AC9E680749BF31536971BC51DB257DDBAF3E68"
-        },
-        {
-            "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/NotoSansCJKjp-Medium.otf",
-            "FileName": "UIRes/NotoSansCJKjp-Medium.otf",
-            "Hash": "7334F0BADA3A7D52E1C642217EB7EA21BE700421"
         },
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/NotoSansKR-Regular.otf",
