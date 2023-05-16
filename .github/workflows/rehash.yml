@@ -8,7 +8,7 @@ on:
 jobs:
   generate:
     name: Rehash Assets
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-python@v2
         with:
