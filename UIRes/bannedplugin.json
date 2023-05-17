@@ -72,10 +72,5 @@
     "Name": "EngageTimer",
     "AssemblyVersion": "2.2.5.2",
     "Reason": "请更新插件版本."
-  },
-  {
-    "Name": "JobBars",
-    "AssemblyVersion": "1.2.3.5",
-    "Reason": "Crash the game."
   }
 ]
