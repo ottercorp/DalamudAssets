@@ -1,5 +1,5 @@
 {
-    "Version": 66,
+    "Version": 67,
     "Assets": [
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/serveropcode.json",
@@ -15,6 +15,10 @@
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/bannedplugin.json",
             "FileName": "UIRes/bannedplugin.json",
             "Hash": "76B8B41EC4D013F44325F9A3829CF62312D85F0E"
+        },
+        {
+            "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/cheatplugin.json",
+            "FileName": "UIRes/cheatplugin.json"
         },
         {
             "Url": "https://mirrors.ustc.edu.cn/CTAN/fonts/notocjksc/NotoSansCJKsc-Medium.otf",
