@@ -18,7 +18,8 @@
         },
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/cheatplugin.json",
-            "FileName": "UIRes/cheatplugin.json"
+            "FileName": "UIRes/cheatplugin.json",
+            "Hash": "F31E37E1080F4662C360B12E69690FF465369D70"
         },
         {
             "Url": "https://mirrors.ustc.edu.cn/CTAN/fonts/notocjksc/NotoSansCJKsc-Medium.otf",
