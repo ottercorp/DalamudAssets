@@ -1,5 +1,5 @@
 {
-    "Version": 69,
+    "Version": 70,
     "Assets": [
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/serveropcode.json",
@@ -25,11 +25,6 @@
             "Url": "https://mirrors.ustc.edu.cn/CTAN/fonts/notocjksc/NotoSansCJKsc-Medium.otf",
             "FileName": "UIRes/NotoSansCJKsc-Medium.otf",
             "Hash": "C8AC9E680749BF31536971BC51DB257DDBAF3E68"
-        },
-        {
-            "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/NotoSansKR-Regular.otf",
-            "FileName": "UIRes/NotoSansKR-Regular.otf",
-            "Hash": "5F533D0D5CAF3847AFA2D78301E7B87B3485ECBC"
         },
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/FontAwesome5FreeSolid.otf",
