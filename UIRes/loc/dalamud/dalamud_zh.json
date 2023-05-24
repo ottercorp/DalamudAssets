@@ -744,7 +744,7 @@
     "description": "Locs.get_PluginBody_Outdated"
   },
   "InstallerBannedPluginBody ": {
-    "message": "此插件因兼容性问题而被自动禁用，目前还未能使用。请等待作者更新。",
+    "message": "此插件因兼容性问题而被自动禁用，或被发行方主动禁用。请等待作者更新或停止使用。",
     "description": "Locs.get_PluginBody_Banned"
   },
   "InstallerBannedPluginBodyReason ": {
