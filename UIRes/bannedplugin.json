@@ -60,5 +60,10 @@
     "Name": "EngageTimer",
     "AssemblyVersion": "2.2.5.2",
     "Reason": "请更新插件版本."
+  },
+  {
+    "Name": "UsedName",
+    "AssemblyVersion": "0.8.2.8",
+    "Reason": "6.4的SocialList数据结构变化"
   }
 ]
