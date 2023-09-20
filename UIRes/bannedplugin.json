@@ -65,5 +65,10 @@
     "Name": "UsedName",
     "AssemblyVersion": "0.8.2.8",
     "Reason": "6.4的SocialList数据结构变化"
+  },
+  {
+    "Name": "JobBars",
+    "AssemblyVersion": "1.2.3.6",
+    "Reason": "6.4 boom"
   }
 ]
