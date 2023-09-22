@@ -1,18 +1,54 @@
 {
-  "DalamudPluginUpdateSuccessful": {
-    "message": "    》 {0} 已更新至 v{1}.",
-    "description": "Locs.DalamudPluginUpdateSuccessful"
+  "DalamudWelcome": {
+    "message": "Dalamud vD{0} 已加载。",
+    "description": "ChatHandlers.PrintWelcomeMessage"
   },
-  "DalamudPluginUpdateFailed": {
-    "message": "    》 {0} 在尝试更新至 v{1} 时失败。",
-    "description": "Locs.DalamudPluginUpdateFailed"
+  "PluginsWelcome": {
+    "message": " 已加载 {0} 个插件。",
+    "description": "ChatHandlers.PrintWelcomeMessage"
+  },
+  "DalamudPluginLoaded": {
+    "message": "    》 {0} v{1} 已加载。",
+    "description": "ChatHandlers.PrintWelcomeMessage"
+  },
+  "DalamudUpdated": {
+    "message": "Dalamud 已成功更新！请查阅 Discord 来取得完整的更新日志。",
+    "description": "ChatHandlers.PrintWelcomeMessage"
+  },
+  "DalamudPluginUpdateCheckFail": {
+    "message": "无法检查插件更新。",
+    "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
+  },
+  "DalamudPluginAutoUpdate": {
+    "message": "自动更新：",
+    "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
+  },
+  "NotificationUpdatedPlugins": {
+    "message": "{0} 个插件更新成功。",
+    "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
+  },
+  "NotificationAutoUpdate": {
+    "message": "自动更新",
+    "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
+  },
+  "DalamudPluginUpdateRequired": {
+    "message": "您需要更新一个或多个插件。请使用游戏中的 /xlplugins 命令来更新它们！",
+    "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
+  },
+  "DalamudInstallerHelp": {
+    "message": "打开插件安装器",
+    "description": "DalamudCommands.SetupCommands"
+  },
+  "SystemMenuPlugins": {
+    "message": "插件中心",
+    "description": "DalamudAtkTweaks..ctor"
+  },
+  "SystemMenuSettings": {
+    "message": "卫月设置",
+    "description": "DalamudAtkTweaks..ctor"
   },
   "DalamudUnloadHelp": {
     "message": "卸载游戏中的 XIVLauncher 插件。",
-    "description": "DalamudCommands.SetupCommands"
-  },
-  "DalamudPluginReloadHelp": {
-    "message": "重新加载所有插件。",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudCmdInfoHelp": {
@@ -43,6 +79,14 @@
     "message": "绘制开发菜单 DEBUG",
     "description": "DalamudCommands.SetupCommands"
   },
+  "DalamudPluginStats": {
+    "message": "Draw plugin statistics window",
+    "description": "DalamudPluginStats"
+  },
+  "DalamudBranchSwitcher": {
+    "message": "Draw branch switcher",
+    "description": "DalamudBranchSwitcher"
+  },
   "DalamudDevDataMenuHelp": {
     "message": "绘制调试数据菜单。用法： /xldata [数据下拉类型]",
     "description": "DalamudCommands.SetupCommands"
@@ -55,25 +99,13 @@
     "message": "打开开发者日志 DEBUG",
     "description": "DalamudCommands.SetupCommands"
   },
-  "DalamudInstallerHelp": {
-    "message": "打开插件安装器",
-    "description": "DalamudCommands.SetupCommands"
-  },
-  "DalamudCreditsHelp": {
-    "message": "打开 dalamud 的制作人表。",
-    "description": "DalamudCommands.SetupCommands"
-  },
-  "DalamudLanguageHelp": {
-    "message": "设置 Dalamud 和插件的语言。可用语言： ",
-    "description": "DalamudCommands.SetupCommands"
-  },
-  "DalamudSettingsHelp": {
-    "message": "更改不同的游戏内附加组件设置，如聊天频道和 Discord 机器人设置。",
-    "description": "DalamudCommands.SetupCommands"
-  },
   "DalamudCmdHelpAvailable": {
     "message": "可用命令:",
     "description": "DalamudCommands.OnHelpCommand"
+  },
+  "DalamudCmdHelpNotFound": {
+    "message": "找不到命令。",
+    "description": "DalamudCmdHelpNotFound"
   },
   "DalamudMuteNoArgs": {
     "message": "请提供一个单词来屏蔽。",
@@ -135,9 +167,21 @@
     "message": "全部",
     "description": "Locs.get_Category_All"
   },
+  "InstallerCategoryIsTesting": {
+    "message": "测试中",
+    "description": "InstallerCategoryIsTesting"
+  },
+  "InstallerCategoryAvailableForTesting": {
+    "message": "有可用测试",
+    "description": "InstallerCategoryAvailableForTesting"
+  },
   "InstallerInstalledDevPlugins": {
     "message": "开发版插件",
     "description": "Locs.get_Category_DevInstalled"
+  },
+  "InstallerCategoryPluginProfiles": {
+    "message": "插件集合",
+    "description": "InstallerCategoryPluginProfiles"
   },
   "InstallerCategoryOther": {
     "message": "其他",
@@ -179,57 +223,797 @@
     "message": "Dalamud",
     "description": "Locs.get_Category_Dalamud"
   },
-  "DalamudGamepadModeNotifierText": {
-    "message": "当前处于手柄模式。按 L1+L3 以禁用，按 R3 打开插件菜单。",
-    "description": "GamepadModeNotifierWindow.Draw"
+  "ChangelogNoText": {
+    "message": "这个版本没有更新日志。",
+    "description": "ChangelogNoText"
+  },
+  "InstallerHeader": {
+    "message": "插件安装器",
+    "description": "Locs.get_WindowTitle"
+  },
+  "InstallerHeaderTesting": {
+    "message": "（测试）",
+    "description": "Locs.get_WindowTitleMod_Testing"
+  },
+  "InstallerHint": {
+    "message": "此窗口允许您安装和移除游戏内插件。\n这些插件是由第三方开发者制作的。",
+    "description": "Locs.get_Header_Hint"
+  },
+  "InstallerSearch": {
+    "message": "搜索",
+    "description": "Locs.get_Header_SearchPlaceholder"
+  },
+  "InstallerAlphabetical": {
+    "message": "字母顺序",
+    "description": "Locs.get_SortBy_Alphabetical"
+  },
+  "InstallerDownloadCount": {
+    "message": "下载次数",
+    "description": "Locs.get_SortBy_DownloadCounts"
+  },
+  "InstallerLastUpdate": {
+    "message": "更新时间",
+    "description": "Locs.get_SortBy_LastUpdate"
+  },
+  "InstallerNewOrNot": {
+    "message": "发布时间",
+    "description": "Locs.get_SortBy_NewOrNot"
+  },
+  "InstallerNotInstalled": {
+    "message": "未安装",
+    "description": "Locs.get_SortBy_NotInstalled"
+  },
+  "InstallerEnabledDisabled": {
+    "message": "启用/禁用",
+    "description": "InstallerEnabledDisabled"
+  },
+  "InstallerProfileOrNot": {
+    "message": "在集合中",
+    "description": "InstallerProfileOrNot"
+  },
+  "InstallerSortBy": {
+    "message": "排序方式",
+    "description": "Locs.get_SortBy_Label"
+  },
+  "InstallerLoading": {
+    "message": "正在载入插件……",
+    "description": "Locs.get_TabBody_LoadingPlugins"
+  },
+  "InstallerDownloadFailed": {
+    "message": "下载失败。",
+    "description": "Locs.get_TabBody_DownloadFailed"
+  },
+  "InstallerSafeMode": {
+    "message": "安全模式已启用，重启以激活插件。",
+    "description": "Locs.get_TabBody_SafeMode"
+  },
+  "InstallerNoMatching": {
+    "message": "你寻找的插件不存在。",
+    "description": "Locs.get_TabBody_SearchNoMatching"
+  },
+  "InstallerNoCompatible": {
+    "message": "找不到兼容的插件 :( 请重启你的游戏并重试。",
+    "description": "Locs.get_TabBody_SearchNoCompatible"
+  },
+  "InstallerNoInstalled": {
+    "message": "您还没有安装任何插件。您可以在「所有插件」选项卡中进行安装。",
+    "description": "Locs.get_TabBody_SearchNoInstalled"
+  },
+  "InstallerNoChangelog": {
+    "message": "您已安装的插件都没有更新日志。",
+    "description": "Locs.get_TabBody_ChangelogNone"
+  },
+  "InstallerChangelogError": {
+    "message": "无法下载更新日志。",
+    "description": "InstallerChangelogError"
+  },
+  "InstallerInstalled": {
+    "message": " （已安装）",
+    "description": "Locs.get_PluginTitleMod_Installed"
+  },
+  "InstallerDisabled": {
+    "message": " （已禁用）",
+    "description": "Locs.get_PluginTitleMod_Disabled"
+  },
+  "InstallerNoService": {
+    "message": " (已弃用)",
+    "description": "InstallerNoService"
+  },
+  "InstallerUnloaded": {
+    "message": "（已禁用）",
+    "description": "Locs.get_PluginTitleMod_Unloaded"
+  },
+  "InstallerHasUpdate": {
+    "message": "（需要更新）",
+    "description": "Locs.get_PluginTitleMod_HasUpdate"
+  },
+  "InstallerUpdated": {
+    "message": " （已更新）",
+    "description": "Locs.get_PluginTitleMod_Updated"
+  },
+  "InstallerTestingVersion": {
+    "message": " （测试版本）",
+    "description": "Locs.get_PluginTitleMod_TestingVersion"
+  },
+  "InstallerTestingExclusive": {
+    "message": " (仅限测试)",
+    "description": "InstallerTestingExclusive"
+  },
+  "InstallerTestingAvailable": {
+    "message": " (有测试版本)",
+    "description": "InstallerTestingAvailable"
+  },
+  "InstallerDevPlugin": {
+    "message": " 此插件已被上传至插件仓库，你可以在 devPlugins 文件夹中删除它了。",
+    "description": "Locs.get_PluginBody_AvailableDevPlugin"
+  },
+  "InstallerUpdateFailed": {
+    "message": " （更新失败）",
+    "description": "Locs.get_PluginTitleMod_UpdateFailed"
+  },
+  "InstallerLoadError": {
+    "message": "（加载错误）",
+    "description": "Locs.get_PluginTitleMod_LoadError"
+  },
+  "InstallerUnloadError": {
+    "message": "（卸载错误）",
+    "description": "Locs.get_PluginTitleMod_UnloadError"
+  },
+  "InstallerOutdatedError": {
+    "message": "（不兼容）",
+    "description": "Locs.get_PluginTitleMod_OutdatedError"
+  },
+  "InstallerBannedError": {
+    "message": " (自动禁用)",
+    "description": "Locs.get_PluginTitleMod_BannedError"
+  },
+  "InstallerOrphanedError": {
+    "message": " (未知仓库)",
+    "description": "InstallerOrphanedError"
+  },
+  "InstallerScheduledForDeletion": {
+    "message": " (已计划删除)",
+    "description": "InstallerScheduledForDeletion"
+  },
+  "InstallerNewPlugin ": {
+    "message": " 新品！",
+    "description": "Locs.get_PluginTitleMod_New"
+  },
+  "InstallerTestingOptIn": {
+    "message": "接收测试版本插件",
+    "description": "InstallerTestingOptIn"
+  },
+  "InstallerMarkAllSeen": {
+    "message": "全部已阅",
+    "description": "Locs.get_PluginContext_MarkAllSeen"
+  },
+  "InstallerHidePlugin": {
+    "message": "隐藏",
+    "description": "Locs.get_PluginContext_HidePlugin"
+  },
+  "InstallerDeletePluginConfig": {
+    "message": "重置",
+    "description": "Locs.get_PluginContext_DeletePluginConfig"
+  },
+  "InstallerDeletePluginConfigReload": {
+    "message": "重置并重新加载",
+    "description": "Locs.get_PluginContext_DeletePluginConfigReload"
+  },
+  "InstallerAuthorWithoutDownloadCount": {
+    "message": " 作者：{0}",
+    "description": "Locs.PluginBody_AuthorWithoutDownloadCount"
+  },
+  "InstallerAuthorWithDownloadCount": {
+    "message": " 作者：{0}   下载次数：{1}",
+    "description": "Locs.PluginBody_AuthorWithDownloadCount"
+  },
+  "InstallerAuthorWithDownloadCountUnavailable": {
+    "message": " 作者：{0}   下载次数：未知",
+    "description": "Locs.PluginBody_AuthorWithDownloadCountUnavailable"
+  },
+  "InstallerCurrentChangeLog": {
+    "message": "更新日志 (v{0})",
+    "description": "InstallerCurrentChangeLog"
+  },
+  "InstallerUpdateChangeLog": {
+    "message": "Available update changelog (v{0})",
+    "description": "InstallerUpdateChangeLog"
+  },
+  "InstallerDevPluginPath": {
+    "message": "插件路径：{0}",
+    "description": "Locs.PluginBody_DevPluginPath"
+  },
+  "InstallerPlugin3rdPartyRepo": {
+    "message": "插件仓库：{0}",
+    "description": "Locs.PluginBody_Plugin3rdPartyRepo"
+  },
+  "InstallerOutdatedPluginBody ": {
+    "message": "此插件年代过于久远，无法与当前版本的框架兼容。请等待其作者更新。",
+    "description": "Locs.get_PluginBody_Outdated"
+  },
+  "InstallerOrphanedPluginBody ": {
+    "message": "此插件的源仓库不再可用。您可能需要从其它源中重新安装，或者重新添加源。",
+    "description": "InstallerOrphanedPluginBody "
+  },
+  "InstallerNoServiceOfficialPluginBody": {
+    "message": "此插件不再被维护。它仍然可以工作，但不会有进一步的更新，您不能重新安装它。",
+    "description": "InstallerNoServiceOfficialPluginBody"
+  },
+  "InstallerNoServiceThirdPluginBody": {
+    "message": "此插件不再由源仓库维护。您可能需要在另一个仓库中寻找更新版本。",
+    "description": "InstallerNoServiceThirdPluginBody"
+  },
+  "InstallerLoadFailedPluginBody ": {
+    "message": "插件加载失败。请联系作者获取更多信息。",
+    "description": "InstallerLoadFailedPluginBody "
+  },
+  "InstallerBannedPluginBody ": {
+    "message": "此插件因兼容性问题而被自动禁用，目前还未能使用。请等待作者更新。",
+    "description": "Locs.get_PluginBody_Banned"
+  },
+  "InstallerPolicyPluginBody ": {
+    "message": "此类型插件的加载已被手动禁用。",
+    "description": "InstallerPolicyPluginBody "
+  },
+  "InstallerBannedPluginBodyReason ": {
+    "message": "此插件已被自动禁用： {0}",
+    "description": "Locs.PluginBody_BannedReason"
+  },
+  "InstallerInstall": {
+    "message": "安装 v{0}",
+    "description": "Locs.PluginButton_InstallVersion"
+  },
+  "InstallerWorking": {
+    "message": "状态良好",
+    "description": "Locs.get_PluginButton_Working"
+  },
+  "InstallerDisable": {
+    "message": "禁用",
+    "description": "Locs.get_PluginButton_Disable"
+  },
+  "InstallerLoad": {
+    "message": "加载",
+    "description": "Locs.get_PluginButton_Load"
+  },
+  "InstallerUnload": {
+    "message": "卸载",
+    "description": "Locs.get_PluginButton_Unload"
+  },
+  "InstallerSafeModeButton": {
+    "message": "不能在安全模式中更改",
+    "description": "InstallerSafeModeButton"
+  },
+  "InstallerOpenPluginUi": {
+    "message": "打开",
+    "description": "InstallerOpenPluginUi"
+  },
+  "InstallerOpenPluginSettings": {
+    "message": "设置",
+    "description": "InstallerOpenPluginSettings"
+  },
+  "InstallerTooltipOpenUi": {
+    "message": "打开插件界面",
+    "description": "InstallerTooltipOpenUi"
+  },
+  "InstallerTooltipOpenConfig": {
+    "message": "打开插件设置",
+    "description": "InstallerTooltipOpenConfig"
+  },
+  "InstallerPickProfiles": {
+    "message": "选择此插件的集合",
+    "description": "InstallerPickProfiles"
+  },
+  "InstallerProfilesNotSupported": {
+    "message": "此插件不支持集合",
+    "description": "InstallerProfilesNotSupported"
+  },
+  "InstallerStartOnBoot": {
+    "message": "自启动",
+    "description": "Locs.get_PluginButtonToolTip_StartOnBoot"
+  },
+  "InstallerAutomaticReloading": {
+    "message": "自动重载中",
+    "description": "Locs.get_PluginButtonToolTip_AutomaticReloading"
+  },
+  "InstallerDeletePlugin ": {
+    "message": "删除",
+    "description": "Locs.get_PluginButtonToolTip_DeletePlugin"
+  },
+  "InstallerDeletePluginRestricted": {
+    "message": "无法立即删除 - 请重启游戏。",
+    "description": "InstallerDeletePluginRestricted"
+  },
+  "InstallerDeletePluginScheduled": {
+    "message": "下次重启时删除插件",
+    "description": "InstallerDeletePluginScheduled"
+  },
+  "InstallerDeletePluginScheduledCancel": {
+    "message": "取消删除操作",
+    "description": "InstallerDeletePluginScheduledCancel"
+  },
+  "InstallerDeletePluginLoaded": {
+    "message": "删除前请禁用此插件。",
+    "description": "InstallerDeletePluginLoaded"
+  },
+  "InstallerVisitPluginUrl": {
+    "message": "浏览插件主页",
+    "description": "Locs.get_PluginButtonToolTip_VisitPluginUrl"
+  },
+  "InstallerUpdateSingle": {
+    "message": "更新至 {0}",
+    "description": "Locs.PluginButtonToolTip_UpdateSingle"
+  },
+  "InstallerLoadUnloadFailedTooltip": {
+    "message": "插件加载/卸载失败，请重启游戏并重试。",
+    "description": "InstallerLoadUnloadFailedTooltip"
+  },
+  "InstallerUnloadNeedsToBeInDefault": {
+    "message": "此插件属于一个或多个合集。 如果您想要启用或禁用它，请启用或禁用它所包含的合集。\\n如果您想要手动管理它，请从所有合集中删除它。",
+    "description": "InstallerUnloadNeedsToBeInDefault"
+  },
+  "InstallerUnloadNeedsToBeInSingleProfile": {
+    "message": "此插件在多个合集中。 如果您想要启用或禁用它，请启用或禁用它所包含的合集。\\n如果你想要在这里管理它，请确保它只是在一个单一合集中。",
+    "description": "InstallerUnloadNeedsToBeInSingleProfile"
+  },
+  "InstallerSingleProfileDisabled": {
+    "message": "包含此插件的合集\"{0}\"已禁用。\\n请在合集管理器中启用它，以单独切换插件。",
+    "description": "InstallerSingleProfileDisabled"
+  },
+  "NotificationsPluginInstalledTitle": {
+    "message": "插件安装完成",
+    "description": "Locs.get_Notifications_PluginInstalledTitle"
+  },
+  "NotificationsPluginInstalled": {
+    "message": "「{0}」已成功安装并启用。",
+    "description": "Locs.Notifications_PluginInstalled"
+  },
+  "NotificationsPluginNotInstalledTitle": {
+    "message": "插件未安装",
+    "description": "Locs.get_Notifications_PluginNotInstalledTitle"
+  },
+  "NotificationsPluginNotInstalled": {
+    "message": "「{0}」安装失败。",
+    "description": "Locs.Notifications_PluginNotInstalled"
+  },
+  "NotificationsNoUpdatesFoundTitle": {
+    "message": "更新检查完成",
+    "description": "Locs.get_Notifications_NoUpdatesFoundTitle"
+  },
+  "NotificationsNoUpdatesFound": {
+    "message": "无可用更新。",
+    "description": "Locs.get_Notifications_NoUpdatesFound"
+  },
+  "NotificationsUpdatesInstalledTitle": {
+    "message": "更新检查完成",
+    "description": "Locs.get_Notifications_UpdatesInstalledTitle"
+  },
+  "NotificationsUpdatesInstalled": {
+    "message": "已更新 {0} 个插件。",
+    "description": "Locs.Notifications_UpdatesInstalled"
+  },
+  "NotificationsPluginDisabledTitle": {
+    "message": "插件禁用完成",
+    "description": "Locs.get_Notifications_PluginDisabledTitle"
+  },
+  "NotificationsPluginDisabled": {
+    "message": "「{0}」已禁用。",
+    "description": "Locs.Notifications_PluginDisabled"
+  },
+  "NotificationsPluginEnabledTitle": {
+    "message": "插件已启用！",
+    "description": "NotificationsPluginEnabledTitle"
+  },
+  "NotificationsPluginEnabled": {
+    "message": "'{0}' 已启用。",
+    "description": "NotificationsPluginEnabled"
+  },
+  "InstallerUpdatePlugins": {
+    "message": "更新插件",
+    "description": "Locs.get_FooterButton_UpdatePlugins"
+  },
+  "InstallerUpdateSafeMode": {
+    "message": "无法在安全模式中更新",
+    "description": "InstallerUpdateSafeMode"
+  },
+  "InstallerInProgress": {
+    "message": "正在安装...",
+    "description": "Locs.get_FooterButton_InProgress"
+  },
+  "InstallerNoUpdates": {
+    "message": "未找到更新！",
+    "description": "Locs.get_FooterButton_NoUpdates"
+  },
+  "InstallerUpdateComplete": {
+    "message": "{0} 个插件已更新！",
+    "description": "Locs.FooterButton_UpdateComplete"
+  },
+  "InstallerSettings": {
+    "message": "设置",
+    "description": "Locs.get_FooterButton_Settings"
+  },
+  "InstallerScanDevPlugins": {
+    "message": "扫描开发版插件",
+    "description": "Locs.get_FooterButton_ScanDevPlugins"
+  },
+  "InstallerClose": {
+    "message": "关闭",
+    "description": "Locs.get_FooterButton_Close"
+  },
+  "UpdateQuestionModal": {
+    "message": "有可用更新",
+    "description": "UpdateQuestionModal"
+  },
+  "UpdateModalUpdateAvailable": {
+    "message": "An update for \"{0}\" is available.\nDo you want to update it before enabling?\nUpdates will fix bugs and incompatibilities, and may add new features.",
+    "description": "UpdateModalUpdateAvailable"
+  },
+  "UpdateModalYes": {
+    "message": "更新插件",
+    "description": "UpdateModalYes"
+  },
+  "UpdateModalNo": {
+    "message": "仅启用",
+    "description": "UpdateModalNo"
+  },
+  "InstallerError": {
+    "message": "安装程序错误",
+    "description": "Locs.get_ErrorModal_Title"
+  },
+  "InstallerInstallFail": {
+    "message": "插件 {0} 安装失败。\n{1}",
+    "description": "Locs.ErrorModal_InstallFail"
+  },
+  "InstallerSingleUpdateFail": {
+    "message": "插件 {0} 更新失败。\n{1}",
+    "description": "Locs.ErrorModal_SingleUpdateFail"
+  },
+  "InstallerDeleteConfigFail": {
+    "message": "插件 {0} 重置失败。\n\n该插件可能尚未支持此操作。你可以在游戏关闭后手动删除配置文件，详细操作请参阅常见问题页面。",
+    "description": "Locs.ErrorModal_DeleteConfigFail"
+  },
+  "InstallerEnableFail": {
+    "message": "插件 {0} 启用失败。\n{1}",
+    "description": "Locs.ErrorModal_EnableFail"
+  },
+  "InstallerDisableFail": {
+    "message": "插件 {0} 禁用失败。\n{1}",
+    "description": "Locs.ErrorModal_DisableFail"
+  },
+  "InstallerUnloadFail": {
+    "message": "插件 {0} 卸载失败。\n{1}",
+    "description": "Locs.ErrorModal_UnloadFail"
+  },
+  "InstallerLoadFail": {
+    "message": "插件 {0} 加载失败。\n{1}",
+    "description": "Locs.ErrorModal_LoadFail"
+  },
+  "InstallerDeleteFail": {
+    "message": "插件 {0} 删除失败。\n{1}",
+    "description": "Locs.ErrorModal_DeleteFail"
+  },
+  "InstallerUpdaterFatal": {
+    "message": "插件更新失败。\n请重启游戏后再试一次。如果问题依然存在，请向我们报告。",
+    "description": "Locs.get_ErrorModal_UpdaterFatal"
+  },
+  "InstallerProfileApplyFail": {
+    "message": "无法处理合集。\\n重新启动您的游戏然后重试。如果再次发生此错误，请无能狂怒。",
+    "description": "InstallerProfileApplyFail"
+  },
+  "InstallerUpdaterFail": {
+    "message": "{0} 个插件更新失败。\n请重启游戏后再试一次。如果问题依然存在，请向我们报告。",
+    "description": "Locs.ErrorModal_UpdaterFail"
+  },
+  "InstallerUpdaterFailPartial": {
+    "message": "{0} 个插件更新成功，{1} 个更新失败。\n请重启游戏后再试一次。如果问题依然存在，请向我们报告。",
+    "description": "Locs.ErrorModal_UpdaterFailPartial"
+  },
+  "InstallerErrorPluginInfo": {
+    "message": "\n\n下列插件引起了这些问题：\n\n{0}\n您可以尝试手动移除这些插件并重新安装它们。",
+    "description": "Locs.ErrorModal_HintBlame"
+  },
+  "InstallerErrorHint": {
+    "message": "插件安装器出现问题或插件不兼容。\\n请重新启动游戏并在我们的频道中报告此错误。",
+    "description": "InstallerErrorHint"
+  },
+  "InstallerFeedback": {
+    "message": "发送反馈",
+    "description": "Locs.get_FeedbackModal_Title"
+  },
+  "InstallerFeedbackInfo": {
+    "message": "您可以在这里向「{0}」的开发者发送反馈。\n如果您希望他们回答您，您可以提供您的 Discord 标签或电子邮件地址。\n\n如果您想报告一个错误，我们建议您加入 XIVLauncher 的 Discord 服务器。",
+    "description": "Locs.FeedbackModal_Text"
+  },
+  "InstallerFeedbackHasUpdate": {
+    "message": "此插件有可用的新版本，请先在报告错误前更新。",
+    "description": "Locs.get_FeedbackModal_HasUpdate"
+  },
+  "InstallerFeedbackContactAnonymous": {
+    "message": "匿名提交反馈",
+    "description": "InstallerFeedbackContactAnonymous"
+  },
+  "InstallerFeedbackContactAnonymousWarning": {
+    "message": "No response will be forthcoming.\nUntick \"{0}\" and provide contact information if you need help.",
+    "description": "InstallerFeedbackContactAnonymousWarning"
+  },
+  "InstallerFeedbackContactInfo": {
+    "message": "联系信息",
+    "description": "Locs.get_FeedbackModal_ContactInformation"
+  },
+  "InstallerFeedbackContactInfoHelp": {
+    "message": "Discord usernames and e-mail addresses are accepted.\nIf you submit a Discord username, please join our discord server so that we can reach out to you easier.",
+    "description": "InstallerFeedbackContactInfoHelp"
+  },
+  "InstallerFeedbackContactInfoWarning": {
+    "message": "不提交游戏内的角色名名称。",
+    "description": "InstallerFeedbackContactInfoWarning"
+  },
+  "InstallerFeedbackContactInfoRequired": {
+    "message": "未提供联系信息。我们需要联系信息来回答问题，或者请求更多的信息来解决问题。",
+    "description": "InstallerFeedbackContactInfoRequired"
+  },
+  "ContactInformationDiscordButton": {
+    "message": "Join Goat Place Discord",
+    "description": "ContactInformationDiscordButton"
+  },
+  "ContactInformationDiscordUrl": {
+    "message": "https://goat.place/",
+    "description": "ContactInformationDiscordUrl"
+  },
+  "InstallerFeedbackIncludeLastError": {
+    "message": "包含最后一次报错信息",
+    "description": "Locs.get_FeedbackModal_IncludeLastError"
+  },
+  "InstallerFeedbackIncludeLastErrorHint": {
+    "message": "此选项有助于插件开发者确定问题的来源。",
+    "description": "Locs.get_FeedbackModal_IncludeLastErrorHint"
+  },
+  "InstallerFeedbackHint": {
+    "message": "所有插件开发者都可以看到你的反馈。\n请不要在其中包含个人资料或敏感内容。\n如果你选择了附上最后一次错误信息，你的 Windows 用户名也可能会包含在内。\n\n我们收集的反馈将会立即转发至 Discord，并不会在服务端储存。",
+    "description": "Locs.get_FeedbackModal_Hint"
+  },
+  "InstallerFeedbackNotificationSuccess": {
+    "message": "您的反馈已成功发送！",
+    "description": "Locs.get_FeedbackModal_NotificationSuccess"
+  },
+  "InstallerFeedbackNotificationError": {
+    "message": "您的反馈无法发送。",
+    "description": "Locs.get_FeedbackModal_NotificationError"
+  },
+  "InstallerTestingWarning": {
+    "message": "Warning###InstallerTestingWarning",
+    "description": "InstallerTestingWarning"
+  },
+  "InstallerTestingWarningDowngradeBody": {
+    "message": "请小心！ 如果您退出插件测试，您将继续使用测试版本，直到它被删除并重新安装， 或者更新插件的非测试版本。\\n请记住，如果您手动降低等级，您可能会丢失此插件的设置。",
+    "description": "InstallerTestingWarningDowngradeBody"
+  },
+  "DalamudPluginUpdates": {
+    "message": "更新：",
+    "description": "Locs.get_PluginUpdateHeader_Chatbox"
+  },
+  "OK": {
+    "message": "确定",
+    "description": "Locs.get_ErrorModalButton_Ok"
+  },
+  "SafeModeDisclaimer": {
+    "message": "您启用了安全模式，不会加载任何插件。\n您可以从“已安装的插件”选项卡中删除插件。\n重新启动您的游戏就可以退出安全模式。",
+    "description": "SafeModeDisclaimer"
+  },
+  "InstallerProfilesCouldNotAdd": {
+    "message": "无法将插件添加到此合集中。",
+    "description": "InstallerProfilesCouldNotAdd"
+  },
+  "InstallerProfilesCouldNotRemove": {
+    "message": "无法从此合集中删除插件。",
+    "description": "InstallerProfilesCouldNotRemove"
+  },
+  "InstallerProfilesNone": {
+    "message": "没有合集！请在这里添加一些合集",
+    "description": "InstallerProfilesNone"
+  },
+  "InstallerProfilesRemoveFromAll": {
+    "message": "从合集中移除",
+    "description": "InstallerProfilesRemoveFromAll"
+  },
+  "ProfileManagerEnableDisableHint": {
+    "message": "启用/禁用此合集",
+    "description": "ProfileManagerEnableDisableHint"
+  },
+  "ProfileManagerInstall": {
+    "message": "安装这个插件",
+    "description": "ProfileManagerInstall"
+  },
+  "ProfileManagerRemoveFromProfile": {
+    "message": "从这个合集中删除插件",
+    "description": "ProfileManagerRemoveFromProfile"
+  },
+  "ProfileManagerAddPlugin": {
+    "message": "添加一个插件！",
+    "description": "ProfileManagerAddPlugin"
+  },
+  "ProfileManagerNoPluginsInProfile": {
+    "message": "合集中没有插件！",
+    "description": "ProfileManagerNoPluginsInProfile"
+  },
+  "ProfileManagerAlwaysEnableAtBoot": {
+    "message": "游戏开始时总是启用",
+    "description": "ProfileManagerAlwaysEnableAtBoot"
+  },
+  "ProfileManagerDeleteProfile": {
+    "message": "删除此合集",
+    "description": "ProfileManagerDeleteProfile"
+  },
+  "ProfileManagerCopyToClipboard": {
+    "message": "复制合集到剪贴板分享",
+    "description": "ProfileManagerCopyToClipboard"
+  },
+  "ProfileManagerCopyToClipboardHint": {
+    "message": "已复制到剪贴板!",
+    "description": "ProfileManagerCopyToClipboardHint"
+  },
+  "ProfileManagerBackToOverview": {
+    "message": "返回概览",
+    "description": "ProfileManagerBackToOverview"
+  },
+  "ProfileManagerSearchHint": {
+    "message": "搜索...",
+    "description": "ProfileManagerSearchHint"
+  },
+  "ProfileManagerAddProfileHint": {
+    "message": "没有合集！添加一个！",
+    "description": "ProfileManagerAddProfileHint"
+  },
+  "ProfileManagerCloneProfile": {
+    "message": "复制此合集",
+    "description": "ProfileManagerCloneProfile"
+  },
+  "ProfileManagerEditProfile": {
+    "message": "编辑这个合集",
+    "description": "ProfileManagerEditProfile"
+  },
+  "ProfileManagerImportProfile": {
+    "message": "从剪贴板导入共享合集",
+    "description": "ProfileManagerImportProfile"
+  },
+  "ProfileManagerTutorialHint": {
+    "message": "了解有关合集功能的更多信息",
+    "description": "ProfileManagerTutorialHint"
+  },
+  "ProfileManagerAddProfile": {
+    "message": "增加一个合集",
+    "description": "ProfileManagerAddProfile"
+  },
+  "ProfileManagerNotificationImportSuccess": {
+    "message": "合集已成功导入！",
+    "description": "ProfileManagerNotificationImportSuccess"
+  },
+  "ProfileManagerNotificationImportError": {
+    "message": "无法导入合集。",
+    "description": "ProfileManagerNotificationImportError"
+  },
+  "ProfileManagerCouldNotRemove": {
+    "message": "无法删除插件。",
+    "description": "ProfileManagerCouldNotRemove"
+  },
+  "ProfileManagerCouldNotChangeState": {
+    "message": "无法更改插件状态。",
+    "description": "ProfileManagerCouldNotChangeState"
+  },
+  "ProfileManagerTutorial": {
+    "message": "关于合集功能",
+    "description": "ProfileManagerTutorial"
+  },
+  "ProfileManagerTutorialParagraphOne": {
+    "message": "合集是可以共享的插件列表，这些插件可以在插件安装程序或聊天命令中启用或禁用。\n插件乳沟在任意启用的合集中就会被启用。",
+    "description": "ProfileManagerTutorialParagraphOne"
+  },
+  "ProfileManagerTutorialParagraphTwo": {
+    "message": "在编辑此屏幕上的合集时，您可以点击加号按钮添加插件。 或者用工具栏上图标 \\",
+    "description": "ProfileManagerTutorialParagraphTwo"
+  },
+  "ProfileManagerTutorialParagraphThree": {
+    "message": "如果合集的“启动时启用”复选框已打勾，每次游戏开始时，合集内的插件都将启用。 即使它在上次游戏中被手动禁用。",
+    "description": "ProfileManagerTutorialParagraphThree"
+  },
+  "ProfileManagerTutorialParagraphFour": {
+    "message": "合集中的单个插件还旁边有一个复选框。这指示该插件是否在该合集中处于活动状态 - 如果未勾选复选框，则该合集处于活动状态，则不会启用该插件。请注意，如果插件是任何其他合集的活动部分，仍然可以启用它。",
+    "description": "ProfileManagerTutorialParagraphFour"
+  },
+  "ProfileManagerTutorialCommands": {
+    "message": "您可以在聊天或宏中使用以下命令来管理合集：",
+    "description": "ProfileManagerTutorialCommands"
+  },
+  "ProfileManagerTutorialCommandsEnable": {
+    "message": "/xlenableprofile \"合集名称\" - 启用合集",
+    "description": "ProfileManagerTutorialCommandsEnable"
+  },
+  "ProfileManagerTutorialCommandsDisable": {
+    "message": "/xldisableprofile \"合集名称\" - 禁用合集",
+    "description": "ProfileManagerTutorialCommandsDisable"
+  },
+  "ProfileManagerTutorialCommandsToggle": {
+    "message": "/xltoggleprofile \"合集名称\" - 切换合集的状态",
+    "description": "ProfileManagerTutorialCommandsToggle"
+  },
+  "ProfileManagerTutorialCommandsEnd": {
+    "message": "如果您运行多个命令，它们将按顺序执行。",
+    "description": "ProfileManagerTutorialCommandsEnd"
+  },
+  "ProfileManagerNotInstalled": {
+    "message": "{0} (未安装)",
+    "description": "ProfileManagerNotInstalled"
   },
   "DalamudSettingsHeader": {
     "message": "Dalamud 设置",
     "description": "SettingsWindow..ctor"
   },
-  "DalamudSettingsFontResolutionLevel0": {
-    "message": "最小 (1k x 1k 纹理)",
-    "description": "SettingsWindow..ctor"
+  "DalamudSettingsSaveAndExit": {
+    "message": "保存更改",
+    "description": "DalamudSettingsSaveAndExit"
   },
-  "DalamudSettingsFontResolutionLevel1": {
-    "message": "較小 (2k x 2k 纹理)",
-    "description": "SettingsWindow..ctor"
-  },
-  "DalamudSettingsFontResolutionLevel2": {
-    "message": "正常 (4k x 4k 纹理)",
-    "description": "SettingsWindow..ctor"
-  },
-  "DalamudSettingsFontResolutionLevel3": {
-    "message": "较大 (8k x 8k 纹理，可能会崩溃游戏)",
-    "description": "SettingsWindow..ctor"
-  },
-  "DalamudSettingsFontResolutionLevel4": {
-    "message": "最大 (16k x 16k 纹理，可能会崩溃游戏)",
-    "description": "SettingsWindow..ctor"
-  },
-  "DalamudSettingsGeneral": {
-    "message": "基本配置",
-    "description": "SettingsWindow.Draw"
-  },
-  "DalamudSettingsVisual": {
-    "message": "界面外观",
-    "description": "SettingsWindow.Draw"
+  "DalamudAbout": {
+    "message": "关于",
+    "description": "DalamudAbout"
   },
   "DalamudSettingsServerInfoBar": {
     "message": "服务器信息栏",
     "description": "SettingsWindow.Draw"
   },
+  "DalamudSettingServerInfoBarHint": {
+    "message": "插件可以将额外的信息放到服务器信息栏里(可以看到世界时间)。\n你可以在这里重新排序和禁用这些信息。",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingServerInfoBarDidNone": {
+    "message": "您没有使用此功能的插件。",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingServerInfoBarSpacing": {
+    "message": "服务器信息栏间距",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingServerInfoBarSpacingHint": {
+    "message": "这里可以配置服务器信息栏中条目间的间距大小。",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingServerInfoBarDirection": {
+    "message": "服务器信息栏方向",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingServerInfoBarDirectionHint": {
+    "message": "如果选中，服务器信息栏元素将向右扩展而不是向左。",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingsPluginTest": {
+    "message": "获取插件测试版本",
+    "description": "SettingsWindow.DrawExperimentalTab"
+  },
+  "DalamudSettingsPluginTestHint": {
+    "message": "选中此框以接收插件预发布的测试。",
+    "description": "SettingsWindow.DrawExperimentalTab"
+  },
+  "DalamudSettingsPluginTestWarning": {
+    "message": "测试插件在发布前不一定经过了测试和审核。您需要自行承担使用可能带来的风险。",
+    "description": "SettingsWindow.DrawExperimentalTab"
+  },
+  "DalamudSettingsClearHidden": {
+    "message": "清除隐藏插件",
+    "description": "SettingsWindow.DrawExperimentalTab"
+  },
+  "DalamudSettingsClearHiddenHint": {
+    "message": "从插件安装器中取消隐藏所有插件。",
+    "description": "SettingsWindow.DrawExperimentalTab"
+  },
+  "DalamudSettingsEnableProfiles": {
+    "message": "启用插件合集功能",
+    "description": "DalamudSettingsEnableProfiles"
+  },
+  "DalamudSettingsEnableProfilesHint": {
+    "message": "启用插件合集，允许您创建可切换插件列表。",
+    "description": "DalamudSettingsEnableProfilesHint"
+  },
   "DalamudSettingsExperimental": {
     "message": "测试版",
     "description": "SettingsWindow.Draw"
-  },
-  "DalamudSettingsLanguage": {
-    "message": "语言",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsLanguageHint": {
-    "message": "选择 Dalamud 显示语言。",
-    "description": "SettingsWindow.DrawGeneralTab"
   },
   "DalamudSettingsChannel": {
     "message": "通用聊天频道",
@@ -238,6 +1022,18 @@
   "DalamudSettingsChannelHint": {
     "message": "选择用于常规 Dalamud 消息的聊天频道。",
     "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingsChannelNone": {
+    "message": "请不要选择“无”。",
+    "description": "DalamudSettingsChannelNone"
+  },
+  "DalamudSettingsWaitForPluginsOnStartup": {
+    "message": "在游戏加载前等待插件初始化晚餐",
+    "description": "DalamudSettingsWaitForPluginsOnStartup"
+  },
+  "DalamudSettingsWaitForPluginsOnStartupHint": {
+    "message": "在插件加载之前不要让游戏加载。",
+    "description": "DalamudSettingsWaitForPluginsOnStartupHint"
   },
   "DalamudSettingsFlash": {
     "message": "在排本成功后闪烁 FFXIV 窗口",
@@ -254,6 +1050,14 @@
   "DalamudSettingsDutyFinderMessageHint": {
     "message": "若选中，当任务准备进行时，将会在 FFXIV 聊天中发送消息。",
     "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingsPrintDalamudWelcomeMsg": {
+    "message": "显示 Dalamud 的欢迎消息",
+    "description": "DalamudSettingsPrintDalamudWelcomeMsg"
+  },
+  "DalamudSettingsPrintDalamudWelcomeMsgHint": {
+    "message": "当使用角色登录时，在 FFXIV 聊天中显示 Dalamud 的欢迎信息。",
+    "description": "DalamudSettingsPrintDalamudWelcomeMsgHint"
   },
   "DalamudSettingsPrintPluginsWelcomeMsg": {
     "message": "在欢迎消息中显示已加载的插件",
@@ -279,13 +1083,13 @@
     "message": "在系统菜单中显示 Dalamud 插件菜单及设置按钮。",
     "description": "SettingsWindow.DrawGeneralTab"
   },
-  "DalamudSettingsDisableRmtFiltering": {
-    "message": "禁用 RMT 过滤",
-    "description": "SettingsWindow.DrawGeneralTab"
+  "DalamudSettingsEnableRmtFiltering": {
+    "message": "Enable RMT Filtering",
+    "description": "DalamudSettingsEnableRmtFiltering"
   },
-  "DalamudSettingsDisableRmtFilteringMsgHint": {
-    "message": "禁用 Dalamud 内置的 RMT 广告过滤。",
-    "description": "SettingsWindow.DrawGeneralTab"
+  "DalamudSettingsEnableRmtFilteringMsgHint": {
+    "message": "启用 Dalamud 的内置的小广告过滤。",
+    "description": "DalamudSettingsEnableRmtFilteringMsgHint"
   },
   "DalamudSettingDoMbCollect": {
     "message": "匿名上传市场数据",
@@ -295,32 +1099,16 @@
     "message": "在浏览市场板时向 Universalis 提供有关游戏内经济的匿名数据。 这些数据不能以任何方式来识别你，而每个人都能从中受益！",
     "description": "SettingsWindow.DrawGeneralTab"
   },
-  "DalamudSettingsGlobalUiScale": {
-    "message": "全局字体比例",
+  "DalamudSettingsGeneral": {
+    "message": "基本配置",
+    "description": "SettingsWindow.Draw"
+  },
+  "DalamudSettingToggleAxisFonts": {
+    "message": "使用 AXIS 字体作为默认字体",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
-  "DalamudSettingsUiScalePreset6": {
-    "message": "9.6pt",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsUiScalePreset12": {
-    "message": "重置 (12pt)",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsUiScalePreset14": {
-    "message": "14pt",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsUiScalePreset18": {
-    "message": "18pt",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsUiScalePreset36": {
-    "message": "36pt",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsGlobalUiScaleHint": {
-    "message": "缩放所有 XIVLauncher 界面元素中的文本 - 适用于 4K 分辨率。",
+  "DalamudSettingToggleUiAxisFontsHint": {
+    "message": "使用 AXIS 字体 (游戏的主界面字体) 作为默认字体。",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingsOpenStyleEditor": {
@@ -331,21 +1119,13 @@
     "message": "修改 Dalamud 窗口的外观。",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
-  "DalamudSettingToggleAxisFonts": {
-    "message": "使用 AXIS 字体作为默认字体",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
+  "DalamudSettingsUseDarkMode": {
+    "message": "使用 Windows 颜色模式标题栏",
+    "description": "DalamudSettingsUseDarkMode"
   },
-  "DalamudSettingToggleUiAxisFontsHint": {
-    "message": "使用 AXIS 字体 (游戏的主界面字体) 作为默认字体。",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsFontResolutionLevel": {
-    "message": "字体分辨率级别",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsFontResolutionLevelHint": {
-    "message": "This option allows Dalamud fonts to look better. If your game crashes when changing this option, your PC does not support high font resolutions in Dalamud - you will have to use a lower one.\nCurrent font atlas size is {0}px * {1}px.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
+  "DalamudSettingsUseDarkModeHint": {
+    "message": "这将使FFXIV窗口标题栏跟随您的 Windows 颜色设置，暗色模式下会变黑哦。",
+    "description": "DalamudSettingsUseDarkModeHint"
   },
   "DalamudSettingToggleUiHideOptOutNote": {
     "message": "部分插件会忽略下列设置。",
@@ -399,6 +1179,14 @@
     "message": "这允许你将多个插件窗口合并到同一窗口中，并通过选项卡分割它们。",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
+  "DalamudSettingEnablePluginUISoundEffects": {
+    "message": "为插件窗口启用音效",
+    "description": "DalamudSettingEnablePluginUISoundEffects"
+  },
+  "DalamudSettingEnablePluginUISoundEffectsHint": {
+    "message": "这将允许您启用或禁用插件用户界面生成的声音效果。\n受您游戏中的`系统音量`设置的影响。",
+    "description": "DalamudSettingEnablePluginUISoundEffectsHint"
+  },
   "DalamudSettingToggleGamepadNavigation": {
     "message": "启用手柄模式",
     "description": "SettingsWindow.DrawLookAndFeelTab"
@@ -412,7 +1200,19 @@
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleTsmHint": {
-    "message": "This will allow you to access certain Dalamud and Plugin functionality from the title screen.",
+    "message": "这将允许您从标题菜单上访问某些Dalamud和插件功能。",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsVisual": {
+    "message": "界面外观",
+    "description": "SettingsWindow.Draw"
+  },
+  "DalamudSettingsGlobalUiScale": {
+    "message": "全局字体比例",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsGlobalUiScaleHint": {
+    "message": "缩放所有 XIVLauncher 界面元素中的文本 - 适用于 4K 分辨率。",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingsFontGamma": {
@@ -427,89 +1227,13 @@
     "message": "更改文字的粗细。",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
-  "DalamudSettingServerInfoBar": {
-    "message": "服务器信息栏配置",
-    "description": "SettingsWindow.DrawServerInfoBarTab"
-  },
-  "DalamudSettingServerInfoBarHint": {
-    "message": "Plugins can put additional information into your server information bar(where world & time can be seen).\nYou can reorder and disable these here.",
-    "description": "SettingsWindow.DrawServerInfoBarTab"
-  },
-  "DalamudSettingServerInfoBarDidNone": {
-    "message": "您没有使用此功能的插件。",
-    "description": "SettingsWindow.DrawServerInfoBarTab"
-  },
-  "DalamudSettingServerInfoBarSpacing": {
-    "message": "服务器信息栏间距",
-    "description": "SettingsWindow.DrawServerInfoBarTab"
-  },
-  "DalamudSettingServerInfoBarSpacingHint": {
-    "message": "Configure the amount of space between entries in the server info bar here.",
-    "description": "SettingsWindow.DrawServerInfoBarTab"
-  },
-  "DalamudSettingServerInfoBarDirection": {
-    "message": "服务器信息栏方向",
-    "description": "SettingsWindow.DrawServerInfoBarTab"
-  },
-  "DalamudSettingServerInfoBarDirectionHint": {
-    "message": "If checked, the Server Info Bar elements will expand to the right instead of the left.",
-    "description": "SettingsWindow.DrawServerInfoBarTab"
-  },
-  "DalamudSettingsPluginTest": {
-    "message": "获取插件测试版本",
-    "description": "SettingsWindow.DrawExperimentalTab"
-  },
-  "DalamudSettingsPluginTestHint": {
-    "message": "选中此框以接收插件预发布的测试。",
-    "description": "SettingsWindow.DrawExperimentalTab"
-  },
-  "DalamudSettingsPluginTestWarning": {
-    "message": "测试插件在发布前不一定经过了测试和审核。您需要自行承担使用可能带来的风险。",
-    "description": "SettingsWindow.DrawExperimentalTab"
-  },
-  "DalamudSettingsClearHidden": {
-    "message": "清除隐藏插件",
-    "description": "SettingsWindow.DrawExperimentalTab"
-  },
-  "DalamudSettingsClearHiddenHint": {
-    "message": "从插件安装器中取消隐藏所有插件。",
-    "description": "SettingsWindow.DrawExperimentalTab"
-  },
-  "DalamudSettingsCustomRepo": {
-    "message": "自定义插件仓库",
-    "description": "SettingsWindow.DrawCustomReposSection"
+  "DalamudSettingsDevPluginLocation": {
+    "message": "开发版插件位置",
+    "description": "SettingsWindow.DrawDevPluginLocationsSection"
   },
   "DalamudSettingsChanged": {
     "message": "（修改）",
     "description": "SettingsWindow.DrawCustomReposSection"
-  },
-  "DalamudSettingCustomRepoHint": {
-    "message": "添加自定义插件仓库。",
-    "description": "SettingsWindow.DrawCustomReposSection"
-  },
-  "DalamudSettingCustomRepoWarning": {
-    "message": "我们对第三方插件和仓库所造成的后果不承担任何责任。",
-    "description": "SettingsWindow.DrawCustomReposSection"
-  },
-  "DalamudSettingCustomRepoWarning2": {
-    "message": "与任何其他程序一样，插件可以完全控制您的 PC，并且可能会造成损失或引发游戏崩溃。",
-    "description": "SettingsWindow.DrawCustomReposSection"
-  },
-  "DalamudSettingCustomRepoWarning3": {
-    "message": "请绝对确保您只安装来自您信任的开发人员的第三方插件。",
-    "description": "SettingsWindow.DrawCustomReposSection"
-  },
-  "DalamudSettingCustomRepoWarning4": {
-    "message": "它们可以删除您的游戏角色，上传您的私密家庭照片，甚至烧掉您的房子。",
-    "description": "SettingsWindow.DrawCustomReposSection"
-  },
-  "DalamudThirdRepoExists": {
-    "message": "仓库已经存在。",
-    "description": "SettingsWindow.DrawCustomReposSection"
-  },
-  "DalamudSettingsDevPluginLocation": {
-    "message": "开发版插件位置",
-    "description": "SettingsWindow.DrawDevPluginLocationsSection"
   },
   "DalamudSettingsDevPluginLocationsHint": {
     "message": "添加额外的开发版插件加载位置。\n支持目录或 DLL 路径。",
@@ -519,17 +1243,65 @@
     "message": "位置已经存在。",
     "description": "SettingsWindow.DrawDevPluginLocationsSection"
   },
-  "Save": {
-    "message": "保存",
-    "description": "SettingsWindow.DrawSaveCloseButtons"
+  "DalamudDevPluginInvalid": {
+    "message": "The entered value is not a valid path to a potential Dev Plugin.\nDid you mean to enter it as a custom plugin repository in the fields below instead?",
+    "description": "DalamudDevPluginInvalid"
   },
-  "Close": {
-    "message": "关闭",
-    "description": "SettingsWindow.DrawSaveCloseButtons"
+  "DalamudSettingsLanguage": {
+    "message": "语言",
+    "description": "SettingsWindow.DrawGeneralTab"
   },
-  "SaveAndClose": {
-    "message": "保存并关闭",
-    "description": "SettingsWindow.DrawSaveCloseButtons"
+  "DalamudSettingsLanguageHint": {
+    "message": "选择 Dalamud 显示语言。",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingsCustomRepo": {
+    "message": "自定义插件仓库",
+    "description": "SettingsWindow.DrawCustomReposSection"
+  },
+  "DalamudSettingCustomRepoHint": {
+    "message": "添加自定义插件仓库。",
+    "description": "SettingsWindow.DrawCustomReposSection"
+  },
+  "DalamudSettingCustomRepoWarningReadThis": {
+    "message": "【先读这个！！】",
+    "description": "DalamudSettingCustomRepoWarningReadThis"
+  },
+  "DalamudSettingCustomRepoWarning": {
+    "message": "我们对第三方插件和仓库所造成的后果不承担任何责任，包括并不限于游戏崩溃，隐私泄露，盗号等。\n从不受信任的来源安装第三方插件时请多加注意。",
+    "description": "SettingsWindow.DrawCustomReposSection"
+  },
+  "DalamudSettingCustomRepoWarning5": {
+    "message": "如果有人告诉你在这里复制/粘贴某些东西，你很正在被欺骗或被利用！！！",
+    "description": "DalamudSettingCustomRepoWarning5"
+  },
+  "DalamudSettingCustomRepoWarning2": {
+    "message": "插件像任何其他程序一样，可以完全获取和操控您的电脑上的任何内容，这可能造成损坏或崩溃。",
+    "description": "DalamudSettingCustomRepoWarning2"
+  },
+  "DalamudSettingCustomRepoWarning4": {
+    "message": "他们可以删除您的角色，卖掉你的武器和房屋，窃取您的游戏或QQ帐户。",
+    "description": "DalamudSettingCustomRepoWarning4"
+  },
+  "DalamudSettingCustomRepoWarning3": {
+    "message": "请确保您只安装您绝对信任的开发者的插件。",
+    "description": "DalamudSettingCustomRepoWarning3"
+  },
+  "DalamudSettingCustomRepoWarningPleaseWait": {
+    "message": "请等待 {0} 秒...",
+    "description": "DalamudSettingCustomRepoWarningPleaseWait"
+  },
+  "DalamudSettingCustomRepoWarningIReadIt": {
+    "message": "好的，我已经阅读并理解了这个警告",
+    "description": "DalamudSettingCustomRepoWarningIReadIt"
+  },
+  "DalamudThirdRepoExists": {
+    "message": "仓库已经存在。",
+    "description": "SettingsWindow.DrawCustomReposSection"
+  },
+  "DalamudThirdRepoNotUrl": {
+    "message": "The entered address is not a valid URL.\nDid you mean to enter it as a DevPlugin in the fields above instead?",
+    "description": "DalamudThirdRepoNotUrl"
   },
   "RenameStyleModalTitle": {
     "message": "重命名样式",
@@ -575,440 +1347,160 @@
     "message": "配色",
     "description": "StyleEditorWindow.Draw"
   },
+  "Close": {
+    "message": "关闭",
+    "description": "SettingsWindow.DrawSaveCloseButtons"
+  },
+  "SaveAndClose": {
+    "message": "保存并关闭",
+    "description": "SettingsWindow.DrawSaveCloseButtons"
+  },
   "StyleEditorEnterName": {
     "message": "请输入新的样式名称。",
     "description": "StyleEditorWindow.Draw"
   },
-  "InstallerHeader": {
-    "message": "插件安装器",
-    "description": "Locs.get_WindowTitle"
+  "DalamudInstallerPluginChangelogHelp": {
+    "message": "Open plugin changelogs",
+    "description": "DalamudInstallerPluginChangelogHelp"
   },
-  "InstallerHeaderTesting": {
-    "message": "（测试）",
-    "description": "Locs.get_WindowTitleMod_Testing"
+  "DalamudPluginUpdateSuccessful": {
+    "message": "    》 {0} 已更新至 v{1}.",
+    "description": "Locs.DalamudPluginUpdateSuccessful"
   },
-  "InstallerHint": {
-    "message": "此窗口允许您安装和移除游戏内插件。\n这些插件是由第三方开发者制作的。",
-    "description": "Locs.get_Header_Hint"
+  "DalamudPluginUpdateFailed": {
+    "message": "    》 {0} 在尝试更新至 v{1} 时失败。",
+    "description": "Locs.DalamudPluginUpdateFailed"
   },
-  "InstallerSearch": {
-    "message": "搜索",
-    "description": "Locs.get_Header_SearchPlaceholder"
+  "ProfileCommandsEnableHint": {
+    "message": "启用合集。用法：/xlenablecollection \"合集名称\"",
+    "description": "ProfileCommandsEnableHint"
   },
-  "InstallerAlphabetical": {
-    "message": "字母顺序",
-    "description": "Locs.get_SortBy_Alphabetical"
+  "ProfileCommandsDisableHint": {
+    "message": "禁用合集。用法： /xldisablecollection \"合集名称\"",
+    "description": "ProfileCommandsDisableHint"
   },
-  "InstallerDownloadCount": {
-    "message": "下载次数",
-    "description": "Locs.get_SortBy_DownloadCounts"
+  "ProfileCommandsToggleHint": {
+    "message": "切换合集。用法： /xltogglecollection \"合集名称\"",
+    "description": "ProfileCommandsToggleHint"
   },
-  "InstallerLastUpdate": {
-    "message": "更新时间",
-    "description": "Locs.get_SortBy_LastUpdate"
+  "ProfileCommandsEnabling": {
+    "message": "正在启用合集 \"{0}\"...",
+    "description": "ProfileCommandsEnabling"
   },
-  "InstallerNewOrNot": {
-    "message": "发布时间",
-    "description": "Locs.get_SortBy_NewOrNot"
+  "ProfileCommandsDisabling": {
+    "message": "正在禁用合集 \"{0}\"...",
+    "description": "ProfileCommandsDisabling"
   },
-  "InstallerNotInstalled": {
-    "message": "未安装",
-    "description": "Locs.get_SortBy_NotInstalled"
+  "ProfileCommandsApplyFailed": {
+    "message": "应用您的合集失败。请检查控制台是否有错误。",
+    "description": "ProfileCommandsApplyFailed"
   },
-  "InstallerSortBy": {
-    "message": "排序方式",
-    "description": "Locs.get_SortBy_Label"
+  "ProfileCommandsApplySuccess": {
+    "message": "合集已启用。",
+    "description": "ProfileCommandsApplySuccess"
   },
-  "InstallerLoading": {
-    "message": "正在载入插件……",
-    "description": "Locs.get_TabBody_LoadingPlugins"
+  "PluginProfilesNewProfile": {
+    "message": "新合集",
+    "description": "PluginProfilesNewProfile"
   },
-  "InstallerDownloadFailed": {
-    "message": "无法访问，请检查网络连接和代理设置。",
-    "description": "Locs.get_TabBody_DownloadFailed"
+  "DalamudPluginReloadHelp": {
+    "message": "重新加载所有插件。",
+    "description": "DalamudCommands.SetupCommands"
   },
-  "InstallerSafeMode": {
-    "message": "安全模式已启用，重启以激活插件。",
-    "description": "Locs.get_TabBody_SafeMode"
+  "DalamudCreditsHelp": {
+    "message": "打开 dalamud 的制作人表。",
+    "description": "DalamudCommands.SetupCommands"
   },
-  "InstallerNoMatching": {
-    "message": "你寻找的插件不存在。",
-    "description": "Locs.get_TabBody_SearchNoMatching"
+  "DalamudLanguageHelp": {
+    "message": "设置 Dalamud 和插件的语言。可用语言： ",
+    "description": "DalamudCommands.SetupCommands"
   },
-  "InstallerNoCompatible": {
-    "message": "找不到兼容的插件 :( 请重启你的游戏并重试。",
-    "description": "Locs.get_TabBody_SearchNoCompatible"
+  "DalamudSettingsHelp": {
+    "message": "更改不同的游戏内附加组件设置，如聊天频道和 Discord 机器人设置。",
+    "description": "DalamudCommands.SetupCommands"
   },
-  "InstallerNoInstalled": {
-    "message": "您还没有安装任何插件。您可以在「所有插件」选项卡中进行安装。",
-    "description": "Locs.get_TabBody_SearchNoInstalled"
+  "DalamudGamepadModeNotifierText": {
+    "message": "当前处于手柄模式。按 L1+L3 以禁用，按 R3 打开插件菜单。",
+    "description": "GamepadModeNotifierWindow.Draw"
   },
-  "InstallerNoChangelog": {
-    "message": "您已安装的插件都没有更新日志。",
-    "description": "Locs.get_TabBody_ChangelogNone"
+  "DalamudSettingsFontResolutionLevel0": {
+    "message": "最小 (1k x 1k 纹理)",
+    "description": "SettingsWindow..ctor"
   },
-  "InstallerInstalled": {
-    "message": " （已安装）",
-    "description": "Locs.get_PluginTitleMod_Installed"
+  "DalamudSettingsFontResolutionLevel1": {
+    "message": "較小 (2k x 2k 纹理)",
+    "description": "SettingsWindow..ctor"
   },
-  "InstallerDisabled": {
-    "message": " （已禁用）",
-    "description": "Locs.get_PluginTitleMod_Disabled"
+  "DalamudSettingsFontResolutionLevel2": {
+    "message": "正常 (4k x 4k 纹理)",
+    "description": "SettingsWindow..ctor"
   },
-  "InstallerUnloaded": {
-    "message": "（已禁用）",
-    "description": "Locs.get_PluginTitleMod_Unloaded"
+  "DalamudSettingsFontResolutionLevel3": {
+    "message": "较大 (8k x 8k 纹理，可能会崩溃游戏)",
+    "description": "SettingsWindow..ctor"
   },
-  "InstallerHasUpdate": {
-    "message": "（需要更新）",
-    "description": "Locs.get_PluginTitleMod_HasUpdate"
+  "DalamudSettingsFontResolutionLevel4": {
+    "message": "最大 (16k x 16k 纹理，可能会崩溃游戏)",
+    "description": "SettingsWindow..ctor"
   },
-  "InstallerUpdated": {
-    "message": " （已更新）",
-    "description": "Locs.get_PluginTitleMod_Updated"
+  "DalamudSettingsDisableRmtFiltering": {
+    "message": "禁用 RMT 过滤",
+    "description": "SettingsWindow.DrawGeneralTab"
   },
-  "InstallerTestingVersion": {
-    "message": " （测试版本）",
-    "description": "Locs.get_PluginTitleMod_TestingVersion"
+  "DalamudSettingsDisableRmtFilteringMsgHint": {
+    "message": "禁用 Dalamud 内置的 RMT 广告过滤。",
+    "description": "SettingsWindow.DrawGeneralTab"
   },
-  "InstallerUpdateFailed": {
-    "message": " （更新失败）",
-    "description": "Locs.get_PluginTitleMod_UpdateFailed"
+  "DalamudSettingsUiScalePreset6": {
+    "message": "9.6pt",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
   },
-  "InstallerLoadError": {
-    "message": "（加载错误）",
-    "description": "Locs.get_PluginTitleMod_LoadError"
+  "DalamudSettingsUiScalePreset12": {
+    "message": "重置 (12pt)",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
   },
-  "InstallerUnloadError": {
-    "message": "（卸载错误）",
-    "description": "Locs.get_PluginTitleMod_UnloadError"
+  "DalamudSettingsUiScalePreset14": {
+    "message": "14pt",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
   },
-  "InstallerOutdatedError": {
-    "message": "（不兼容）",
-    "description": "Locs.get_PluginTitleMod_OutdatedError"
+  "DalamudSettingsUiScalePreset18": {
+    "message": "18pt",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
   },
-  "InstallerBannedError": {
-    "message": " (自动禁用)",
-    "description": "Locs.get_PluginTitleMod_BannedError"
+  "DalamudSettingsUiScalePreset36": {
+    "message": "36pt",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
   },
-  "InstallerNewPlugin ": {
-    "message": " 新品！",
-    "description": "Locs.get_PluginTitleMod_New"
+  "DalamudSettingsFontResolutionLevel": {
+    "message": "字体分辨率级别",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
   },
-  "InstallerMarkAllSeen": {
-    "message": "全部已阅",
-    "description": "Locs.get_PluginContext_MarkAllSeen"
+  "DalamudSettingsFontResolutionLevelHint": {
+    "message": "此选项可以让Dalamud的字体看起来更美观。 如果更改此选项导致你的游戏崩溃，你的电脑可能不支持在Dalamud显示高分辨率字体 - 您将需要使用一个较低分辨率的字体。\n当前字体图集大小是 {0}px * {1}px.",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
   },
-  "InstallerHidePlugin": {
-    "message": "隐藏",
-    "description": "Locs.get_PluginContext_HidePlugin"
+  "DalamudSettingServerInfoBar": {
+    "message": "服务器信息栏配置",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
   },
-  "InstallerDeletePluginConfig": {
-    "message": "重置",
-    "description": "Locs.get_PluginContext_DeletePluginConfig"
-  },
-  "InstallerDeletePluginConfigReload": {
-    "message": "重置并重新加载",
-    "description": "Locs.get_PluginContext_DeletePluginConfigReload"
-  },
-  "InstallerAuthorWithoutDownloadCount": {
-    "message": " 作者：{0}",
-    "description": "Locs.PluginBody_AuthorWithoutDownloadCount"
-  },
-  "InstallerAuthorWithDownloadCount": {
-    "message": " 作者：{0}   下载次数：{1}",
-    "description": "Locs.PluginBody_AuthorWithDownloadCount"
-  },
-  "InstallerAuthorWithDownloadCountUnavailable": {
-    "message": " 作者：{0}   下载次数：未知",
-    "description": "Locs.PluginBody_AuthorWithDownloadCountUnavailable"
-  },
-  "InstallerDevPluginPath": {
-    "message": "插件路径：{0}",
-    "description": "Locs.PluginBody_DevPluginPath"
-  },
-  "InstallerPlugin3rdPartyRepo": {
-    "message": "插件仓库：{0}",
-    "description": "Locs.PluginBody_Plugin3rdPartyRepo"
-  },
-  "InstallerDevPlugin": {
-    "message": " 此插件已被上传至插件仓库，你可以在 devPlugins 文件夹中删除它了。",
-    "description": "Locs.get_PluginBody_AvailableDevPlugin"
+  "Save": {
+    "message": "保存",
+    "description": "SettingsWindow.DrawSaveCloseButtons"
   },
   "InstallerDeleteDevPlugin ": {
     "message": " 你需要手动在 devPlugins 文件夹删除此插件。",
     "description": "Locs.get_PluginBody_DeleteDevPlugin"
   },
-  "InstallerOutdatedPluginBody ": {
-    "message": "此插件年代过于久远，无法与当前版本的框架兼容。请等待其作者更新。",
-    "description": "Locs.get_PluginBody_Outdated"
-  },
-  "InstallerBannedPluginBody ": {
-    "message": "此插件因兼容性问题而被自动禁用，或被发行方主动禁用。请等待作者更新或停止使用。",
-    "description": "Locs.get_PluginBody_Banned"
-  },
-  "InstallerBannedPluginBodyReason ": {
-    "message": "此插件已被自动禁用： {0}",
-    "description": "Locs.PluginBody_BannedReason"
-  },
-  "InstallerInstall": {
-    "message": "安装 v{0}",
-    "description": "Locs.PluginButton_InstallVersion"
-  },
-  "InstallerWorking": {
-    "message": "状态良好",
-    "description": "Locs.get_PluginButton_Working"
-  },
-  "InstallerDisable": {
-    "message": "禁用",
-    "description": "Locs.get_PluginButton_Disable"
-  },
-  "InstallerLoad": {
-    "message": "加载",
-    "description": "Locs.get_PluginButton_Load"
-  },
-  "InstallerUnload": {
-    "message": "卸载",
-    "description": "Locs.get_PluginButton_Unload"
-  },
   "InstallerOpenConfig": {
     "message": "打开配置",
     "description": "Locs.get_PluginButtonToolTip_OpenConfiguration"
-  },
-  "InstallerStartOnBoot": {
-    "message": "自启动",
-    "description": "Locs.get_PluginButtonToolTip_StartOnBoot"
-  },
-  "InstallerAutomaticReloading": {
-    "message": "自动重载中",
-    "description": "Locs.get_PluginButtonToolTip_AutomaticReloading"
-  },
-  "InstallerDeletePlugin ": {
-    "message": "删除",
-    "description": "Locs.get_PluginButtonToolTip_DeletePlugin"
-  },
-  "InstallerVisitPluginUrl": {
-    "message": "浏览插件主页",
-    "description": "Locs.get_PluginButtonToolTip_VisitPluginUrl"
-  },
-  "InstallerUpdateSingle": {
-    "message": "更新至 {0}",
-    "description": "Locs.PluginButtonToolTip_UpdateSingle"
   },
   "InstallerUnloadFailedTooltip": {
     "message": "插件卸载失败，请重启游戏后再试。",
     "description": "Locs.get_PluginButtonToolTip_UnloadFailed"
   },
-  "NotificationsPluginInstalledTitle": {
-    "message": "插件安装完成",
-    "description": "Locs.get_Notifications_PluginInstalledTitle"
-  },
-  "NotificationsPluginInstalled": {
-    "message": "「{0}」已成功安装并启用。",
-    "description": "Locs.Notifications_PluginInstalled"
-  },
-  "NotificationsPluginNotInstalledTitle": {
-    "message": "插件未安装",
-    "description": "Locs.get_Notifications_PluginNotInstalledTitle"
-  },
-  "NotificationsPluginNotInstalled": {
-    "message": "「{0}」安装失败。",
-    "description": "Locs.Notifications_PluginNotInstalled"
-  },
-  "NotificationsNoUpdatesFoundTitle": {
-    "message": "更新检查完成",
-    "description": "Locs.get_Notifications_NoUpdatesFoundTitle"
-  },
-  "NotificationsNoUpdatesFound": {
-    "message": "无可用更新。",
-    "description": "Locs.get_Notifications_NoUpdatesFound"
-  },
-  "NotificationsUpdatesInstalledTitle": {
-    "message": "更新检查完成",
-    "description": "Locs.get_Notifications_UpdatesInstalledTitle"
-  },
-  "NotificationsUpdatesInstalled": {
-    "message": "已更新 {0} 个插件。",
-    "description": "Locs.Notifications_UpdatesInstalled"
-  },
-  "NotificationsPluginDisabledTitle": {
-    "message": "插件禁用完成",
-    "description": "Locs.get_Notifications_PluginDisabledTitle"
-  },
-  "NotificationsPluginDisabled": {
-    "message": "「{0}」已禁用。",
-    "description": "Locs.Notifications_PluginDisabled"
-  },
-  "InstallerUpdatePlugins": {
-    "message": "更新插件",
-    "description": "Locs.get_FooterButton_UpdatePlugins"
-  },
-  "InstallerInProgress": {
-    "message": "正在安装...",
-    "description": "Locs.get_FooterButton_InProgress"
-  },
-  "InstallerNoUpdates": {
-    "message": "未找到更新！",
-    "description": "Locs.get_FooterButton_NoUpdates"
-  },
-  "InstallerUpdateComplete": {
-    "message": "{0} 个插件已更新！",
-    "description": "Locs.FooterButton_UpdateComplete"
-  },
-  "InstallerSettings": {
-    "message": "设置",
-    "description": "Locs.get_FooterButton_Settings"
-  },
-  "InstallerScanDevPlugins": {
-    "message": "扫描开发版插件",
-    "description": "Locs.get_FooterButton_ScanDevPlugins"
-  },
-  "InstallerClose": {
-    "message": "关闭",
-    "description": "Locs.get_FooterButton_Close"
-  },
-  "InstallerError": {
-    "message": "安装程序错误",
-    "description": "Locs.get_ErrorModal_Title"
-  },
   "InstallerContactAuthor": {
     "message": "请重启游戏后再试一次。如果错误依然存在，请联系插件作者。",
     "description": "Locs.get_ErrorModal_InstallContactAuthor"
-  },
-  "InstallerInstallFail": {
-    "message": "插件 {0} 安装失败。\n{1}",
-    "description": "Locs.ErrorModal_InstallFail"
-  },
-  "InstallerSingleUpdateFail": {
-    "message": "插件 {0} 更新失败。\n{1}",
-    "description": "Locs.ErrorModal_SingleUpdateFail"
-  },
-  "InstallerDeleteConfigFail": {
-    "message": "插件 {0} 重置失败。\n\n该插件可能尚未支持此操作。你可以在游戏关闭后手动删除配置文件，详细操作请参阅常见问题页面。",
-    "description": "Locs.ErrorModal_DeleteConfigFail"
-  },
-  "InstallerEnableFail": {
-    "message": "插件 {0} 启用失败。\n{1}",
-    "description": "Locs.ErrorModal_EnableFail"
-  },
-  "InstallerDisableFail": {
-    "message": "插件 {0} 禁用失败。\n{1}",
-    "description": "Locs.ErrorModal_DisableFail"
-  },
-  "InstallerUnloadFail": {
-    "message": "插件 {0} 卸载失败。\n{1}",
-    "description": "Locs.ErrorModal_UnloadFail"
-  },
-  "InstallerLoadFail": {
-    "message": "插件 {0} 加载失败。\n{1}",
-    "description": "Locs.ErrorModal_LoadFail"
-  },
-  "InstallerDeleteFail": {
-    "message": "插件 {0} 删除失败。\n{1}",
-    "description": "Locs.ErrorModal_DeleteFail"
-  },
-  "InstallerUpdaterFatal": {
-    "message": "插件更新失败。\n请重启游戏后再试一次。如果问题依然存在，请向我们报告。",
-    "description": "Locs.get_ErrorModal_UpdaterFatal"
-  },
-  "InstallerUpdaterFail": {
-    "message": "{0} 个插件更新失败。\n请重启游戏后再试一次。如果问题依然存在，请向我们报告。",
-    "description": "Locs.ErrorModal_UpdaterFail"
-  },
-  "InstallerUpdaterFailPartial": {
-    "message": "{0} 个插件更新成功，{1} 个更新失败。\n请重启游戏后再试一次。如果问题依然存在，请向我们报告。",
-    "description": "Locs.ErrorModal_UpdaterFailPartial"
-  },
-  "InstallerErrorPluginInfo": {
-    "message": "\n\n下列插件引起了这些问题：\n\n{0}\n您可以尝试手动移除这些插件并重新安装它们。",
-    "description": "Locs.ErrorModal_HintBlame"
-  },
-  "InstallerFeedback": {
-    "message": "发送反馈",
-    "description": "Locs.get_FeedbackModal_Title"
-  },
-  "InstallerFeedbackInfo": {
-    "message": "您可以在这里向「{0}」的开发者发送反馈。\n如果您希望他们回答您，您可以提供您的QQ号或电子邮件地址。\n\n如果您想报告一个错误，我们建议您加入獭爹的QQ频道。",
-    "description": "Locs.FeedbackModal_Text"
-  },
-  "InstallerFeedbackHasUpdate": {
-    "message": "此插件有可用的新版本，请先在报告错误前更新。",
-    "description": "Locs.get_FeedbackModal_HasUpdate"
-  },
-  "InstallerFeedbackContactInfo": {
-    "message": "联系信息",
-    "description": "Locs.get_FeedbackModal_ContactInformation"
-  },
-  "InstallerFeedbackIncludeLastError": {
-    "message": "包含最后一次报错信息",
-    "description": "Locs.get_FeedbackModal_IncludeLastError"
-  },
-  "InstallerFeedbackIncludeLastErrorHint": {
-    "message": "此选项有助于插件开发者确定问题的来源。",
-    "description": "Locs.get_FeedbackModal_IncludeLastErrorHint"
-  },
-  "InstallerFeedbackHint": {
-    "message": "所有水獭公司成员都可以看到你的反馈。\n请不要在其中包含个人资料或敏感内容。\n如果你选择了附上最后一次错误信息，你的 Windows 用户名也可能会包含在内。\n\n我们收集的反馈将会立即转发至服务器，并不会在本地储存。",
-    "description": "Locs.get_FeedbackModal_Hint"
-  },
-  "InstallerFeedbackNotificationSuccess": {
-    "message": "您的反馈已成功发送！",
-    "description": "Locs.get_FeedbackModal_NotificationSuccess"
-  },
-  "InstallerFeedbackNotificationError": {
-    "message": "您的反馈无法发送。",
-    "description": "Locs.get_FeedbackModal_NotificationError"
-  },
-  "DalamudPluginUpdates": {
-    "message": "更新：",
-    "description": "Locs.get_PluginUpdateHeader_Chatbox"
-  },
-  "OK": {
-    "message": "确定",
-    "description": "Locs.get_ErrorModalButton_Ok"
-  },
-  "DalamudWelcome": {
-    "message": "Dalamud vD{0} 已加载。",
-    "description": "ChatHandlers.PrintWelcomeMessage"
-  },
-  "PluginsWelcome": {
-    "message": " 已加载 {0} 个插件。",
-    "description": "ChatHandlers.PrintWelcomeMessage"
-  },
-  "DalamudPluginLoaded": {
-    "message": "    》 {0} v{1} 已加载。",
-    "description": "ChatHandlers.PrintWelcomeMessage"
-  },
-  "DalamudUpdated": {
-    "message": "Dalamud 已成功更新！请查阅 Discord 来取得完整的更新日志。",
-    "description": "ChatHandlers.PrintWelcomeMessage"
-  },
-  "DalamudPluginUpdateCheckFail": {
-    "message": "无法检查插件更新。",
-    "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
-  },
-  "DalamudPluginAutoUpdate": {
-    "message": "自动更新：",
-    "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
-  },
-  "NotificationUpdatedPlugins": {
-    "message": "{0} 个插件更新成功。",
-    "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
-  },
-  "NotificationAutoUpdate": {
-    "message": "自动更新",
-    "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
-  },
-  "DalamudPluginUpdateRequired": {
-    "message": "您需要更新一个或多个插件。请使用游戏中的 /xlplugins 命令来更新它们！",
-    "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
-  },
-  "SystemMenuPlugins": {
-    "message": "插件中心",
-    "description": "DalamudAtkTweaks..ctor"
-  },
-  "SystemMenuSettings": {
-    "message": "卫月设置",
-    "description": "DalamudAtkTweaks..ctor"
   }
 }
