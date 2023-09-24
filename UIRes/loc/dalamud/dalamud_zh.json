@@ -904,7 +904,7 @@
     "description": "ProfileManagerTutorial"
   },
   "ProfileManagerTutorialParagraphOne": {
-    "message": "合集是可以共享的插件列表，这些插件可以在插件安装程序或聊天命令中启用或禁用。\n插件乳沟在任意启用的合集中就会被启用。",
+    "message": "合集是可以共享的插件列表，这些插件可以在插件安装程序或聊天命令中启用或禁用。\n如果插件在任意启用的合集中就会被启用。",
     "description": "ProfileManagerTutorialParagraphOne"
   },
   "ProfileManagerTutorialParagraphTwo": {
@@ -1028,7 +1028,7 @@
     "description": "DalamudSettingsChannelNone"
   },
   "DalamudSettingsWaitForPluginsOnStartup": {
-    "message": "在游戏加载前等待插件初始化晚餐",
+    "message": "在游戏加载前等待插件初始化完成",
     "description": "DalamudSettingsWaitForPluginsOnStartup"
   },
   "DalamudSettingsWaitForPluginsOnStartupHint": {
