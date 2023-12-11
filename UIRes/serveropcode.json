@@ -1,17 +1,17 @@
 {
-    "ActorControlSelf": 340,
-    "HousingWardInfo": 823,
-    "ContainerInfo": 360,
-    "MarketBoardItemRequestStart": 539,
-    "MarketBoardHistory": 394,
-    "MarketBoardOfferings": 330,
-    "MarketBoardPurchase": 603,
-    "InventoryActionAck": 719,
-    "MarketTaxRates": 568,
-    "RetainerInformation": 907,
-    "ItemMarketBoardInfo": 956,
-    "CfNotifyPop": 862,
-    "AirshipTimers": 367,
-    "SubmarineTimers": 475,
-    "AirshipStatusList": 424
-  }
+  "ActorControlSelf": 770,
+  "HousingWardInfo": 653,
+  "ContainerInfo": 631,
+  "MarketBoardItemRequestStart": 729,
+  "MarketBoardHistory": 445,
+  "MarketBoardOfferings": 823,
+  "MarketBoardPurchase": 362,
+  "InventoryActionAck": 446,
+  "MarketTaxRates": 724,
+  "RetainerInformation": 739,
+  "ItemMarketBoardInfo": 145,
+  "CfNotifyPop": 327,
+  "AirshipTimers": 9999,
+  "SubmarineTimers": 910,
+  "AirshipStatusList": 9999
+}
