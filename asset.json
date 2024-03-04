@@ -1,25 +1,25 @@
 {
-    "Version": 78,
+    "Version": 79,
     "Assets": [
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/serveropcode.json",
             "FileName": "UIRes/serveropcode.json",
-            "Hash": "EEB9AC357E3C18C41CD55DB5EA413E6F135979CA"
+            "Hash": "EE3E95E7BCB92EF4923B96CE10A7389B71B3E75E"
         },
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/clientopcode.json",
             "FileName": "UIRes/clientopcode.json",
-            "Hash": "4EFD56D0057AE523CC7FE27319AD5A2105813172"
+            "Hash": "1D3BDE215231F09F4C11B269A201F947461CE9C9"
         },
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/bannedplugin.json",
             "FileName": "UIRes/bannedplugin.json",
-            "Hash": "6123DEBD3C8ACA0C934627AA81C115187EE34CA6"
+            "Hash": "E2CBAEC8686858340D72F88A8BE2BA481CCD06B8"
         },
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/cheatplugin.json",
             "FileName": "UIRes/cheatplugin.json",
-            "Hash": "60818476BBE10C4B0A640EFBDB7E3BF73DC89FCE"
+            "Hash": "BB54491867281F52232EB5FCBEE4B9EAACB7E830"
         },
         {
             "Url": "https://mirrors.ustc.edu.cn/CTAN/fonts/notocjksc/NotoSansCJKsc-Medium.otf",
@@ -30,11 +30,6 @@
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/FontAwesomeFreeSolid.otf",
             "FileName": "UIRes/FontAwesomeFreeSolid.otf",
             "Hash": "4860698FEE75A5481CB00C744B7EB297ABDC455D"
-        },
-        {
-            "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/MaterialIcons-Regular.ttf",
-            "FileName": "UIRes/MaterialIcons-Regular.ttf",
-            "Hash": "40C76A23C94EC06287C97AD29031325BA1290886"
         },
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/Inconsolata-Regular.ttf",
@@ -99,57 +94,77 @@
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/loc/dalamud/dalamud_de.json",
             "FileName": "UIRes/loc/dalamud/dalamud_de.json",
-            "Hash": "9B35386FB815C31DBBD017685DD8C5A7E4F8193B"
+            "Hash": "A3F570CEAD11AF6BC256D7C3EC1CBAA961A3B227"
         },
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/loc/dalamud/dalamud_es.json",
             "FileName": "UIRes/loc/dalamud/dalamud_es.json",
-            "Hash": "B10DB48334823AA28F59121A083F8D527AB65FF7"
+            "Hash": "393D001FF563E0BDBD188F10A9D9D7BA9842F246"
         },
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/loc/dalamud/dalamud_fr.json",
             "FileName": "UIRes/loc/dalamud/dalamud_fr.json",
-            "Hash": "2AB9913DAE36B4D44D4AE9BFD2E050FCEF7D7851"
+            "Hash": "77308FE75DD846C927070CA54DCF2DCE16AF97DF"
         },
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/loc/dalamud/dalamud_it.json",
             "FileName": "UIRes/loc/dalamud/dalamud_it.json",
-            "Hash": "E8E9CEB0E8CE254B124CB27F61E4789D93895480"
+            "Hash": "818BF43170F6B305471B01530D0FCD3F8FAF0777"
         },
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/loc/dalamud/dalamud_ja.json",
             "FileName": "UIRes/loc/dalamud/dalamud_ja.json",
-            "Hash": "444CFFF1CFB6DE531C5C320E7666B9F5A676CA66"
+            "Hash": "10ED4CEFFE463A78CD6D6633F5079DD24C6726D6"
         },
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/loc/dalamud/dalamud_ko.json",
             "FileName": "UIRes/loc/dalamud/dalamud_ko.json",
-            "Hash": "FF23C9015FA5E589F5A14AF50C0C574351D3F709"
+            "Hash": "625F5EF0390F68612C3BF6F2D276DFE17AD50C4C"
         },
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/loc/dalamud/dalamud_no.json",
             "FileName": "UIRes/loc/dalamud/dalamud_no.json",
-            "Hash": "71DF081A5E1941F97562E45B29976D1F15169618"
+            "Hash": "21BDEC1993E3D54200829C0BED2F35C5D781BFE0"
         },
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/loc/dalamud/dalamud_ru.json",
             "FileName": "UIRes/loc/dalamud/dalamud_ru.json",
-            "Hash": "3E64735D9859AB0D0DBBB2CA0483C6C2D454896A"
+            "Hash": "A4199158D555351AFD0A5B9684561225900EA8F0"
         },
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/loc/dalamud/dalamud_zh.json",
             "FileName": "UIRes/loc/dalamud/dalamud_zh.json",
-            "Hash": "61362296D0D05A92DBEA44ABC1F07007A89CC6C9"
+            "Hash": "C5F9D3A42F7B4EEACB9A8820D7B3A7D1287C36B6"
         },
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/loc/dalamud/dalamud_tw.json",
             "FileName": "UIRes/loc/dalamud/dalamud_tw.json",
-            "Hash": "22D284A4668C489E816FD5428E66FEE6CAF24157"
+            "Hash": "2624BC1C57664F9A63BEB26CB45D031F4DA64A4B"
         },
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/gamesym.ttf",
             "FileName": "UIRes/gamesym.ttf",
             "Hash": "89BC6B5015EF0EDFA5AE272B3A406B54CF61C6F1"
+        },
+        {
+            "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/devPluginIcon.png",
+            "FileName": "UIRes/devPluginIcon.png",
+            "Hash": "DC33AC5B811D32815BCB4C4261563EFFE532638E"
+        },
+        {
+            "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/changelogApiBump.png",
+            "FileName": "UIRes/changelogApiBump.png",
+            "Hash": "16BB14DEF2AD9894C9DA37483A6B0B9AADFCD72D"
+        },
+        {
+            "Url": "https://img.finalfantasyxiv.com/lds/pc/global/fonts/FFXIV_Lodestone_SSF.ttf",
+            "FileName": "UIRes/LodestoneGameSymbol.ttf",
+            "Hash": "89BC6B5015EF0EDFA5AE272B3A406B54CF61C6F1"
+        },
+        {
+            "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/changelogApiBump.png",
+            "FileName": "UIRes/changelogApiBump.png",
+            "Hash": "16BB14DEF2AD9894C9DA37483A6B0B9AADFCD72D"
         }
     ]
 }
