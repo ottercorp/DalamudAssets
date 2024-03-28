@@ -1,10 +1,10 @@
 {
   "DateTimeSpanExtensions.RelativeFormatStringsLong": {
-    "message": "172800,{0:%d}天前\\n86400,昨天\\n7200,{0:%h}小时前\\n3600,1小时前\\n120, {0:%m}分钟前\\n60,1分钟前\\n2,{0:%s}秒前\\n1,1秒前\\n- 无限，刚刚 \\n",
+    "message": "172800,{0:%d}天前\n86400,昨天\n7200,{0:%h}小时前\n3600,1小时前\n120, {0:%m}分钟前\n60,1分钟前\n2,{0:%s}秒前\n1,1秒前\n- 无限，刚刚 \n",
     "description": "DateTimeSpanExtensions.LocRelativePastLong"
   },
   "DateTimeSpanExtensions.RelativeFormatStringsShort": {
-    "message": "86400,{0:%d}天\\n3600,{0:%h}小时\\n60,{0:%m}分\\n1,{0:%s}秒\\n-无限,现在",
+    "message": "86400,{0:%d}天\n3600,{0:%h}小时\n60,{0:%m}分\n1,{0:%s}秒\n-无限,现在",
     "description": "DateTimeSpanExtensions.LocRelativePastShort"
   },
   "DalamudInstallerPluginChangelogHelp": {
@@ -388,7 +388,7 @@
     "description": "SettingsWindow.DrawCustomReposSection"
   },
   "DalamudSettingsDevPluginLocationsHint": {
-    "message": "添加额外的开发版插件加载位置。\\n支持目录或 DLL 路径。",
+    "message": "添加额外的开发版插件加载位置。\n支持目录或 DLL 路径。",
     "description": "SettingsWindow.DrawDevPluginLocationsSection"
   },
   "DalamudDevPluginLocationExists": {
@@ -396,7 +396,7 @@
     "description": "SettingsWindow.DrawDevPluginLocationsSection"
   },
   "DalamudDevPluginInvalid": {
-    "message": "输入的值不是潜在的Dev插件的有效路径。\\n您是否想要将其作为自定义插件库输入到下面的字段？",
+    "message": "输入的值不是潜在的Dev插件的有效路径。\n您是否想要将其作为自定义插件库输入到下面的字段？",
     "description": "DevPluginsSettingsEntry.Draw"
   },
   "DalamudSettingsLanguage": {
@@ -452,7 +452,7 @@
     "description": "SettingsWindow.DrawCustomReposSection"
   },
   "DalamudThirdRepoNotUrl": {
-    "message": "输入的地址不是一个有效的 URL。\\n你想要将它作为DevPlugin 输入到上面的字段吗？",
+    "message": "输入的地址不是一个有效的 URL。\n你想要将它作为DevPlugin 输入到上面的字段吗？",
     "description": "ThirdRepoSettingsEntry.Draw"
   },
   "DalamudAbout": {
@@ -508,7 +508,7 @@
     "description": "SettingsTabExperimental..ctor"
   },
   "DalamudSettingEnablePluginUIAdditionalOptionsHint": {
-    "message": "这将允许您固定某些插件窗口，让它们点击穿透或调整它们的透明度。\\n可能不是所有插件都支持这个功能。如果你想要它们支持这个功能，请联系插件作者。",
+    "message": "这将允许您固定某些插件窗口，让它们点击穿透或调整它们的透明度。\n可能不是所有插件都支持这个功能。如果你想要它们支持这个功能，请联系插件作者。",
     "description": "SettingsTabExperimental..ctor"
   },
   "DalamudSettingsClearHidden": {
@@ -680,7 +680,7 @@
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleFocusManagementHint": {
-    "message": "这会让 Dalamud 窗口和游戏窗口一样，在按下 ESC 键时关闭。\\n它们会逐个关闭。但可能不适用于所有插件。",
+    "message": "这会让 Dalamud 窗口和游戏窗口一样，在按下 ESC 键时关闭。\n它们会逐个关闭。但可能不适用于所有插件。",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleViewports": {
@@ -688,7 +688,7 @@
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleViewportsHint": {
-    "message": "这将允许你将插件窗口移动到其他显示器。\\n只在无边框窗口或窗口模式下有效。",
+    "message": "这将允许你将插件窗口移动到其他显示器。\n只在无边框窗口或窗口模式下有效。",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleDocking": {
@@ -712,7 +712,7 @@
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleGamepadNavigationHint": {
-    "message": "你将可以使用 L1+L3 来切换游戏和插件界面。\\n如果你正在使用 ImGui，则可以通过 R3 来切换插件管理器窗口。",
+    "message": "你将可以使用 L1+L3 来切换游戏和插件界面。\n如果你正在使用 ImGui，则可以通过 R3 来切换插件管理器窗口。",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleTsm": {
@@ -752,7 +752,7 @@
     "description": "Locs.get_WindowTitleMod_Testing"
   },
   "InstallerHint": {
-    "message": "此窗口允许您安装和移除游戏内插件。\\n这些插件是由第三方开发者制作的。",
+    "message": "此窗口允许您安装和移除游戏内插件。\n这些插件是由第三方开发者制作的。",
     "description": "Locs.get_Header_Hint"
   },
   "InstallerSearch": {
@@ -1072,15 +1072,15 @@
     "description": "Locs.get_PluginButtonToolTip_UnloadFailed"
   },
   "InstallerUnloadNeedsToBeInDefault": {
-    "message": "此插件属于一个或多个合集。 如果您想要启用或禁用它，请启用或禁用它所包含的合集。\\n如果您想要手动管理它，请从所有合集中删除它。",
+    "message": "此插件属于一个或多个合集。 如果您想要启用或禁用它，请启用或禁用它所包含的合集。\n如果您想要手动管理它，请从所有合集中删除它。",
     "description": "Locs.get_PluginButtonToolTip_NeedsToBeInDefault"
   },
   "InstallerUnloadNeedsToBeInSingleProfile": {
-    "message": "此插件在多个合集中。 如果您想要启用或禁用它，请启用或禁用它所包含的合集。\\n如果你想要在这里管理它，请确保它只是在一个单一合集中。",
+    "message": "此插件在多个合集中。 如果您想要启用或禁用它，请启用或禁用它所包含的合集。\n如果你想要在这里管理它，请确保它只是在一个单一合集中。",
     "description": "Locs.get_PluginButtonToolTip_NeedsToBeInSingleProfile"
   },
   "InstallerSingleProfileDisabled": {
-    "message": "包含此插件的合集\"{0}\"已禁用。\\n请在合集管理器中启用它，以单独切换插件。",
+    "message": "包含此插件的合集\"{0}\"已禁用。\n请在合集管理器中启用它，以单独切换插件。",
     "description": "Locs.PluginButtonToolTip_SingleProfileDisabled"
   },
   "NotificationsPluginInstalledTitle": {
@@ -1168,7 +1168,7 @@
     "description": "Locs.get_UpdateModal_Title"
   },
   "UpdateModalUpdateAvailable": {
-    "message": "\"{0}\"有可用更新。\\n您想要在启用之前更新它吗？\\n更新将修复bug和不兼容性，并可能添加新的功能。",
+    "message": "\"{0}\"有可用更新。\n您想要在启用之前更新它吗？\n更新将修复bug和不兼容性，并可能添加新的功能。",
     "description": "Locs.UpdateModal_UpdateAvailable"
   },
   "UpdateModalYes": {
@@ -1188,55 +1188,55 @@
     "description": "Locs.get_ErrorModal_InstallContactAuthor"
   },
   "InstallerInstallFail": {
-    "message": "插件 {0} 安装失败。\\n{1}",
+    "message": "插件 {0} 安装失败。\n{1}",
     "description": "Locs.ErrorModal_InstallFail"
   },
   "InstallerSingleUpdateFail": {
-    "message": "插件 {0} 更新失败。\\n{1}",
+    "message": "插件 {0} 更新失败。\n{1}",
     "description": "Locs.ErrorModal_SingleUpdateFail"
   },
   "InstallerDeleteConfigFail": {
-    "message": "插件 {0} 重置失败。\\n\\n该插件可能尚未支持此操作。你可以在游戏关闭后手动删除配置文件，详细操作请参阅常见问题页面。",
+    "message": "插件 {0} 重置失败。\n该插件可能尚未支持此操作。你可以在游戏关闭后手动删除配置文件，详细操作请参阅常见问题页面。",
     "description": "Locs.ErrorModal_DeleteConfigFail"
   },
   "InstallerEnableFail": {
-    "message": "插件 {0} 启用失败。\\n{1}",
+    "message": "插件 {0} 启用失败。\n{1}",
     "description": "Locs.ErrorModal_EnableFail"
   },
   "InstallerDisableFail": {
-    "message": "插件 {0} 禁用失败。\\n{1}",
+    "message": "插件 {0} 禁用失败。\n{1}",
     "description": "Locs.ErrorModal_DisableFail"
   },
   "InstallerUnloadFail": {
-    "message": "插件 {0} 卸载失败。\\n{1}",
+    "message": "插件 {0} 卸载失败。\n{1}",
     "description": "Locs.ErrorModal_UnloadFail"
   },
   "InstallerLoadFail": {
-    "message": "插件 {0} 加载失败。\\n{1}",
+    "message": "插件 {0} 加载失败。\n{1}",
     "description": "Locs.ErrorModal_LoadFail"
   },
   "InstallerDeleteFail": {
-    "message": "插件 {0} 删除失败。\\n{1}",
+    "message": "插件 {0} 删除失败。\n{1}",
     "description": "Locs.ErrorModal_DeleteFail"
   },
   "InstallerUpdaterFatal": {
-    "message": "插件更新失败。\\n请重启游戏后再试一次。如果问题依然存在，请向我们报告。",
+    "message": "插件更新失败。\n请重启游戏后再试一次。如果问题依然存在，请向我们报告。",
     "description": "Locs.get_ErrorModal_UpdaterFatal"
   },
   "InstallerProfileApplyFail": {
-    "message": "无法处理合集。\\n重新启动您的游戏然后重试。如果再次发生此错误，请无能狂怒。",
+    "message": "无法处理合集。\n重新启动您的游戏然后重试。如果再次发生此错误，请无能狂怒。",
     "description": "Locs.get_ErrorModal_ProfileApplyFail"
   },
   "InstallerUpdaterFail": {
-    "message": "{0} 个插件更新失败。\\n请重启游戏后再试一次。如果问题依然存在，请向我们报告。",
+    "message": "{0} 个插件更新失败。\n请重启游戏后再试一次。如果问题依然存在，请向我们报告。",
     "description": "Locs.ErrorModal_UpdaterFail"
   },
   "InstallerUpdaterFailPartial": {
-    "message": "{0} 个插件更新成功，{1} 个更新失败。\\n请重启游戏后再试一次。如果问题依然存在，请向我们报告。",
+    "message": "{0} 个插件更新成功，{1} 个更新失败。\n请重启游戏后再试一次。如果问题依然存在，请向我们报告。",
     "description": "Locs.ErrorModal_UpdaterFailPartial"
   },
   "InstallerErrorPluginInfo": {
-    "message": "\\n\\n下列插件引起了这些问题：\\n\\n{0}\\n您可以尝试手动移除这些插件并重新安装它们。",
+    "message": "\n下列插件引起了这些问题：\n{0}\n您可以尝试手动移除这些插件并重新安装它们。",
     "description": "Locs.ErrorModal_HintBlame"
   },
   "InstallerFeedback": {
@@ -1244,7 +1244,7 @@
     "description": "Locs.get_FeedbackModal_Title"
   },
   "InstallerFeedbackInfo": {
-    "message": "您可以在这里向「{0}」的开发者发送反馈。\\n如果您希望他们回答您，您可以提供您的 Discord 标签或电子邮件地址。\\n\\n如果您想报告一个错误，我们建议您加入 XIVLauncher 的 Discord 服务器。",
+    "message": "您可以在这里向「{0}」的开发者发送反馈。\n如果您希望他们回答您，您可以提供您的 Discord 标签或电子邮件地址。\n如果您想报告一个错误，我们建议您加入 XIVLauncher 的 Discord 服务器。",
     "description": "Locs.FeedbackModal_Text"
   },
   "InstallerFeedbackHasUpdate": {
@@ -1256,7 +1256,7 @@
     "description": "Locs.get_FeedbackModal_ContactAnonymous"
   },
   "InstallerFeedbackContactAnonymousWarning": {
-    "message": "No response will be forthcoming.\\nUntick \"{0}\" and provide contact information if you need help.",
+    "message": "No response will be forthcoming.\nUntick \"{0}\" and provide contact information if you need help.",
     "description": "Locs.get_FeedbackModal_ContactAnonymousWarning"
   },
   "InstallerFeedbackContactInfo": {
@@ -1264,7 +1264,7 @@
     "description": "Locs.get_FeedbackModal_ContactInformation"
   },
   "InstallerFeedbackContactInfoHelp": {
-    "message": "Discord usernames and e-mail addresses are accepted.\\nIf you submit a Discord username, please join our discord server so that we can reach out to you easier.",
+    "message": "Discord usernames and e-mail addresses are accepted.\nIf you submit a Discord username, please join our discord server so that we can reach out to you easier.",
     "description": "Locs.get_FeedbackModal_ContactInformationHelp"
   },
   "InstallerFeedbackContactInfoWarning": {
@@ -1292,7 +1292,7 @@
     "description": "Locs.get_FeedbackModal_IncludeLastErrorHint"
   },
   "InstallerFeedbackHint": {
-    "message": "所有插件开发者都可以看到你的反馈。\\n请不要在其中包含个人资料或敏感内容。\\n如果你选择了附上最后一次错误信息，你的 Windows 用户名也可能会包含在内。\\n\\n我们收集的反馈将会立即转发至 Discord，并不会在服务端储存。",
+    "message": "所有插件开发者都可以看到你的反馈。\n请不要在其中包含个人资料或敏感内容。\n如果你选择了附上最后一次错误信息，你的 Windows 用户名也可能会包含在内。\n\n我们收集的反馈将会立即转发至 Discord，并不会在服务端储存。",
     "description": "Locs.get_FeedbackModal_Hint"
   },
   "InstallerFeedbackNotificationSuccess": {
@@ -1308,7 +1308,7 @@
     "description": "Locs.get_TestingWarningModal_Title"
   },
   "InstallerTestingWarningDowngradeBody": {
-    "message": "请小心！ 如果您退出插件测试，您将继续使用测试版本，直到它被删除并重新安装， 或者更新插件的非测试版本。\\n请记住，如果您手动降低等级，您可能会丢失此插件的设置。",
+    "message": "请小心！ 如果您退出插件测试，您将继续使用测试版本，直到它被删除并重新安装， 或者更新插件的非测试版本。\n请记住，如果您手动降低等级，您可能会丢失此插件的设置。",
     "description": "Locs.get_TestingWarningModal_DowngradeBody"
   },
   "InstallerDeletePluginConfigWarning": {
@@ -1356,11 +1356,11 @@
     "description": "Locs.get_Profiles_RemoveFromAll"
   },
   "VerifiedCheckmarkVerifiedTooltip": {
-    "message": "该插件已通过 Dalamud 团队的审核。\\n它遵循我们的技术和安全标准，并遵守我们的守则。",
+    "message": "该插件已通过 Dalamud 团队的审核。\n它遵循我们的技术和安全标准，并遵守我们的守则。",
     "description": "Locs.get_VerifiedCheckmark_VerifiedTooltip"
   },
   "VerifiedCheckmarkUnverifiedTooltip": {
-    "message": "此插件未经 Dalamud 团队审核。\\n\n我们无法对自定义插件和软件源承担任何责任。\\n\n请确保只安装您信任的开发者提供的插件。\\n\n\\n\n在 XIVLauncher & Dalamud 的QQ频道内，自定义插件将不被允许讨论并不提供任何支持。",
+    "message": "此插件未经 Dalamud 团队审核。\n我们无法对自定义插件和软件源承担任何责任。\n请确保只安装您信任的开发者提供的插件。\n\n在 XIVLauncher & Dalamud 的QQ频道内，自定义插件将不被允许讨论并不提供任何支持。",
     "description": "Locs.get_VerifiedCheckmark_UnverifiedTooltip"
   },
   "ProfileManagerEnableDisableHint": {
