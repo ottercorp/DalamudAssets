@@ -83,7 +83,7 @@
   },
   {
     "Name": "MarketBoardPlugin",
-    "AssemblyVersion": "1.3.4.0",
+    "AssemblyVersion": "1.3.4.1",
     "Reason": "字体服务爆炸, 请等待修复更新"
   }
 ]
