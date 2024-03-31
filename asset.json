@@ -1,5 +1,5 @@
 {
-    "Version": 88,
+    "Version": 89,
     "Assets": [
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/serveropcode.json",
@@ -157,7 +157,7 @@
             "Hash": "16BB14DEF2AD9894C9DA37483A6B0B9AADFCD72D"
         },
         {
-            "Url": "https://img.finalfantasyxiv.com/lds/pc/global/fonts/FFXIV_Lodestone_SSF.ttf",
+            "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/LodestoneGameSymbol.ttf",
             "FileName": "UIRes/LodestoneGameSymbol.ttf",
             "Hash": "89BC6B5015EF0EDFA5AE272B3A406B54CF61C6F1"
         },
