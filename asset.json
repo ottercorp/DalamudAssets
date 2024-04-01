@@ -39,7 +39,7 @@
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/logo.png",
             "FileName": "UIRes/logo.png",
-            "Hash": "60C51E5D26C6D41AC6B771A017B0DBD12FAD44E0"
+            "Hash": "0F6323DDFA3665639142252281D22C675D8CD617"
         },
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/tsmShade.png",
@@ -49,7 +49,7 @@
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/tsmLogo.png",
             "FileName": "UIRes/tsmLogo.png",
-            "Hash": "EFC0F63900FC67DFE3C17E7F942BFD0055ACC52D"
+            "Hash": "DAC17EE20C63A0CD0C5040A8A900E3CA1B67C5CC"
         },
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/defaultIcon.png",
@@ -134,7 +134,7 @@
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/loc/dalamud/dalamud_zh.json",
             "FileName": "UIRes/loc/dalamud/dalamud_zh.json",
-            "Hash": "511BF01CB9A977ACB088CB741CBDA85095C42159"
+            "Hash": "4087C4712C9746B4DC4B01F3677F1E275A7F7738"
         },
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/loc/dalamud/dalamud_tw.json",
