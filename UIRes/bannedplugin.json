@@ -90,5 +90,10 @@
     "Name": "MareSynchronos",
     "AssemblyVersion": "1.9.0.0",
     "Reason": "动画骨骼错误炸观众,请更新插件"
+  },
+  {
+    "Name": "GoodFriend",
+    "AssemblyVersion": "3.3.2.0",
+    "Reason": "Per request"
   }
 ]
