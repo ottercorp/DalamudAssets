@@ -92,6 +92,11 @@
     "Reason": "动画骨骼错误炸观众,请更新插件"
   },
   {
+    "Name": "Umbra",
+    "AssemblyVersion": "2.2.36.0",
+    "Reason": "字体爆炸，请等待好心人适配"
+  },
+  {
     "Name": "GoodFriend",
     "AssemblyVersion": "3.3.2.0",
     "Reason": "Per request"
