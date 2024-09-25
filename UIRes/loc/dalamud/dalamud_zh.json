@@ -532,7 +532,7 @@
     "description": "SettingsWindow.DrawGeneralTab"
   },
   "DalamudSettingsWaitForPluginsOnStartup": {
-    "message": "在游戏加载前等待插件初始化晚餐",
+    "message": "在游戏加载前等待插件初始化完成",
     "description": "SettingsTabGeneral..ctor"
   },
   "DalamudSettingsWaitForPluginsOnStartupHint": {
