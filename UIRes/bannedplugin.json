@@ -102,11 +102,6 @@
     "Reason": "Per request"
   },
   {
-    "Name": "Glamourer",
-    "AssemblyVersion": "1.3.1.1",
-    "Reason": "因国服适配问题请使用MeowZWR库版本"
-  },
-  {
     "Name": "SubmarineTracker",
     "AssemblyVersion": "1.9.2.5",
     "Reason": "7.0boom"
