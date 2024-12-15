@@ -64,7 +64,7 @@
     "description": "ProfileCommandHandler.<FrameworkOnUpdate>b__8_1"
   },
   "ProfileCommandsApplySuccess": {
-    "message": "合集已启用。",
+    "message": "合集变更已应用。",
     "description": "ProfileCommandHandler.<FrameworkOnUpdate>b__8_1"
   },
   "PluginProfilesNewProfile": {
