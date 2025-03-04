@@ -94,42 +94,42 @@
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/loc/dalamud/dalamud_de.json",
             "FileName": "UIRes/loc/dalamud/dalamud_de.json",
-            "Hash": "9B35386FB815C31DBBD017685DD8C5A7E4F8193B"
+            "Hash": "BF21A9E8FBC5A3846FB05B4FA0859E0917B2202F"
         },
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/loc/dalamud/dalamud_es.json",
             "FileName": "UIRes/loc/dalamud/dalamud_es.json",
-            "Hash": "B10DB48334823AA28F59121A083F8D527AB65FF7"
+            "Hash": "BF21A9E8FBC5A3846FB05B4FA0859E0917B2202F"
         },
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/loc/dalamud/dalamud_fr.json",
             "FileName": "UIRes/loc/dalamud/dalamud_fr.json",
-            "Hash": "2AB9913DAE36B4D44D4AE9BFD2E050FCEF7D7851"
+            "Hash": "BF21A9E8FBC5A3846FB05B4FA0859E0917B2202F"
         },
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/loc/dalamud/dalamud_it.json",
             "FileName": "UIRes/loc/dalamud/dalamud_it.json",
-            "Hash": "E8E9CEB0E8CE254B124CB27F61E4789D93895480"
+            "Hash": "BF21A9E8FBC5A3846FB05B4FA0859E0917B2202F"
         },
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/loc/dalamud/dalamud_ja.json",
             "FileName": "UIRes/loc/dalamud/dalamud_ja.json",
-            "Hash": "444CFFF1CFB6DE531C5C320E7666B9F5A676CA66"
+            "Hash": "BF21A9E8FBC5A3846FB05B4FA0859E0917B2202F"
         },
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/loc/dalamud/dalamud_ko.json",
             "FileName": "UIRes/loc/dalamud/dalamud_ko.json",
-            "Hash": "FF23C9015FA5E589F5A14AF50C0C574351D3F709"
+            "Hash": "BF21A9E8FBC5A3846FB05B4FA0859E0917B2202F"
         },
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/loc/dalamud/dalamud_no.json",
             "FileName": "UIRes/loc/dalamud/dalamud_no.json",
-            "Hash": "71DF081A5E1941F97562E45B29976D1F15169618"
+            "Hash": "BF21A9E8FBC5A3846FB05B4FA0859E0917B2202F"
         },
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/loc/dalamud/dalamud_ru.json",
             "FileName": "UIRes/loc/dalamud/dalamud_ru.json",
-            "Hash": "3E64735D9859AB0D0DBBB2CA0483C6C2D454896A"
+            "Hash": "BF21A9E8FBC5A3846FB05B4FA0859E0917B2202F"
         },
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/loc/dalamud/dalamud_zh.json",
@@ -139,7 +139,7 @@
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/loc/dalamud/dalamud_tw.json",
             "FileName": "UIRes/loc/dalamud/dalamud_tw.json",
-            "Hash": "22D284A4668C489E816FD5428E66FEE6CAF24157"
+            "Hash": "BF21A9E8FBC5A3846FB05B4FA0859E0917B2202F"
         },
         {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/gamesym.ttf",
