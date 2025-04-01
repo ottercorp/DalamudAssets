@@ -1,6 +1,6 @@
 {
   "LoadingDialogMainInstructionLoadingDalamud": {
-    "message": "Dalamud(绿色版) 正在加载......",
+    "message": "Dalamud 正在加载......",
     "description": "LoadingDialog.UpdateMainInstructionText"
   },
   "LoadingDialogMainInstructionLoadingPlugins": {
@@ -12,7 +12,7 @@
     "description": "LoadingDialog.UpdateMainInstructionText"
   },
   "LoadingDialogContentInfo": {
-    "message": "你通过Dalamud(绿色版)安装的有些插件加载时间太长了。\n这似乎也正常，等一会吧。",
+    "message": "你通过Dalamud安装的有些插件加载时间太长了。\n这似乎也正常，等一会吧。",
     "description": "LoadingDialog.UpdateContentText"
   },
   "LoadingDialogContentCurrentPlugin": {
@@ -340,7 +340,7 @@
     "description": "DalamudCommands..ctor"
   },
   "DalamudLanguageHelp": {
-    "message": "设置 Dalamud(绿色版) 和插件的语言。可用语言： ",
+    "message": "设置 Dalamud 和插件的语言。可用语言： ",
     "description": "DalamudCommands..ctor"
   },
   "DalamudSettingsHelp": {
@@ -348,15 +348,15 @@
     "description": "DalamudCommands..ctor"
   },
   "DalamudUiModeHelp": {
-    "message": "切换 Dalamud(绿色版) 界面显示模式。对原生界面的修改也可能会受到影响，但这取决于插件。",
+    "message": "切换 Dalamud 界面显示模式。对原生界面的修改也可能会受到影响，但这取决于插件。",
     "description": "DalamudCommands..ctor"
   },
   "DalamudProfilerHelp": {
-    "message": "打开 Dalamud(绿色版)的启动时间分析器。",
+    "message": "打开 Dalamud的启动时间分析器。",
     "description": "DalamudCommands..ctor"
   },
   "DalamudCopyLogHelp": {
-    "message": "将 dalamud(绿色版).log 文件复制到您的剪贴板中。",
+    "message": "将 dalamud.log 文件复制到您的剪贴板中。",
     "description": "DalamudCommands..ctor"
   },
   "DalamudCmdHelpAvailable": {
@@ -368,7 +368,7 @@
     "description": "DalamudCommands.OnHelpCommand"
   },
   "DalamudMuteListDeprecation": {
-    "message": "Dalamud(绿色版) 内置的屏蔽词列表已弃用，且无法添加新的屏蔽词。请使用一个插件来实现此功能。",
+    "message": "Dalamud 内置的屏蔽词列表已弃用，且无法添加新的屏蔽词。请使用一个插件来实现此功能。",
     "description": "DalamudCommands.OnBadWordsAddCommand"
   },
   "DalamudNoneMuted": {
@@ -404,7 +404,7 @@
     "description": "<>c__DisplayClass28_0.<.ctor>b__0"
   },
   "TSMDalamudSettings": {
-    "message": "Dalamud(绿色版) 设置",
+    "message": "Dalamud 设置",
     "description": "<>c__DisplayClass28_0.<.ctor>b__0"
   },
   "TSMDalamudDevMenu": {
@@ -428,7 +428,7 @@
     "description": "<>c.<ContinueConstruction>b__125_0"
   },
   "ReShadeNoAddonSupportNotificationContent": {
-    "message": "您安装的 ReShade 不支持完整的插件功能，可能无法与 Dalamud(绿色版) 或游戏兼容。\n请下载并安装支持完整插件功能的 ReShade。",
+    "message": "您安装的 ReShade 不支持完整的插件功能，可能无法与 Dalamud 或游戏兼容。\n请下载并安装支持完整插件功能的 ReShade。",
     "description": "<>c.<ContinueConstruction>b__125_0"
   },
   "LearnMore": {
@@ -516,7 +516,7 @@
     "description": "Locs.get_Category_Plugins"
   },
   "InstallerCategoryDalamud": {
-    "message": "Dalamud(绿色版)",
+    "message": "Dalamud",
     "description": "Locs.get_Category_Dalamud"
   },
   "DalamudSettingResetDefaultFont": {
@@ -584,7 +584,7 @@
     "description": "StyleEditorWindow.Draw"
   },
   "DalamudSettingsHeader": {
-    "message": "Dalamud(绿色版) 设置",
+    "message": "Dalamud 设置",
     "description": "SettingsWindow..ctor"
   },
   "DalamudSettingsSave": {
@@ -624,7 +624,7 @@
     "description": "LanguageChooserSettingsEntry..ctor"
   },
   "DalamudSettingsLanguageHint": {
-    "message": "选择 Dalamud(绿色版) 显示语言。",
+    "message": "选择 Dalamud 显示语言。",
     "description": "LanguageChooserSettingsEntry.Draw"
   },
   "DalamudSettingsCustomRepo": {
@@ -684,7 +684,7 @@
     "description": "SettingsTabAutoUpdates.get_Title"
   },
   "DalamudSettingsAutoUpdateHint": {
-    "message": "Dalamud(绿色版) 可以自动更新你的插件，确保你始终拥有最新的功能和漏洞修复。你可以在此选择自动更新的运行时间和方式。",
+    "message": "Dalamud 可以自动更新你的插件，确保你始终拥有最新的功能和漏洞修复。你可以在此选择自动更新的运行时间和方式。",
     "description": "SettingsTabAutoUpdates.Draw"
   },
   "DalamudSettingsAutoUpdateDisclaimer1": {
@@ -692,7 +692,7 @@
     "description": "SettingsTabAutoUpdates.Draw"
   },
   "DalamudSettingsAutoUpdateDisclaimer2": {
-    "message": "Dalamud(绿色版) 仅会在你处于空闲状态时提醒你更新。",
+    "message": "Dalamud 仅会在你处于空闲状态时提醒你更新。",
     "description": "SettingsTabAutoUpdates.Draw"
   },
   "DalamudSettingsAutoUpdateBehavior": {
@@ -848,7 +848,7 @@
     "description": "SettingsTabGeneral..ctor"
   },
   "DalamudSettingsChannelHint": {
-    "message": "选择用于常规 Dalamud(绿色版) 消息的聊天频道。",
+    "message": "选择用于常规 Dalamud 消息的聊天频道。",
     "description": "SettingsTabGeneral..ctor"
   },
   "DalamudSettingsWaitForPluginsOnStartup": {
@@ -876,11 +876,11 @@
     "description": "SettingsTabGeneral..ctor"
   },
   "DalamudSettingsPrintDalamudWelcomeMsg": {
-    "message": "显示 Dalamud(绿色版) 的欢迎消息",
+    "message": "显示 Dalamud 的欢迎消息",
     "description": "SettingsTabGeneral..ctor"
   },
   "DalamudSettingsPrintDalamudWelcomeMsgHint": {
-    "message": "当使用角色登录时，在 FFXIV 聊天中显示 Dalamud(绿色版) 的欢迎信息。",
+    "message": "当使用角色登录时，在 FFXIV 聊天中显示 Dalamud 的欢迎信息。",
     "description": "SettingsTabGeneral..ctor"
   },
   "DalamudSettingsPrintPluginsWelcomeMsg": {
@@ -892,11 +892,11 @@
     "description": "SettingsTabGeneral..ctor"
   },
   "DalamudSettingsSystemMenu": {
-    "message": "显示 Dalamud(绿色版) 快捷菜单",
+    "message": "显示 Dalamud 快捷菜单",
     "description": "SettingsTabGeneral..ctor"
   },
   "DalamudSettingsSystemMenuMsgHint": {
-    "message": "在系统菜单中显示 Dalamud(绿色版) 插件菜单及设置按钮。",
+    "message": "在系统菜单中显示 Dalamud 插件菜单及设置按钮。",
     "description": "SettingsTabGeneral..ctor"
   },
   "DalamudSettingDoMbCollect": {
@@ -940,7 +940,7 @@
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingsStyleEditorHint": {
-    "message": "修改 Dalamud(绿色版) 窗口的外观。",
+    "message": "修改 Dalamud 窗口的外观。",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingsUseDarkMode": {
@@ -980,11 +980,11 @@
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingToggleFocusManagement": {
-    "message": "使用 ESC 关闭 Dalamud(绿色版) 窗口",
+    "message": "使用 ESC 关闭 Dalamud 窗口",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingToggleFocusManagementHint": {
-    "message": "这会让 Dalamud(绿色版) 窗口和游戏窗口一样，在按下 ESC 键时关闭。\n它们会逐个关闭。但可能不适用于所有插件。",
+    "message": "这会让 Dalamud 窗口和游戏窗口一样，在按下 ESC 键时关闭。\n它们会逐个关闭。但可能不适用于所有插件。",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingToggleViewports": {
@@ -1032,7 +1032,7 @@
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingToggleTsmHint": {
-    "message": "这将允许您从标题菜单上访问某些Dalamud(绿色版)和插件功能。",
+    "message": "这将允许您从标题菜单上访问某些Dalamud和插件功能。",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingInstallerOpenDefault": {
@@ -1048,7 +1048,7 @@
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingReducedMotionHint": {
-    "message": "这将关掉Dalamud(绿色版)的某些动画，例如弹出通知。",
+    "message": "这将关掉Dalamud的某些动画，例如弹出通知。",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingImeStateIndicatorOpacity": {
@@ -1856,7 +1856,7 @@
     "description": "Locs.get_SearchHint"
   },
   "NotificationConstants.DefaultInitiator": {
-    "message": "Dalamud(绿色版)",
+    "message": "Dalamud",
     "description": "NotificationConstants.get_DefaultInitiator"
   },
   "NotificationConstants.UnloadedInitiatorNameFormat": {
@@ -1880,7 +1880,7 @@
     "description": "NotificationConstants.ToTitle"
   },
   "DalamudWelcome": {
-    "message": "Dalamud(绿色版) vD{0} 已加载。",
+    "message": "Dalamud vD{0} 已加载。",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "PluginsWelcome": {
@@ -1892,15 +1892,15 @@
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudUpdated": {
-    "message": "Dalamud(绿色版) 已成功更新！请查阅 Discord 来取得完整的更新日志。",
+    "message": "Dalamud 已成功更新！请查阅 Discord 来取得完整的更新日志。",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "SystemMenuPlugins": {
-    "message": "Dalamud(绿色版)插件",
+    "message": "Dalamud插件",
     "description": "DalamudAtkTweaks..ctor"
   },
   "SystemMenuSettings": {
-    "message": "Dalamud(绿色版)设置",
+    "message": "Dalamud设置",
     "description": "DalamudAtkTweaks..ctor"
   }
 }
