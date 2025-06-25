@@ -105,5 +105,10 @@
     "Name": "SubmarineTracker",
     "AssemblyVersion": "1.9.2.5",
     "Reason": "7.0boom"
+  },
+    {
+    "Name": "StarlightBreaker",
+    "AssemblyVersion": "1.12.0.0",
+    "Reason": "7.2 boom"
   }
 ]
