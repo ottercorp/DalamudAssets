@@ -1,5 +1,10 @@
 [
   {
+    "Name": "PetRenamer",
+    "AssemblyVersion": "2.6.1.0",
+    "Reason": "Just here for my monthly blacklist... you know the deal by now."
+  },
+  {
     "Name": "PingPlugin",
     "AssemblyVersion": "1.11.0.0"
   },
@@ -25,90 +30,533 @@
   },
   {
     "Name": "DamageInfoPlugin",
-    "AssemblyVersion": "1.3.7.1"
+    "AssemblyVersion": "2.3.0.1"
   },
   {
-    "Name": "PvPSelector",
-    "AssemblyVersion": "1.1.0.3"
+    "Name": "TextToTalk",
+    "AssemblyVersion": "1.8.10.0"
   },
   {
-    "Name": "NinjutsuAssist",
-    "AssemblyVersion": "1.3.0.1"
+    "Name": "RepairMe",
+    "AssemblyVersion": "0.1.1.2"
   },
   {
-    "Name": "PixelPerfectEx",
-    "AssemblyVersion": "1.2.0.2"
+    "Name": "DelvUI",
+    "AssemblyVersion": "0.2.0.0"
   },
   {
-    "Name": "SonarPlugin",
-    "AssemblyVersion": "0.4.4.0"
+    "Name": "MacroRecursion",
+    "AssemblyVersion": "2.0.2.0",
+    "Reason": "Please delete this version of Macro Chain and download it again from the available tab."
   },
   {
-    "Name": "EngageTimer",
-    "AssemblyVersion": "2.2.2.1"
+    "Name": "SlideCast",
+    "AssemblyVersion": "0.7.0.0",
+    "Reason": "SlideCast has been deprecated, please use the Cast Bar Adjustments tweak from SimpleTweaks."
   },
   {
-    "Name": "SonarPlugin",
-    "AssemblyVersion": "0.4.9.1"
+    "Name": "SoundFilter",
+    "AssemblyVersion": "1.4.3.0"
   },
   {
-    "Name": "PingPlugin",
-    "AssemblyVersion": "2.6.0.0",
-    "Reason": "请等待更新."
-  },
-  {
-    "Name": "EngageTimer",
-    "AssemblyVersion": "2.2.5.2",
-    "Reason": "请更新插件版本."
-  },
-  {
-    "Name": "UsedName",
-    "AssemblyVersion": "0.8.2.8",
-    "Reason": "6.4的SocialList数据结构变化"
-  },
-  {
-    "Name": "JobBars",
-    "AssemblyVersion": "1.2.3.6",
-    "Reason": "6.4 boom, pls update to v1.2.3.8"
-  },
-  {
-    "Name": "Penumbra",
-    "AssemblyVersion": "1.5.1.4",
-    "Reason": "7.35 Boom~"
+    "Name": "NoKillPlugin",
+    "AssemblyVersion": "1.0.2.1"
   },
   {
     "Name": "MarketBoardPlugin",
-    "AssemblyVersion": "1.3.4.1",
-    "Reason": "字体服务爆炸, 请等待修复更新"
+    "AssemblyVersion": "0.5.1.0"
+  },
+  {
+    "Name": "faderPlugin",
+    "AssemblyVersion": "1.0.2.0"
+  },
+  {
+    "Name": "ChatTranslator",
+    "AssemblyVersion": "1.2.1.0"
+  },
+  {
+    "Name": "ItemSearchPlugin",
+    "AssemblyVersion": "1.8.2.2"
+  },
+  {
+    "Name": "Waitingway.Dalamud",
+    "AssemblyVersion": "1.2.0",
+    "Reason": "Requested by Ava. Download the new/current version."
+  },
+  {
+    "Name": "EngageTimer",
+    "AssemblyVersion": "2.2.0.1"
+  },
+  {
+    "Name": "MountCollectioner",
+    "AssemblyVersion": "1.0.1.0"
+  },
+  {
+    "Name": "OopsAllLalafells",
+    "AssemblyVersion": "1.3.0"
+  },
+  {
+    "Name": "EB40F8A76F57D9EFD8F751229F0163BE5C64B2E376B329622527A0B04CDAE5E6",
+    "AssemblyVersion": "0.4.0.7"
+  },
+  {
+    "Name": "RezPls",
+    "AssemblyVersion": "1.2.3.0"
+  },
+  {
+    "Name": "TitleEdit",
+    "AssemblyVersion": "3.0.6.3",
+    "Reason": "Buffer over-read might cause crashes and other problems."
+  },
+  {
+    "Name": "6F3F2D2BE3F289693A94A582558A88753F809A7DBC9F6061F488174AEA549E9B",
+    "AssemblyVersion": "1.0.5.5"
+  },
+  {
+    "Name": "TeleporterPlugin",
+    "AssemblyVersion": "2.0.1.5"
+  },
+  {
+    "Name": "554EE42A86CE631574439D2BD827F8C0685C5F94DA760D600EFB6615B43ACC1F",
+    "AssemblyVersion": "2.0.3.2"
+  },
+  {
+    "Name": "PartyListLayout",
+    "AssemblyVersion": "0.3.4.0"
+  },
+  {
+    "Name": "Dalamud.FindAnything",
+    "AssemblyVersion": "1.0.1.7"
   },
   {
     "Name": "ARealmRecorded",
-    "AssemblyVersion": "1.0.0.2",
-    "Reason": "长录像爆炸,请更新插件"
+    "AssemblyVersion": "0.4.1.0"
   },
   {
-    "Name": "MareSynchronos",
-    "AssemblyVersion": "1.9.0.0",
-    "Reason": "动画骨骼错误炸观众,请更新插件"
+    "Name": "Tourist",
+    "AssemblyVersion": "1.2.11",
+    "Reason": "This plugin currently causes crashes and needs to be updated by its author."
   },
   {
-    "Name": "Umbra",
-    "AssemblyVersion": "2.2.36.0",
-    "Reason": "字体爆炸，请等待好心人适配"
+    "Name": "PlayerTrack",
+    "AssemblyVersion": "3.3.1.0",
+    "Reason": "Update for API improvements."
   },
   {
-    "Name": "GoodFriend",
-    "AssemblyVersion": "3.3.2.0",
-    "Reason": "Per request"
+    "Name": "CharacterPanelRefined",
+    "AssemblyVersion": "1.6.0.0"
+  },
+  {
+    "Name": "KikoGuide",
+    "AssemblyVersion": "1.5.0.2"
+  },
+  {
+    "Name": "DeepDungeonDex",
+    "AssemblyVersion": "2.13.4.0",
+    "Reason": "Versions 2.13.4.0 rellies on github for live data updates which causes issues with repo fetching at times."
+  },
+  {
+    "Name": "05ED51D55298A2BC711689A19869A0AA48BF0B3C25BE1BAF60FAFBEFD7ED0342",
+    "AssemblyVersion": "1.1.2.1"
+  },
+  {
+    "Name": "orchestrion",
+    "AssemblyVersion": "1.8.4.5"
+  },
+  {
+    "Name": "HuntBuddy",
+    "AssemblyVersion": "1.0.5.0",
+    "Reason": "Version 1.0.5.0 is bugged. Please update the plugin to continue using it."
+  },
+  {
+    "Name": "DailyDuty",
+    "AssemblyVersion": "5.0.0.2"
+  },
+  {
+    "Name": "XIVCombo",
+    "AssemblyVersion": "1.7.21.0"
+  },
+  {
+    "Name": "TargetFurniture",
+    "AssemblyVersion": "1.0.1.5"
+  },
+  {
+    "Name": "Housemate",
+    "AssemblyVersion": "1.0.2.8"
+  },
+  {
+    "Name": "Compass",
+    "AssemblyVersion": "1.26.2"
+  },
+  {
+    "Name": "OrangeGuidanceTomestone",
+    "AssemblyVersion": "1.10.1.0",
+    "Reason": "There is a bug where normally untargetable NPCs can be targeted, which could result in an invalid action to the server."
+  },
+  {
+    "Name": "E612C21D61F2AF12044F1D4E52E3249814128CDC6086D6EFB66449279F3D5496",
+    "AssemblyVersion": "99999.99999.99999",
+    "Reason": "Total removal"
+  },
+  {
+    "Name": "GatherBuddy",
+    "AssemblyVersion": "3.2.1.5",
+    "Reason": "Please update this plugin to use it."
+  },
+  {
+    "Name": "InventorySearchBar",
+    "AssemblyVersion": "1.1.0.2",
+    "Reason": "Please update this plugin to use it."
+  },
+  {
+    "Name": "CrossUp",
+    "AssemblyVersion": "1.7.0.1",
+    "Reason": "This plugin is outdated and will need to be updated its author."
+  },
+  {
+    "Name": "HUDManager",
+    "AssemblyVersion": "2.5.11.0",
+    "Reason": "This plugin is outdated and will need to be updated its author."
+  },
+  {
+    "Name": "KitchenSync",
+    "AssemblyVersion": "1.1.1.3",
+    "Reason": "This plugin is depricated, and is now a SimpleTweak."
+  },
+  {
+    "Name": "SimpleTweaksPlugin",
+    "AssemblyVersion": "1.8.7.0"
+  },
+  {
+    "Name": "AutoMammet",
+    "AssemblyVersion": "1.3.0.0"
+  },
+  {
+    "Name": "Visibility",
+    "AssemblyVersion": "1.1.4.8",
+    "Reason": "Not yet working with Patch 6.4 (CS)."
+  },
+  {
+    "Name": "EnemyListDebuffs",
+    "AssemblyVersion": "0.3.7.0",
+    "Reason": "Not yet working with Patch 6.4 (CS?)."
+  },
+  {
+    "Name": "ChatBubbles",
+    "AssemblyVersion": "2.1.6.0",
+    "Reason": "Blocks Atticus the Primogenitor's mechanics."
+  },
+  {
+    "Name": "2128B3DC12F26BFE22CA0B14171DCE7448016F9BACBED0DC2526B57483FAB743",
+    "AssemblyVersion": "1.3.8.2",
+    "Reason": "By developer request - please update to a later version of the plugin."
   },
   {
     "Name": "SubmarineTracker",
-    "AssemblyVersion": "1.9.2.5",
-    "Reason": "7.0boom"
+    "AssemblyVersion": "1.9.5.2",
+    "Reason": "Upload server changed."
   },
-    {
-    "Name": "StarlightBreaker",
-    "AssemblyVersion": "1.12.0.0",
-    "Reason": "7.2 boom"
+  {
+    "Name": "BlueMageHelper",
+    "AssemblyVersion": "2.0.5.1"
+  },
+  {
+    "Name": "ItemVendorLocation",
+    "AssemblyVersion": "2.2.0.1"
+  },
+  {
+    "Name": "HighFpsPhysicsPlugin",
+    "AssemblyVersion": "7.1.0.0"
+  },
+  {
+    "Name": "Dalamud.LoadingImage",
+    "AssemblyVersion": "1.0.0.10"
+  },
+  {
+    "Name": "NamePlateDebuffs",
+    "AssemblyVersion": "1.0.1.1"
+  },
+  {
+    "Name": "ProperHousing",
+    "AssemblyVersion": "1.1.1.0"
+  },
+  {
+    "Name": "Redirect",
+    "AssemblyVersion": "1.2.2.0"
+  },
+  {
+    "Name": "SoundSetter",
+    "AssemblyVersion": "1.7.1.0"
+  },
+  {
+    "Name": "ChatTwo",
+    "AssemblyVersion": "1.27.1.0"
+  },
+  {
+    "Name": "BetterShadows",
+    "AssemblyVersion": "1.1.4.0"
+  },
+  {
+    "Name": "UsedName",
+    "AssemblyVersion": "0.8.2.3"
+  },
+  {
+    "Name": "Distance",
+    "AssemblyVersion": "1.0.1.2"
+  },
+  {
+    "Name": "FCNameColor",
+    "AssemblyVersion": "4.0.0.0"
+  },
+  {
+    "Name": "PartyIcons",
+    "AssemblyVersion": "1.1.3.1"
+  },
+  {
+    "Name": "GoodFriend",
+    "AssemblyVersion": "3.9.0.0",
+    "Reason": "Please update this plugin to continue using GoodFriend as this version is now incompatible."
+  },
+  {
+    "Name": "Wholist",
+    "AssemblyVersion": "1.9.1.1"
+  },
+  {
+    "Name": "MOAction",
+    "AssemblyVersion": "4.6.0.0"
+  },
+  {
+    "Name": "PeepingTom",
+    "AssemblyVersion": "1.7.13"
+  },
+  {
+    "Name": "D7DD759894DB06FCC38E781614FB37C97F535021927CDF7EF8BE8FE04E7A7A77",
+    "AssemblyVersion": "2.0.2.3"
+  },
+  {
+    "Name": "Namingway",
+    "AssemblyVersion": "1.1.9.0"
+  },
+  {
+    "Name": "ActionTimeline",
+    "AssemblyVersion": "1.1.0.0"
+  },
+  {
+    "Name": "ReadyCheckHelper",
+    "AssemblyVersion": "1.0.4.2"
+  },
+  {
+    "Name": "92D0F7F3C97C65BD0106631009402C8C04AA5F4E112B5586635CB8DD1033A296",
+    "AssemblyVersion": "0.0.1.7"
+  },
+  {
+    "Name": "PriceInsight",
+    "AssemblyVersion": "2.5.0.0"
+  },
+  {
+    "Name": "B778B7FD16CA72AC1EA7A0F28A099D46948B4A732B6F08F12E4C5861041FE87B",
+    "AssemblyVersion": "1.2.0.3"
+  },
+  {
+    "Name": "BetterMountRoulette",
+    "AssemblyVersion": "1.5.0.19"
+  },
+  {
+    "Name": "Honorific",
+    "AssemblyVersion": "1.2.2.0"
+  },
+  {
+    "Name": "AD93155F9CE43A9475439AF6DC639023A797197EE22A4F3FE3D2F9D0B996DFD9",
+    "AssemblyVersion": "1.5.1.5",
+    "Reason": "Causes Dalamud to hang on launch or crash the game."
+  },
+  {
+    "Name": "TrackyTrack",
+    "AssemblyVersion": "1.6.0.7",
+    "Reason": "Prevent outdated uploads."
+  },
+  {
+    "Name": "rtyping",
+    "AssemblyVersion": "0.1.0.0"
+  },
+  {
+    "Name": "ItemIcons",
+    "AssemblyVersion": "0.4.0.0"
+  },
+  {
+    "Name": "scoutHelper",
+    "AssemblyVersion": "0.2.1.0"
+  },
+  {
+    "Name": "CurrencyTracker",
+    "AssemblyVersion": "1.3.4.0",
+    "Reason": "causes game crash"
+  },
+  {
+    "Name": "DutyTracker",
+    "AssemblyVersion": "1.0.1.7",
+    "Reason": "Potential crash to desktop"
+  },
+  {
+    "Name": "TickTracker",
+    "AssemblyVersion": "1.4.0.0",
+    "Reason": "Corrupts native texture"
+  },
+  {
+    "Name": "E0BAD217DCA48D9F3E1210B44AE5570DEB174FDAF1774A231F4B29E0F2B0A396",
+    "AssemblyVersion": "1.0.0.55"
+  },
+  {
+    "Name": "Browsingway",
+    "AssemblyVersion": "1.5.6.0",
+    "Reason": "Needs update from developer."
+  },
+  {
+    "Name": "MBHistory",
+    "AssemblyVersion": "1.0.0.2",
+    "Reason": "Needs to be updated."
+  },
+  {
+    "Name": "ChatTranslated",
+    "AssemblyVersion": "1.4.1.5",
+    "Reason": "API changes."
+  },
+  {
+    "Name": "Echoglossian",
+    "AssemblyVersion": "3.3.2407.221",
+    "Reason": "Crashes on battletalk"
+  },
+  {
+    "Name": "NoTankYou",
+    "AssemblyVersion": "7.3.0.1"
+  },
+  {
+    "Name": "CurrencyAlert",
+    "AssemblyVersion": "2.0.0.2"
+  },
+  {
+    "Name": "ezWondrousTails",
+    "AssemblyVersion": "3.0.0.0",
+    "Reason": "Not functioning correctly, moved to testing only for now."
+  },
+  {
+    "Name": "Gauge-O-Matic",
+    "AssemblyVersion": "0.8.1.6",
+    "Reason": "A crash on player logout has been addressed in ver 0.8.1.7"
+  },
+  {
+    "Name": "Chatter",
+    "AssemblyVersion": "0.5.0.0",
+    "Reason": "A bug prior to version 0.6.0 may cause data loss."
+  },
+  {
+    "Name": "MemoryMarker",
+    "AssemblyVersion": "2.0.0.1",
+    "Reason": "Temporarly Disabled, doesn't work correctly."
+  },
+  {
+    "Name": "AbsoluteRoleplay",
+    "AssemblyVersion": "0.0.1.4",
+    "Reason": "Plugin developer has taken server offline."
+  },
+  {
+    "Name": "PrefPro",
+    "AssemblyVersion": "1.2.2.2",
+    "Reason": "CTDs in cutscenes."
+  },
+  {
+    "Name": "6702D8D1170198EEB0751C2654551268E6E145BD26BA8CE3A32DFB5F8CD03764",
+    "AssemblyVersion": "1.0.1.0",
+    "Reason": "Crashes on update attempt."
+  },
+  {
+    "Name": "CollectableCalculator",
+    "AssemblyVersion": "4.0",
+    "Reason": "Causing crashes. Will return when checked and updated."
+  },
+  {
+    "Name": "1E75B0956B4E2913C62C5441F292FAC7D261D3980EA71624D3644A8EBDFEE7B8",
+    "AssemblyVersion": "1.0.0.16",
+    "Reason": "Wrong opcodes leading to incorrect packet suppression server-side."
+  },
+  {
+    "Name": "D57F5A3988980C5171920FAD82C86FF0F09CA86CB9068205AF5D557B1339119B",
+    "AssemblyVersion": "0.0.0.26",
+    "Reason": "This plugin is now depreciated for safety."
+  },
+  {
+    "Name": "WorkshopOptimizerPlugin",
+    "AssemblyVersion": "0.3.0.0",
+    "Reason": "Broken in 7.15."
+  },
+  {
+    "Name": "AetherCompass",
+    "AssemblyVersion": "1.6.5.0",
+    "Reason": "Causes crashes when notifications are enabled"
+  },
+  {
+    "Name": "F5F12CDE900C5A90BA2293DF08A84B4C6055768228E6E0F763A27AC3957BDB6B",
+    "AssemblyVersion": "35.0.0.0"
+  },
+  {
+    "Name": "InventoryTools",
+    "AssemblyVersion": "1.11.0.11",
+    "Reason": "Causes infinite load on update"
+  },
+  {
+    "Name": "C6849AC714C01220DF5EB5AA708602ADB0E39DEE1F367307E72D5EB1BBD76FF8",
+    "AssemblyVersion": "4.18"
+  },
+  {
+    "Name": "HUDUnlimited",
+    "AssemblyVersion": "1.1.1.1",
+    "Reason": "Develop request - causing crashes in game."
+  },
+  {
+    "Name": "59F908426E5170691E49612EDD98F06BABCBCA4DE01A56DA383DC6060C0361A0",
+    "AssemblyVersion": "0.1.6.9"
+  },
+  {
+    "Name": "eurekaTrackerAutoPopper",
+    "AssemblyVersion": "1.5.9.1",
+    "Reason": "Prevent uploads from previous versions that are heavily outdated~"
+  },
+  {
+    "Name": "ChillFrames",
+    "AssemblyVersion": "3.1.1.3"
+  },
+  {
+    "Name": "GlamourSpamRemover",
+    "AssemblyVersion": "1.7.2.0",
+    "Reason": "Added to base game chat filters with patch 7.3"
+  },
+  {
+    "Name": "NoTypeSay",
+    "AssemblyVersion": "1.0.1.0",
+    "Reason": "Crashes on zone change. Disabled by PAC until it can be checked and updated."
+  },
+  {
+    "Name": "Racingway",
+    "AssemblyVersion": "0.1.1.3"
+  },
+  {
+    "Name": "MiniCactpotSolver",
+    "AssemblyVersion": "3.0.0.4",
+    "Reason": "Deprecated and no longer maintained, use VanillaPlus instead."
+  },
+  {
+    "Name": "Mappy",
+    "AssemblyVersion": "3.1.6.8",
+    "Reason": "Has known issues breaking the map. Developers are aware and will investigate/fix when possible."
+  },
+  {
+    "Name": "OhHey",
+    "AssemblyVersion": "0.0.2.0",
+    "Reason": "Causes users to crash to desktop under specific circumstances due to UI code."
+  },
+  {
+    "Name": "Glamaholic",
+    "AssemblyVersion": "1.12.0",
+    "Reason": "Potential for invalid/impossible Glamour Plate to be sent to the server."
   }
 ]
