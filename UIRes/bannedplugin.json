@@ -194,11 +194,6 @@
     "Reason": "There is a bug where normally untargetable NPCs can be targeted, which could result in an invalid action to the server."
   },
   {
-    "Name": "E612C21D61F2AF12044F1D4E52E3249814128CDC6086D6EFB66449279F3D5496",
-    "AssemblyVersion": "99999.99999.99999",
-    "Reason": "Total removal"
-  },
-  {
     "Name": "GatherBuddy",
     "AssemblyVersion": "3.2.1.5",
     "Reason": "Please update this plugin to use it."
