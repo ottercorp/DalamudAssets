@@ -180,6 +180,16 @@
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/FontAwesome710FreeSolid.otf",
             "FileName": "UIRes/FontAwesome710FreeSolid.otf",
             "Hash": "4E4A7F0BF14D5E30DA71A3B697C2D7919D8FF5C1"
+        },
+        {
+            "Url": "https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/NotoSansCJK-Medium.ttc",
+            "FileName": "UIRes/NotoSansCJK-Medium.ttc",
+            "Hash": "32D8A300209C1F8C2AC5BCA1078AAE26870861B7"
+        },
+        {
+            "Url": "https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/NotoSansCJK-Regular.ttc",
+            "FileName": "UIRes/NotoSansCJK-Regular.ttc",
+            "Hash": "41CEE0565517A6A1C7457C687273CF9C00159379"
         }
     ]
 }
