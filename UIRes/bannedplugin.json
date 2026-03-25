@@ -220,7 +220,8 @@
   },
   {
     "Name": "SimpleTweaksPlugin",
-    "AssemblyVersion": "1.8.7.0"
+    "AssemblyVersion": "1.14.0.2",
+    "Reason": "Boom"
   },
   {
     "Name": "AutoMammet",
@@ -557,6 +558,16 @@
   {
     "Name": "StarlightBreaker",
     "AssemblyVersion": "2.14.6.0",
+    "Reason": "Boom"
+  },
+  {
+    "Name": "DcTraveler",
+    "AssemblyVersion": "2.0.1.0",
+    "Reason": "Boom"
+  },
+  {
+    "Name": "VanillaPlus",
+    "AssemblyVersion": "1.2.2.8",
     "Reason": "Boom"
   }
 ]
