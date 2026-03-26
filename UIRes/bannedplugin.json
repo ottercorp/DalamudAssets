@@ -219,11 +219,6 @@
     "Reason": "This plugin is depricated, and is now a SimpleTweak."
   },
   {
-    "Name": "SimpleTweaksPlugin",
-    "AssemblyVersion": "1.14.0.2",
-    "Reason": "Boom"
-  },
-  {
     "Name": "AutoMammet",
     "AssemblyVersion": "1.3.0.0"
   },
@@ -562,12 +557,17 @@
   },
   {
     "Name": "DcTraveler",
-    "AssemblyVersion": "2.0.1.0",
+    "AssemblyVersion": "2.0.0.0",
     "Reason": "Boom"
   },
   {
     "Name": "VanillaPlus",
-    "AssemblyVersion": "1.2.2.8",
+    "AssemblyVersion": "1.2.2.7",
+    "Reason": "Boom"
+  },
+  {
+    "Name": "SimpleTweaksPlugin",
+    "AssemblyVersion": "1.14.0.0",
     "Reason": "Boom"
   }
 ]
