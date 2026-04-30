@@ -37,6 +37,16 @@
             "Hash": "FBE9E14427D84CE3F25F4D6A8EF57F527DB5A154"
         },
         {
+        "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/master/UIRes/NotoSansCJK-Medium.ttc",
+        "FileName": "UIRes/NotoSansCJK-Medium.ttc",
+        "Hash": "32D8A300209C1F8C2AC5BCA1078AAE26870861B7"
+        },
+        {
+        "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/master/UIRes/NotoSansCJK-Regular.ttc",
+        "FileName": "UIRes/NotoSansCJK-Regular.ttc",
+        "Hash": "41CEE0565517A6A1C7457C687273CF9C00159379"
+        },
+        {
             "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/logo.png",
             "FileName": "UIRes/logo.png",
             "Hash": "0F6323DDFA3665639142252281D22C675D8CD617"
