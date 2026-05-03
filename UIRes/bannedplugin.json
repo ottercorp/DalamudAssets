@@ -569,5 +569,10 @@
     "Name": "SimpleTweaksPlugin",
     "AssemblyVersion": "1.14.0.0",
     "Reason": "Boom"
+  },
+  {
+    "Name": "Glamourer",
+    "AssemblyVersion": "1.6.1.3",
+    "Reason": "Boom"
   }
 ]
