@@ -1,0 +1,70 @@
+name: Update en-lite Excel pack
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 */6 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-en-lite-excel-pack
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: windows-latest
+    timeout-minutes: 180
+    steps:
+      - name: Check out DalamudAssets
+        uses: actions/checkout@v4
+        with:
+          ref: cn
+          path: assets
+          fetch-depth: 0
+
+      - name: Check out language-pack pipeline
+        uses: actions/checkout@v4
+        with:
+          repository: ottercorp/DalamudExcelLanguagePacks
+          ref: main
+          path: pipeline
+
+      - name: Check out datamining snapshots
+        uses: actions/checkout@v4
+        with:
+          repository: InfSein/ffxiv-datamining-mixed
+          ref: master
+          fetch-depth: 0
+          filter: blob:none
+          path: pipeline\vendor\datamining
+          sparse-checkout: |
+            en
+            chs
+
+      - name: Install .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+
+      - name: Build and validate en-lite
+        shell: pwsh
+        run: |
+          $artifactRoot = Join-Path $env:RUNNER_TEMP 'excel-language-pack-release'
+          .\pipeline\tests\Run-SelfTest.ps1
+          .\pipeline\scripts\Build-All.ps1 `
+            -DataminingRepository .\pipeline\vendor\datamining `
+            -OutputRoot $artifactRoot
+          .\pipeline\scripts\New-Catalog.ps1 `
+            -ArtifactRoot $artifactRoot `
+            -CdnBaseUrl https://s3.ffxiv.wang/language-packs `
+            -OutputPath (Join-Path $artifactRoot 'catalog.json')
+          .\pipeline\scripts\Test-Artifacts.ps1 `
+            -ArtifactRoot $artifactRoot `
+            -CatalogPath (Join-Path $artifactRoot 'catalog.json')
+          .\pipeline\scripts\Update-DalamudAssets.ps1 `
+            -CatalogPath (Join-Path $artifactRoot 'catalog.json') `
+            -ArtifactRoot $artifactRoot `
+            -AssetsRepositoryPath .\assets `
+            -PushDirect
