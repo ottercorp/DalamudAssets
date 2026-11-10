@@ -1,5 +1,5 @@
 {
-  "Version": 119,
+  "Version": 120,
   "Assets": [
     {
       "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/serveropcode.json",
@@ -194,12 +194,12 @@
     {
       "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/ExcelLanguagePacks/en-lite/language-pack.json",
       "FileName": "UIRes/ExcelLanguagePacks/en-lite/language-pack.json",
-      "Hash": "7D508E153B91539EA8583C2CF190BF11DF2B243E"
+      "Hash": "FC293F6ECCD31309F373F096350490C854A54F0E"
     },
     {
       "Url": "https://raw.githubusercontent.com/ottercorp/DalamudAssets/cn/UIRes/ExcelLanguagePacks/en-lite/en-lite.xlcsvpack",
       "FileName": "UIRes/ExcelLanguagePacks/en-lite/en-lite.xlcsvpack",
-      "Hash": "45D6A75CC3625D167A8B00DC8AC9C351F66750F4"
+      "Hash": "3BA598EFA87CE552099E83C1B4DBC4EEC705D15B"
     }
   ]
 }
