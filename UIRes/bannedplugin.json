@@ -574,5 +574,10 @@
     "Name": "Glamourer",
     "AssemblyVersion": "1.6.1.3",
     "Reason": "Boom"
+  },
+  {
+    "Name": "DcTraveler",
+    "AssemblyVersion": "2.0.1.0",
+    "Reason": "Avoid conflict"
   }
 ]
